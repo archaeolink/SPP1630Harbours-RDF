@@ -1,0 +1,15 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Dammann_1974_Rheinschiffe> a ns1:Article ;
+    dc:created "1974"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Dammann_Werner> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Rheinschiffe aus Krefeld und Zwammerdam"@en ;
+    ns1:issuer "Das Logbuch (Wiesbaden)" ;
+    ns1:number 1 ;
+    ns1:pageEnd 10 ;
+    ns1:pageStart 4 ;
+    ns1:volume "10"^^xsd:string .
+

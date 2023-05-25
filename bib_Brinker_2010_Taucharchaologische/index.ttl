@@ -1,0 +1,16 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Brinker_2010_Taucharchaologische> a ns1:Article ;
+    dc:created "2010"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Brinker_U>,
+        <http://data.archaeology.link/data/spphaefen/author_Krüger_Joachim>,
+        <http://data.archaeology.link/data/spphaefen/author_Lübke_Harald> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Taucharchäologische Untersuchungen zur Frage der Herkunft der bronzezeitlichen Menschenfunde im Tollensetal bei Weltzin, Mecklenburg-Vorpommern--ein Vorbericht"@en ;
+    ns1:issuer "Nachrichtenblatt Arbeitskreis Unterwasserarchäologie" ;
+    ns1:pageEnd 47 ;
+    ns1:pageStart 41 ;
+    ns1:volume "16"^^xsd:string .
+

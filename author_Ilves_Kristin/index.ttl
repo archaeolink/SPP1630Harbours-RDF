@@ -1,0 +1,10 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/spphaefen/author_Ilves_Kristin> a foaf:Person ;
+    rdfs:label "Ilves, Kristin"@en ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    foaf:family_Name "Ilves"@en ;
+    foaf:firstName "Kristin"@en .
+

@@ -1,0 +1,15 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Becker_1987_Einbaum> a ns1:Article ;
+    dc:created "1987"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Becker_D> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Der Einbaum von Neuburg, Kr. Parchim"@en ;
+    ns1:issuer "Ausgrabungen und Funde" ;
+    ns1:number 3 ;
+    ns1:pageEnd 151 ;
+    ns1:pageStart 149 ;
+    ns1:volume "32"^^xsd:string .
+

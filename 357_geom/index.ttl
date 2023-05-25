@@ -1,0 +1,9 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/spphaefen/357_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    rdfs:label "River Bann,Toome Townland (Fry No. 26; gregory I369) Geometry"@en ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    geo:asWKT "POINT(-6.361 54.905)"^^geo:wktLiteral .
+

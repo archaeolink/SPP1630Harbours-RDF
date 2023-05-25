@@ -1,0 +1,10 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/1289_foundation_end> a time:Instant ;
+    rdfs:label "Saint-Marcel Foundation End"@en ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    time:inXSDgYear "9001"^^xsd:gYear .
+

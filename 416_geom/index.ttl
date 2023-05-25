@@ -1,0 +1,9 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/spphaefen/416_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    rdfs:label "Vicinity of River Barm/River Gusher confluence, Hacknahay Townland (Fry No. 86; Gregory I212) Geometry"@en ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    geo:asWKT "POINT(-6.426 54.41)"^^geo:wktLiteral .
+

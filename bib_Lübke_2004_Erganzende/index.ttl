@@ -1,0 +1,14 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Lübke_2004_Erganzende> a ns1:Article ;
+    dc:created "2004"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Lübke_Harald> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Ergänzende Anmerkungen zur Datierung der Einbäume des endmesolithisch/frühneolithischen Fundplatzes Stralsund-Mischwasserspeicher"@en ;
+    ns1:issuer "Bodendenkmalpflege in Mecklenburg-Vorpommern" ;
+    ns1:pageEnd 62 ;
+    ns1:pageStart 257 ;
+    ns1:volume "52"^^xsd:string .
+

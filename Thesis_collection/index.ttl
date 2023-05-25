@@ -1,0 +1,12 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.archaeology.link/data/spphaefen/Thesis_collection> a skos:Collection ;
+    rdfs:label "Thesis Instances Collection" ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    rdfs:member <http://data.archaeology.link/data/spphaefen/bib_Hirte_1987_Archaologie>,
+        <http://data.archaeology.link/data/spphaefen/bib_Hyttel_2011_Digital>,
+        <http://data.archaeology.link/data/spphaefen/bib_Loose_2012_Sekundar>,
+        <http://data.archaeology.link/data/spphaefen/bib_Rogers_2009_Boats> .
+

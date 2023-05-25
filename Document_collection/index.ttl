@@ -1,0 +1,11 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.archaeology.link/data/spphaefen/Document_collection> a skos:Collection ;
+    rdfs:label "Document Instances Collection" ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    rdfs:member <http://data.archaeology.link/data/spphaefen/bib_Crumlin_1997_Viking>,
+        <http://data.archaeology.link/data/spphaefen/bib_Nielsen_2005_Unterwasserprospektion>,
+        <http://data.archaeology.link/data/spphaefen/bib_Ossowski_2010_Changes> .
+
