@@ -304,6 +304,89 @@ function exportLatLonText(){
 	saveTextAsFile(res,"txt")
 }
 
+function exportKML(){
+	reskml="<?xml version=\"1.0\" ?>\n<kml xmlns=\"http://www.opengis.net/kml/2.2\">\n<Document>"
+	reskml+="<Style></Style>\n"
+	if(typeof(featurecolls)!=="undefined"){
+        for(feature of featurecolls){
+            if("features" in feature){
+                for(feat of feature["features"]){
+					reskml+="<Placemark><name>"+feat.id+"</name>"
+					if("properties" in feat){
+						reskml+="<ExtendedData>"
+                        for(prop in feat["properties"]){
+                            if(Array.isArray(feat["properties"][prop])){
+								for(arritem of feat["properties"][prop]){
+									reskml+="<Data name=\""+prop+"\"><displayName>"+prop+"</displayName><value>"+arritem+"</value></Data>\n"
+								}
+                            }else{
+                                reskml+="<Data name=\""+prop+"\"><displayName>"+prop+"</displayName><value>"+feat["properties"][prop]+"</value></Data>\n"
+                            }
+                        }
+						reskml+="</ExtendedData>"
+                    }
+					if("geometry" in feat){
+						reskml+="<"+feat["geometry"]["type"]+">\n"
+						if(feat["geometry"]["type"]=="Polygon"){
+							reskml+="<outerBoundaryIs><LinearRing>"
+						}
+						reskml+="<coordinates>\n"
+						if(feat["geometry"]["type"].toUpperCase()=="POINT"){
+							reskml += feat["geometry"].coordinates[0] + ' ' + feat["geometry"].coordinates[1]+'\n '
+						}else{
+							feat["geometry"].coordinates.forEach(function(p,i){
+								reskml += p[0] + ', ' + p[1] + '\n '
+							})
+						}
+						reskml+="</coordinates>\n"
+						if(feat["geometry"]["type"]=="Polygon"){
+							reskml+="</LinearRing></outerBoundaryIs>"
+						}
+						reskml+="</"+feat["geometry"]["type"]+">\n"
+					}
+					reskml+="</Placemark>"
+				}
+			}else if("type" in feature && feature["type"]=="Feature"){
+				reskml+="<Placemark><name>"+feature.id+"</name>"
+				if("properties" in feature){
+					reskml+="<ExtendedData>"
+					for(prop in feature["properties"]){
+						if(Array.isArray(feature["properties"][prop])){
+							for(arritem of feature["properties"][prop]){
+								reskml+="<Data name=\""+prop+"\"><displayName>"+prop+"</displayName><value>"+arritem+"</value></Data>\n"
+							}
+						}else{
+							reskml+="<Data name=\""+prop+"\"><displayName>"+prop+"</displayName><value>"+feature["properties"][prop]+"</value></Data>\n"
+						}
+				    }
+					reskml+="</ExtendedData>"
+                }
+				if("geometry" in feature){
+					reskml+="<"+feature["geometry"]["type"]+">\n"
+					if(feature["geometry"]["type"]=="Polygon"){
+						reskml+="<outerBoundaryIs><LinearRing>"
+					}
+					reskml+="<coordinates>\n"
+					if(feature["geometry"]["type"].toUpperCase()=="POINT"){
+						reskml += feature["geometry"].coordinates[0] + ' ' + feature["geometry"].coordinates[1]+'\n '
+					}else{
+						feature["geometry"].coordinates.forEach(function(p,i){
+							reskml += p[0] + ', ' + p[1] + '\n '
+						})
+					}
+					reskml+="</coordinates>\n"
+					if(feature["geometry"]["type"]=="Polygon"){
+						reskml+="</LinearRing></outerBoundaryIs>"
+					}
+					reskml+="</"+feature["geometry"]["type"]+">\n"
+				}
+				reskml+="</Placemark>"
+            }
+		}
+	}
+	reskml+="</Document></kml>"
+	saveTextAsFile(reskml,"kml")
+}
 
 function exportTGFGDF(sepchar,format){
 	resgdf=""
@@ -435,7 +518,11 @@ function setSVGDimensions(){
 function exportGeoURI(){
     resuri=""
     for(point of centerpoints){
-        resuri+="geo:"+point["lng"]+","+point["lat"]+";crs=EPSG:4326\n"
+		if(typeof(epsg)!=='undefined'){
+			resuri+="geo:"+point["lng"]+","+point["lat"]+";crs="+epsg+"\n"		
+		}else{
+			resuri+="geo:"+point["lng"]+","+point["lat"]+";crs=EPSG:4326\n"
+		}       
     }
     saveTextAsFile(resuri,"geouri")
 }
@@ -519,7 +606,11 @@ function saveTextAsFile(tosave,fileext){
     a.style = "display: none";
     var blob= new Blob([tosave], {type:'text/plain'});
     var url = window.URL.createObjectURL(blob);
+	var title=$('#title').text()
     var filename = "res."+fileext;
+	if(typeof(title)!=='undefined'){
+		filename=title.trim()+"."+fileext
+	}
     a.href = url;
     a.download = filename;
     document.body.appendChild(a);
@@ -540,6 +631,8 @@ function download(){
         downloadFile(window.location.href.replace(".html",".json"))
     }else if(format=="wkt"){
         exportWKT()
+    }else if(format=="kml"){
+        exportKML()
     }else if(format=="csv"){
         exportCSV(",",format)
     }else if(format=="tsv"){
