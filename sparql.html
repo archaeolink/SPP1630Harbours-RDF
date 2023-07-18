@@ -1,0 +1,25 @@
+<html>
+<head>
+  <link href="https://unpkg.com/@triply/yasgui/build/yasgui.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/@triply/yasgui/build/yasgui.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/rdflib@2.2.31/dist/rdflib.min.js"></script>
+</head>
+<body>
+  <div id="yasgui"></div>
+  <script>
+    const yasgui = new Yasgui(document.getElementById("yasgui"));
+  var store = $rdf.graph()
+var timeout = 5000 // 5000 ms timeout
+var fetcher = new $rdf.Fetcher(store, timeout)
+
+fetcher.nowOrWhenFetched("https://sparqlunicorn.github.io/sparqlunicornGoesGIS_testdata/index.ttl", function(ok, body, response) {
+	if (!ok) {
+		console.log("Oops, something happened and couldn't fetch data " + body);
+	} else if (response.onErrorWasCalled || response.status !== 200) {
+		console.log('    Non-HTTP error reloading data! onErrorWasCalled=' + response.onErrorWasCalled + ' status: ' + response.status)
+	} else {
+		 console.log("---data loaded---")
+}})
+  </script>
+</body>
+</html>
