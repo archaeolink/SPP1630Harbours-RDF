@@ -24209,6 +24209,10 @@ var tree={
             "http://purl.org/dc/elements/1.1/creator": {
               "instancecount": 1
             },
+            "http://purl.org/dc/terms/isReferencedBy": {
+              "instancecount": 1,
+              "http://purl.org/ontology/bibo/Thesis": 1
+            },
             "http://purl.org/dc/terms/partOf": {
               "instancecount": 1,
               "http://purl.org/ontology/bibo/BookSection": 1,
@@ -24231,7 +24235,7 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2004/02/skos/core#note": {
-              "instancecount": 2
+              "instancecount": 1
             },
             "http://www.wikidata.org/prop/direct/P17": {
               "instancecount": 1
@@ -24493,7 +24497,7 @@ var tree={
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
               "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 10
+              "http://www.spp-haefen.de/ont#Harbour": 18
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -25405,16 +25409,10 @@ var tree={
             "http://purl.org/ontology/bibo/issuer": {
               "instancecount": 1
             },
-            "http://purl.org/ontology/bibo/number": {
-              "instancecount": 1
-            },
             "http://purl.org/ontology/bibo/pageEnd": {
               "instancecount": 1
             },
             "http://purl.org/ontology/bibo/pageStart": {
-              "instancecount": 1
-            },
-            "http://purl.org/ontology/bibo/volume": {
               "instancecount": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -25424,7 +25422,7 @@ var tree={
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
               "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 3
+              "http://www.spp-haefen.de/ont#Harbour": 4
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -25432,7 +25430,7 @@ var tree={
             }
           }
         },
-        "instancecount": 9
+        "instancecount": 7
       },
       {
         "id": "http://data.archaeology.link/data/spphaefen/bib_Bartoli_2012_Creating",
@@ -25578,8 +25576,8 @@ var tree={
               "instancecount": 1
             },
             "http://purl.org/dc/elements/1.1/creator": {
-              "instancecount": 1,
-              "http://xmlns.com/foaf/0.1/Person": 1
+              "instancecount": 3,
+              "http://xmlns.com/foaf/0.1/Person": 3
             },
             "http://purl.org/dc/elements/1.1/title": {
               "instancecount": 1
@@ -25589,17 +25587,13 @@ var tree={
             }
           },
           "from": {
-            "http://purl.org/dc/terms/isReferencedBy": {
-              "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 1
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 6
       },
       {
         "id": "http://data.archaeology.link/data/spphaefen/bib_Crumlin_1997_Viking",
@@ -25649,7 +25643,7 @@ var tree={
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
               "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 1
+              "http://www.spp-haefen.de/ont#Harbour": 3
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -83579,8 +83573,7 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 1,
-              "http://purl.org/ontology/bibo/BookSection": 1,
-              "http://www.w3.org/ns/dcat#Dataset": 1
+              "http://purl.org/ontology/bibo/Collection": 1
             }
           },
           "from": {}
