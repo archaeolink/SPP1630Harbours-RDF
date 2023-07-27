@@ -118,7 +118,140 @@ var minivowlresult={
   },
   {
    "source": 0,
-   "target": 2,
+   "target": 9,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 0,
+   "target": 10,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 11,
+   "target": 10,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 1,
+   "target": 10,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 12,
+   "target": 10,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 4,
+   "target": 10,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 17,
+   "target": 10,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 3,
+   "target": 10,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 2,
+   "target": 10,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 18,
+   "target": 10,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 0,
+   "target": 7,
+   "valueTo": "hasTime",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#hasTime"
+  },
+  {
+   "source": 7,
+   "target": 8,
+   "valueTo": "hasEnd",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#hasEnd"
+  },
+  {
+   "source": 0,
+   "target": 17,
+   "valueTo": "partOf",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/partOf"
+  },
+  {
+   "source": 0,
+   "target": 18,
+   "valueTo": "partOf",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/partOf"
+  },
+  {
+   "source": 11,
+   "target": 14,
+   "valueTo": "publisher",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/publisher"
+  },
+  {
+   "source": 12,
+   "target": 14,
+   "valueTo": "publisher",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/publisher"
+  },
+  {
+   "source": 1,
+   "target": 14,
+   "valueTo": "publisher",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/publisher"
+  },
+  {
+   "source": 4,
+   "target": 14,
+   "valueTo": "publisher",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/publisher"
+  },
+  {
+   "source": 2,
+   "target": 14,
+   "valueTo": "publisher",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/publisher"
+  },
+  {
+   "source": 0,
+   "target": 11,
    "valueTo": "isReferencedBy",
    "propertyTo": "class",
    "uriTo": "http://purl.org/dc/terms/isReferencedBy"
@@ -126,13 +259,6 @@ var minivowlresult={
   {
    "source": 0,
    "target": 1,
-   "valueTo": "isReferencedBy",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/isReferencedBy"
-  },
-  {
-   "source": 0,
-   "target": 11,
    "valueTo": "isReferencedBy",
    "propertyTo": "class",
    "uriTo": "http://purl.org/dc/terms/isReferencedBy"
@@ -160,94 +286,10 @@ var minivowlresult={
   },
   {
    "source": 0,
-   "target": 9,
-   "valueTo": "hasGeometry",
+   "target": 2,
+   "valueTo": "isReferencedBy",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 0,
-   "target": 17,
-   "valueTo": "partOf",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/partOf"
-  },
-  {
-   "source": 0,
-   "target": 18,
-   "valueTo": "partOf",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/partOf"
-  },
-  {
-   "source": 2,
-   "target": 10,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 1,
-   "target": 10,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 11,
-   "target": 10,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 12,
-   "target": 10,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 18,
-   "target": 10,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 4,
-   "target": 10,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 3,
-   "target": 10,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 0,
-   "target": 10,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 17,
-   "target": 10,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 0,
-   "target": 7,
-   "valueTo": "hasTime",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#hasTime"
+   "uriTo": "http://purl.org/dc/terms/isReferencedBy"
   },
   {
    "source": 2,
@@ -255,48 +297,6 @@ var minivowlresult={
    "valueTo": "issuer",
    "propertyTo": "class",
    "uriTo": "http://purl.org/ontology/bibo/issuer"
-  },
-  {
-   "source": 2,
-   "target": 14,
-   "valueTo": "publisher",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/publisher"
-  },
-  {
-   "source": 1,
-   "target": 14,
-   "valueTo": "publisher",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/publisher"
-  },
-  {
-   "source": 11,
-   "target": 14,
-   "valueTo": "publisher",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/publisher"
-  },
-  {
-   "source": 12,
-   "target": 14,
-   "valueTo": "publisher",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/publisher"
-  },
-  {
-   "source": 4,
-   "target": 14,
-   "valueTo": "publisher",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/publisher"
-  },
-  {
-   "source": 7,
-   "target": 8,
-   "valueTo": "hasEnd",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#hasEnd"
   }
  ]
 }
