@@ -24196,7 +24196,7 @@ var tree={
         "id": "http://www.spp-haefen.de/ont#Harbour",
         "parent": "http://www.opengis.net/ont/geosparql#Feature",
         "type": "geoclass",
-        "text": "Harbour (ns1:Harbour) [3450]",
+        "text": "Harbour (ns3:Harbour) [3450]",
         "data": {
           "to": {
             "http://purl.org/cerif/frapo/isOutputOf": {
@@ -24208,10 +24208,6 @@ var tree={
             },
             "http://purl.org/dc/elements/1.1/creator": {
               "instancecount": 1
-            },
-            "http://purl.org/dc/terms/isReferencedBy": {
-              "instancecount": 1,
-              "http://purl.org/ontology/bibo/Article": 1
             },
             "http://purl.org/dc/terms/partOf": {
               "instancecount": 1,
@@ -24251,7 +24247,7 @@ var tree={
             }
           }
         },
-        "instancecount": 13
+        "instancecount": 12
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -24481,8 +24477,8 @@ var tree={
               "instancecount": 1
             },
             "http://purl.org/dc/elements/1.1/creator": {
-              "instancecount": 1,
-              "http://xmlns.com/foaf/0.1/Person": 1
+              "instancecount": 3,
+              "http://xmlns.com/foaf/0.1/Person": 3
             },
             "http://purl.org/dc/elements/1.1/title": {
               "instancecount": 1
@@ -24495,17 +24491,13 @@ var tree={
             }
           },
           "from": {
-            "http://purl.org/dc/terms/isReferencedBy": {
-              "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 3
-            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 1
             }
           }
         },
-        "instancecount": 5
+        "instancecount": 7
       },
       {
         "id": "http://data.archaeology.link/data/spphaefen/bib_Arnold_1992_Batellerie",
@@ -25400,19 +25392,13 @@ var tree={
               "instancecount": 1
             },
             "http://purl.org/dc/elements/1.1/creator": {
-              "instancecount": 2,
-              "http://xmlns.com/foaf/0.1/Person": 2
+              "instancecount": 1,
+              "http://xmlns.com/foaf/0.1/Person": 1
             },
             "http://purl.org/dc/elements/1.1/title": {
               "instancecount": 1
             },
             "http://purl.org/ontology/bibo/issuer": {
-              "instancecount": 1
-            },
-            "http://purl.org/ontology/bibo/pageEnd": {
-              "instancecount": 1
-            },
-            "http://purl.org/ontology/bibo/pageStart": {
               "instancecount": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -25422,7 +25408,7 @@ var tree={
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
               "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 4
+              "http://www.spp-haefen.de/ont#Harbour": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -25430,7 +25416,7 @@ var tree={
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 5
       },
       {
         "id": "http://data.archaeology.link/data/spphaefen/bib_Bartoli_2012_Creating",
@@ -57727,7 +57713,7 @@ var tree={
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 1
             },
-            "http://www.w3.org/2006/time#hasEnd": {
+            "http://www.w3.org/2006/time#hasBeginning": {
               "instancecount": 0,
               "http://www.w3.org/2006/time#TemporalEntity": 1
             }
@@ -83086,7 +83072,7 @@ var tree={
           "from": {
             "http://purl.org/dc/elements/1.1/creator": {
               "instancecount": 0,
-              "http://purl.org/ontology/bibo/Article": 7
+              "http://purl.org/ontology/bibo/Book": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -83258,6 +83244,48 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Q121363522.html",
+        "parent": "http://purl.org/ontology/bibo/Journal",
+        "type": "instance",
+        "text": "Heritage at Risk (Q121363522)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Q27715982.html",
+        "parent": "http://purl.org/ontology/bibo/Journal",
+        "type": "instance",
+        "text": "Das Logbuch (Wiesbaden) (Q27715982)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Q3293267.html",
+        "parent": "http://purl.org/ontology/bibo/Journal",
+        "type": "instance",
+        "text": "The Mariner's Mirror (Q3293267)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Q778919.html",
+        "parent": "http://purl.org/ontology/bibo/Journal",
+        "type": "instance",
+        "text": "Ausgrabungen und Funde (Q778919)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Q89109472.html",
+        "parent": "http://purl.org/ontology/bibo/Journal",
+        "type": "instance",
+        "text": "Bodendenkmalpflege in Mecklenburg-Vorpommern (Q89109472)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Q97623887.html",
+        "parent": "http://purl.org/ontology/bibo/Journal",
+        "type": "instance",
+        "text": "BAR British Series (Q97623887)",
+        "data": {}
+      },
+      {
         "id": "http://data.archaeology.link/data/spphaefen/nonns_Q15817170.html",
         "parent": "http://purl.org/ontology/bibo/Journal",
         "type": "instance",
@@ -83324,7 +83352,7 @@ var tree={
         "id": "http://purl.org/ontology/bibo/Journal",
         "parent": "#",
         "type": "class",
-        "text": "Journal (bibo:Journal) [16]",
+        "text": "Journal (bibo:Journal) [22]",
         "data": {}
       },
       {
@@ -83342,6 +83370,27 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Q1550018.html",
+        "parent": "http://xmlns.com/foaf/0.1/Organization",
+        "type": "instance",
+        "text": "Landesmuseum K\u00e4rnten (Q1550018)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Q160302.html",
+        "parent": "http://xmlns.com/foaf/0.1/Organization",
+        "type": "instance",
+        "text": "The University of Edinburgh (Q160302)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Q4845346.html",
+        "parent": "http://xmlns.com/foaf/0.1/Organization",
+        "type": "instance",
+        "text": "National Maritime Museum, Gdansk (Q4845346)",
+        "data": {}
+      },
+      {
         "id": "http://data.archaeology.link/data/spphaefen/nonns_Q108267756.html",
         "parent": "http://xmlns.com/foaf/0.1/Organization",
         "type": "instance",
@@ -83356,6 +83405,20 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Q878029.html",
+        "parent": "http://xmlns.com/foaf/0.1/Organization",
+        "type": "instance",
+        "text": "R\u00f6misch-Germanisches Zentralmuseum (Mainz) (Q878029)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Q1420342.html",
+        "parent": "http://xmlns.com/foaf/0.1/Organization",
+        "type": "instance",
+        "text": "JSTOR (Q1420342)",
+        "data": {}
+      },
+      {
         "id": "http://data.archaeology.link/data/spphaefen/nonns_Q880582.html",
         "parent": "http://xmlns.com/foaf/0.1/Organization",
         "type": "instance",
@@ -83366,7 +83429,7 @@ var tree={
         "id": "http://xmlns.com/foaf/0.1/Organization",
         "parent": "#",
         "type": "class",
-        "text": "Organization (foaf:Organization) [5]",
+        "text": "Organization (foaf:Organization) [10]",
         "data": {}
       },
       {

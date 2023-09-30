@@ -8,6 +8,6 @@
     dc:creator <http://data.archaeology.link/data/spphaefen/author_Mangartz_Fritz> ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dc:title "Römischer Basaltlava-Abbau zwischen Eifel und Rhein: Monographien des Römisch-Germanischen Zentralmuseums"@en ;
-    dcterms:publisher "Römisch-Germanisches Zentralmuseum (Mainz)" ;
+    dcterms:publisher <https://www.wikidata.org/entity/Q878029> ;
     ns1:isbn "9783884671153"^^xsd:string .
 

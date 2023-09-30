@@ -7,7 +7,7 @@
     dc:creator <http://data.archaeology.link/data/spphaefen/author_Becker_D> ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dc:title "Der Einbaum von Neuburg, Kr. Parchim"@en ;
-    ns1:issuer "Ausgrabungen und Funde" ;
+    ns1:issuer <https://www.wikidata.org/entity/Q778919> ;
     ns1:number 3 ;
     ns1:pageEnd 151 ;
     ns1:pageStart 149 ;

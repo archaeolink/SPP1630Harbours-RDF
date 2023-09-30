@@ -9,7 +9,7 @@
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dc:title "Rafts And Dugouts In Central Italy The Primitive Phase Of Local Inland Boatbuilding"@en ;
     dcterms:publisher <http://www.wikidata.org/entity/Q880582> ;
-    ns1:issuer "The Mariner's Mirror" ;
+    ns1:issuer <https://www.wikidata.org/entity/Q3293267> ;
     ns1:number 2 ;
     ns1:pageEnd 148 ;
     ns1:pageStart 125 ;

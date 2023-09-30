@@ -8,5 +8,5 @@
         <http://data.archaeology.link/data/spphaefen/author_für_Kärnten_L> ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dc:title "Ertauchte Geschichte: zu den Anfängen von Fischerei und Schifffahrt im Alpenraum;[Katalog zur Sonderausstellung... im Landesmuseum Kärnten, 5. Mai bis 3. September 2006]"@en ;
-    dcterms:publisher "Landesmuseum Kärnten" .
+    dcterms:publisher <https://www.wikidata.org/entity/Q1550018> .
 
