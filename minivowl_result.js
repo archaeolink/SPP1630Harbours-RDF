@@ -103,7 +103,42 @@ var minivowlresult={
  ],
  "links": [
   {
+   "source": 0,
+   "target": 10,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
    "source": 2,
+   "target": 10,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 11,
+   "target": 10,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 3,
+   "target": 10,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 1,
+   "target": 10,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 12,
    "target": 10,
    "valueTo": "creator",
    "propertyTo": "class",
@@ -124,81 +159,11 @@ var minivowlresult={
    "uriTo": "http://purl.org/dc/elements/1.1/creator"
   },
   {
-   "source": 1,
-   "target": 10,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 12,
-   "target": 10,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 11,
-   "target": 10,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 0,
-   "target": 10,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 3,
-   "target": 10,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
    "source": 18,
    "target": 10,
    "valueTo": "creator",
    "propertyTo": "class",
    "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 7,
-   "target": 8,
-   "valueTo": "hasEnd",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#hasEnd"
-  },
-  {
-   "source": 7,
-   "target": 8,
-   "valueTo": "hasBeginning",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#hasBeginning"
-  },
-  {
-   "source": 0,
-   "target": 18,
-   "valueTo": "partOf",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/partOf"
-  },
-  {
-   "source": 0,
-   "target": 17,
-   "valueTo": "partOf",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/partOf"
-  },
-  {
-   "source": 0,
-   "target": 16,
-   "valueTo": "isOutputOf",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/cerif/frapo/isOutputOf"
   },
   {
    "source": 0,
@@ -209,28 +174,14 @@ var minivowlresult={
   },
   {
    "source": 0,
+   "target": 16,
+   "valueTo": "isOutputOf",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/cerif/frapo/isOutputOf"
+  },
+  {
+   "source": 0,
    "target": 2,
-   "valueTo": "isReferencedBy",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/isReferencedBy"
-  },
-  {
-   "source": 0,
-   "target": 4,
-   "valueTo": "isReferencedBy",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/isReferencedBy"
-  },
-  {
-   "source": 0,
-   "target": 1,
-   "valueTo": "isReferencedBy",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/isReferencedBy"
-  },
-  {
-   "source": 0,
-   "target": 12,
    "valueTo": "isReferencedBy",
    "propertyTo": "class",
    "uriTo": "http://purl.org/dc/terms/isReferencedBy"
@@ -251,10 +202,66 @@ var minivowlresult={
   },
   {
    "source": 0,
+   "target": 1,
+   "valueTo": "isReferencedBy",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/isReferencedBy"
+  },
+  {
+   "source": 0,
+   "target": 12,
+   "valueTo": "isReferencedBy",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/isReferencedBy"
+  },
+  {
+   "source": 0,
+   "target": 4,
+   "valueTo": "isReferencedBy",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/isReferencedBy"
+  },
+  {
+   "source": 0,
+   "target": 18,
+   "valueTo": "partOf",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/partOf"
+  },
+  {
+   "source": 0,
+   "target": 17,
+   "valueTo": "partOf",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/partOf"
+  },
+  {
+   "source": 0,
    "target": 7,
    "valueTo": "hasTime",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2006/time#hasTime"
+  },
+  {
+   "source": 7,
+   "target": 8,
+   "valueTo": "hasEnd",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#hasEnd"
+  },
+  {
+   "source": 2,
+   "target": 13,
+   "valueTo": "issuer",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/ontology/bibo/issuer"
+  },
+  {
+   "source": 7,
+   "target": 8,
+   "valueTo": "hasBeginning",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#hasBeginning"
   },
   {
    "source": 2,
@@ -264,7 +271,7 @@ var minivowlresult={
    "uriTo": "http://purl.org/dc/terms/publisher"
   },
   {
-   "source": 4,
+   "source": 11,
    "target": 14,
    "valueTo": "publisher",
    "propertyTo": "class",
@@ -285,18 +292,11 @@ var minivowlresult={
    "uriTo": "http://purl.org/dc/terms/publisher"
   },
   {
-   "source": 11,
+   "source": 4,
    "target": 14,
    "valueTo": "publisher",
    "propertyTo": "class",
    "uriTo": "http://purl.org/dc/terms/publisher"
-  },
-  {
-   "source": 2,
-   "target": 13,
-   "valueTo": "issuer",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/ontology/bibo/issuer"
   }
  ]
 }
