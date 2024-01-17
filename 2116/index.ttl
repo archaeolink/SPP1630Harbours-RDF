@@ -8,7 +8,9 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/spphaefen/2116> a ns1:Harbour ;
+<http://data.archaeology.link/data/spphaefen/2116> a ns1:Harbour,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Ruhwinkel"@en ;
     ns3:isOutputOf <https://gepris.dfg.de/gepris/projekt/198801704> ;
     dc:created "2016"^^xsd:gYear ;

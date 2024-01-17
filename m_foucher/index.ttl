@@ -1,6 +1,8 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.archaeology.link/data/spphaefen/m_foucher> rdfs:label "M. Foucher"@en ;
+<http://data.archaeology.link/data/spphaefen/m_foucher> a <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "M. Foucher"@en ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> .
 

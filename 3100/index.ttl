@@ -9,7 +9,9 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/spphaefen/3100> a ns1:Harbour ;
+<http://data.archaeology.link/data/spphaefen/3100> a ns1:Harbour,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Strzyze I, II, pow. Pultusk"@en ;
     ns3:isOutputOf <https://gepris.dfg.de/gepris/projekt/198801704> ;
     dc:created "2016"^^xsd:gYear ;

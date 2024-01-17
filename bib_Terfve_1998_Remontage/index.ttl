@@ -1,7 +1,9 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/spphaefen/bib_Terfve_1998_Remontage> a <http://purl.org/ontology/bibo/Article> ;
+<http://data.archaeology.link/data/spphaefen/bib_Terfve_1998_Remontage> a <http://purl.org/ontology/bibo/Article>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     dc:created "1998"^^xsd:gYear ;
     dc:creator <http://data.archaeology.link/data/spphaefen/author_Terfve_Alfred> ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;

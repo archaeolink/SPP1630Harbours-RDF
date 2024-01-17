@@ -3,7 +3,9 @@
 @prefix ns1: <http://purl.org/ontology/bibo/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/spphaefen/bib_Brindley_1991_Boat> a ns1:Article ;
+<http://data.archaeology.link/data/spphaefen/bib_Brindley_1991_Boat> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     dc:created "1991"^^xsd:gYear ;
     dc:creator <http://data.archaeology.link/data/spphaefen/author_Brindley_AL>,
         <http://data.archaeology.link/data/spphaefen/author_Lanting_Jan_N> ;

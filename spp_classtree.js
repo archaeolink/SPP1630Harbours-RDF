@@ -24231,7 +24231,11 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2004/02/skos/core#note": {
-              "instancecount": 1
+              "instancecount": 2
+            },
+            "http://www.w3.org/2006/time#hasTime": {
+              "instancecount": 1,
+              "http://www.w3.org/2006/time#TemporalEntity": 1
             },
             "http://www.wikidata.org/prop/direct/P17": {
               "instancecount": 1
@@ -24247,7 +24251,7 @@ var tree={
             }
           }
         },
-        "instancecount": 12
+        "instancecount": 14
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -24493,11 +24497,11 @@ var tree={
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
               "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 1
+              "http://www.spp-haefen.de/ont#Harbour": 9
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
+              "http://purl.org/ontology/bibo/Collection": 1
             }
           }
         },
@@ -25402,28 +25406,6 @@ var tree={
             "http://purl.org/dc/elements/1.1/title": {
               "instancecount": 1
             },
-            "http://purl.org/dc/terms/publisher": {
-              "instancecount": 1
-            },
-            "http://purl.org/ontology/bibo/issn": {
-              "instancecount": 1
-            },
-            "http://purl.org/ontology/bibo/issuer": {
-              "instancecount": 1,
-              "http://purl.org/ontology/bibo/Journal": 1
-            },
-            "http://purl.org/ontology/bibo/number": {
-              "instancecount": 1
-            },
-            "http://purl.org/ontology/bibo/pageEnd": {
-              "instancecount": 1
-            },
-            "http://purl.org/ontology/bibo/pageStart": {
-              "instancecount": 1
-            },
-            "http://purl.org/ontology/bibo/volume": {
-              "instancecount": 1
-            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
             }
@@ -25431,15 +25413,15 @@ var tree={
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
               "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 4
+              "http://www.spp-haefen.de/ont#Harbour": 6
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
+              "http://purl.org/ontology/bibo/Collection": 1
             }
           }
         },
-        "instancecount": 11
+        "instancecount": 4
       },
       {
         "id": "http://data.archaeology.link/data/spphaefen/bib_Bartoli_2012_Creating",
@@ -25591,6 +25573,12 @@ var tree={
             "http://purl.org/dc/elements/1.1/title": {
               "instancecount": 1
             },
+            "http://purl.org/ontology/bibo/pageEnd": {
+              "instancecount": 1
+            },
+            "http://purl.org/ontology/bibo/pageStart": {
+              "instancecount": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
             }
@@ -25602,11 +25590,11 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
+              "http://purl.org/ontology/bibo/Collection": 1
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 6
       },
       {
         "id": "http://data.archaeology.link/data/spphaefen/bib_Crumlin_1997_Viking",
@@ -25656,11 +25644,11 @@ var tree={
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
               "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 3
+              "http://www.spp-haefen.de/ont#Harbour": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
+              "http://purl.org/ontology/bibo/Collection": 1
             }
           }
         },
@@ -57734,7 +57722,7 @@ var tree={
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 1
             },
-            "http://www.w3.org/2006/time#hasBeginning": {
+            "http://www.w3.org/2006/time#hasEnd": {
               "instancecount": 0,
               "http://www.w3.org/2006/time#TemporalEntity": 1
             }
@@ -83095,9 +83083,9 @@ var tree={
               "instancecount": 0,
               "http://purl.org/ontology/bibo/Article": 1
             },
-            "http://www.w3.org/2000/01/rdf-schema#member": {
+            "http://www.w3.org/2006/vcard/ns#hasMember": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
+              "http://www.w3.org/2006/vcard/ns#Group": 1
             }
           }
         },
@@ -83162,7 +83150,7 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
+              "http://purl.org/ontology/bibo/Collection": 1
             }
           }
         },
@@ -83176,45 +83164,66 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://data.archaeology.link/data/spphaefen/Book_collection",
+        "parent": "http://purl.org/ontology/bibo/Collection",
+        "type": "instance",
+        "text": "Book Instances Collection (Book_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/spphaefen/Article_collection",
+        "parent": "http://purl.org/ontology/bibo/Collection",
+        "type": "instance",
+        "text": "Article Instances Collection (Article_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/spphaefen/Proceedings_collection",
+        "parent": "http://purl.org/ontology/bibo/Collection",
+        "type": "instance",
+        "text": "Proceedings Instances Collection (Proceedings_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/spphaefen/Document_collection",
+        "parent": "http://purl.org/ontology/bibo/Collection",
+        "type": "instance",
+        "text": "Document Instances Collection (Document_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/spphaefen/Thesis_collection",
+        "parent": "http://purl.org/ontology/bibo/Collection",
+        "type": "instance",
+        "text": "Thesis Instances Collection (Thesis_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/spphaefen/BookSection_collection",
+        "parent": "http://purl.org/ontology/bibo/Collection",
+        "type": "instance",
+        "text": "BookSection Instances Collection (BookSection_collection)",
+        "data": {}
+      },
+      {
         "id": "http://purl.org/ontology/bibo/Collection",
         "parent": "#",
-        "type": "class",
-        "text": "Collection (ns9:Collection) [1]",
+        "type": "collectionclass",
+        "text": "Collection (ns9:Collection) [7]",
         "data": {
           "to": {
-            "http://purl.org/dc/elements/1.1/created": {
-              "instancecount": 1
-            },
-            "http://purl.org/dc/elements/1.1/creator": {
-              "instancecount": 1,
-              "http://xmlns.com/foaf/0.1/Person": 1
-            },
-            "http://purl.org/dc/elements/1.1/title": {
-              "instancecount": 1
-            },
-            "http://purl.org/dc/terms/publisher": {
-              "instancecount": 1
-            },
-            "http://purl.org/ontology/bibo/pageEnd": {
-              "instancecount": 1
-            },
-            "http://purl.org/ontology/bibo/pageStart": {
-              "instancecount": 1
-            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
-            }
-          },
-          "from": {
-            "http://purl.org/dc/terms/isReferencedBy": {
-              "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
+              "instancecount": 4,
+              "http://purl.org/ontology/bibo/Thesis": 4
             }
-          }
+          },
+          "from": {}
         },
         "instancecount": 7
       },
@@ -83532,7 +83541,11 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 2
+              "http://purl.org/ontology/bibo/Collection": 1
+            },
+            "http://www.w3.org/ns/dcat#dataset": {
+              "instancecount": 0,
+              "http://www.w3.org/ns/lemon/lime#Catalog": 1
             }
           }
         },
@@ -83575,34 +83588,6 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/spphaefen/Book_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "instance",
-        "text": "Book Instances Collection (Book_collection)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/spphaefen/Article_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "instance",
-        "text": "Article Instances Collection (Article_collection)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/spphaefen/Proceedings_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "instance",
-        "text": "Proceedings Instances Collection (Proceedings_collection)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/spphaefen/Document_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "instance",
-        "text": "Document Instances Collection (Document_collection)",
-        "data": {}
-      },
-      {
         "id": "http://data.archaeology.link/data/spphaefen/TemporalEntity_collection",
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "instance",
@@ -83617,20 +83602,6 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/spphaefen/Person_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "instance",
-        "text": "Person Instances Collection (Person_collection)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/spphaefen/Thesis_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "instance",
-        "text": "Thesis Instances Collection (Thesis_collection)",
-        "data": {}
-      },
-      {
         "id": "http://data.archaeology.link/data/spphaefen/Collection_collection",
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "instance",
@@ -83638,24 +83609,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/spphaefen/BookSection_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "instance",
-        "text": "BookSection Instances Collection (BookSection_collection)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/spphaefen/Dataset_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "instance",
-        "text": "Dataset Instances Collection (Dataset_collection)",
-        "data": {}
-      },
-      {
         "id": "http://www.w3.org/2004/02/skos/core#Collection",
         "parent": "#",
         "type": "collectionclass",
-        "text": "Collection (ns6:Collection) [11]",
+        "text": "Collection (ns6:Collection) [3]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -83665,13 +83622,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 19,
-              "http://purl.org/ontology/bibo/Proceedings": 19
+              "instancecount": 3047,
+              "http://www.w3.org/2006/time#Instant": 3047
             }
           },
           "from": {}
         },
-        "instancecount": 21
+        "instancecount": 3050
       },
       {
         "id": "http://data.archaeology.link/data/spphaefen/Point_collection",
@@ -83701,6 +83658,65 @@ var tree={
           "from": {}
         },
         "instancecount": 3453
+      },
+      {
+        "id": "http://data.archaeology.link/data/spphaefen/Person_collection",
+        "parent": "http://www.w3.org/2006/vcard/ns#Group",
+        "type": "instance",
+        "text": "Person Instances Collection (Person_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.w3.org/2006/vcard/ns#Group",
+        "parent": "#",
+        "type": "collectionclass",
+        "text": "Group [1]",
+        "data": {
+          "to": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2006/vcard/ns#hasMember": {
+              "instancecount": 163,
+              "http://xmlns.com/foaf/0.1/Person": 163
+            }
+          },
+          "from": {}
+        },
+        "instancecount": 166
+      },
+      {
+        "id": "http://data.archaeology.link/data/spphaefen/Dataset_collection",
+        "parent": "http://www.w3.org/ns/lemon/lime#Catalog",
+        "type": "instance",
+        "text": "Dataset Instances Collection (Dataset_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.w3.org/ns/lemon/lime#Catalog",
+        "parent": "#",
+        "type": "class",
+        "text": "Catalog [1]",
+        "data": {
+          "to": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/ns/dcat#dataset": {
+              "instancecount": 1,
+              "http://purl.org/ontology/bibo/BookSection": 1,
+              "http://www.w3.org/ns/dcat#Dataset": 1
+            }
+          },
+          "from": {}
+        },
+        "instancecount": 3
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
