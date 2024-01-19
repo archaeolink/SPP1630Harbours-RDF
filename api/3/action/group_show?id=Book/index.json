@@ -1,1 +1,1 @@
-{"success": true, "result": {"description": "Book", "display_name": "Book (ns9:Book) [30]", "name": "Book (ns9:Book) [30]", "title": "Book (ns9:Book) [30]", "type": "group"}}
+{"success": true, "result": {"description": "Book", "display_name": "Book (bibo:Book) [30]", "name": "Book (bibo:Book) [30]", "title": "Book (bibo:Book) [30]", "type": "group"}}

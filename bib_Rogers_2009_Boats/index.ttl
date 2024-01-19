@@ -9,5 +9,5 @@
     dc:creator <http://data.archaeology.link/data/spphaefen/author_Rogers_Jason_Samuel> ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dc:title "How Boats Change: Explaining Morphological Variation in European Watercraft, based on an Investigation of Logboats from Bohemia and Moravia, Czech Republic"@en ;
-    dcterms:publisher "University of Exeter" .
+    dcterms:publisher <https://www.wikidata.org/entity/Q1414861> .
 

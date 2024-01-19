@@ -11873,6 +11873,7 @@
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_219647198.html>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_Q108267756.html>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_Q121363522.html>,
+        <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_Q1414861.html>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_Q1420342.html>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_Q1508259.html>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_Q1550018.html>,
@@ -46340,10 +46341,11 @@
 <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Book_collection> ns1:forClass <http://purl.org/ontology/bibo/Collection> ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/Book_collection> .
 
-<https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Catalog> ns1:forClass <#> ;
+<https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Catalog> ns1:forClass skos:Collection ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/Catalog> .
 
-<https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Collection> ns1:forClass <#> ;
+<https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Collection> ns1:forClass <#>,
+        skos:Collection ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/Collection> .
 
 <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Collection_collection> ns1:forClass skos:Collection ;
@@ -46373,7 +46375,7 @@
 <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#GeometryCollection> ns1:forClass geo:SpatialObjectCollection ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/GeometryCollection> .
 
-<https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Group> ns1:forClass <#> ;
+<https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Group> ns1:forClass skos:Collection ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/Group> .
 
 <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Harbour> ns1:forClass geo:Feature ;
@@ -47488,6 +47490,9 @@
 
 <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_Q121363522.html> ns1:forClass <http://purl.org/ontology/bibo/Journal> ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/nonns_Q121363522.html> .
+
+<https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_Q1414861.html> ns1:forClass foaf:Organization ;
+    ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/nonns_Q1414861.html> .
 
 <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_Q1420342.html> ns1:forClass foaf:Organization ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/nonns_Q1420342.html> .

@@ -1,1 +1,1 @@
-{"success": true, "result": {"description": "Person", "display_name": "Person (ns10:Person) [163]", "name": "Person (ns10:Person) [163]", "title": "Person (ns10:Person) [163]", "type": "group"}}
+{"success": true, "result": {"description": "Person", "display_name": "Person (foaf:Person) [163]", "name": "Person (foaf:Person) [163]", "title": "Person (foaf:Person) [163]", "type": "group"}}
