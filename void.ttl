@@ -31,12 +31,12 @@
 <http:/data.archaeology.link/data/spphaefen/theds> a void:Dataset ;
     rdfs:label ""@en ;
     dcterms:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
-    dcterms:modified "2024-01-20T04:35:48"^^xsd:dateTime ;
+    dcterms:modified "2024-01-20T13:07:42"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
     dcterms:title ""@en ;
-    void:classes 11893 ;
+    void:classes 25 ;
     void:dataDump <https://archaeolink.github.io/SPP1630Harbours-RDF/index.ttl> ;
     void:distinctObjects 28323 ;
     void:distinctSubjects 12350 ;
