@@ -46354,7 +46354,7 @@
 <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Dataset> ns1:forClass <#> ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/Dataset> .
 
-<https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Dataset_collection> ns1:forClass <http://www.w3.org/ns/lemon/lime#Catalog> ;
+<https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Dataset_collection> ns1:forClass dcat:Catalog ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/Dataset_collection> .
 
 <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Document> ns1:forClass <#> ;
