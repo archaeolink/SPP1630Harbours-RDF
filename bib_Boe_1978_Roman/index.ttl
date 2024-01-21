@@ -1,5 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/bib_Boe_1978_Roman> a ns1:Article,
@@ -11,5 +12,6 @@
     dc:title "Roman boats from a small river harbour at Pommeroeul, Belgium"@en ;
     ns1:issuer "Roman Shipping and Trade: Britain and the Rhine Provinces, Hertford" ;
     ns1:pageEnd 30 ;
-    ns1:pageStart 22 .
+    ns1:pageStart 22 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
 

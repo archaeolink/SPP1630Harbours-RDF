@@ -1,5 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/bib_Chevallier_2013_Arles> a ns1:Article,
@@ -12,5 +13,6 @@
     ns1:issuer "Archeologia (Paris)" ;
     ns1:number 515 ;
     ns1:pageEnd 21 ;
-    ns1:pageStart 16 .
+    ns1:pageStart 16 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
 

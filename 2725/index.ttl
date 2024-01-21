@@ -6,6 +6,7 @@
 @prefix ns3: <http://purl.org/cerif/frapo/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/2725> a ns1:Harbour,
@@ -19,6 +20,7 @@
     dcterms:isReferencedBy <http://data.archaeology.link/data/spphaefen/bib_Bonino_1978_Archeologia>,
         <http://data.archaeology.link/data/spphaefen/bib_Parker_1992_Ancient> ;
     dcterms:partOf <http://data.archaeology.link/data/spphaefen/bib_dbt_mods_00035241> ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> ;
     geo:hasGeometry <http://data.archaeology.link/data/spphaefen/2725_geom> ;
     ns1:locationSecure "uncertain"^^xsd:string ;
     ns1:place_technique "unknown" ;

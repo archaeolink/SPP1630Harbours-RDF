@@ -1,5 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/bib_Rieth_2011_Chalands> a ns1:Article,
@@ -12,5 +13,6 @@
     dc:title "Les chalands gallo-romains du Parc Saint-Georges"@en ;
     ns1:issuer "Batellerie gallo-romaine. Pratiques régionales et influences maritimes méditerranéennes" ;
     ns1:pageEnd 102 ;
-    ns1:pageStart 89 .
+    ns1:pageStart 89 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
 

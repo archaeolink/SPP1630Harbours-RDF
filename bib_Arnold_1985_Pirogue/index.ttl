@@ -1,5 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/bib_Arnold_1985_Pirogue> a ns1:Article,
@@ -11,5 +12,6 @@
     dc:title "La pirogue de Châlain-Marigny et quelques considérations sur les monoxyles découverts en France"@en ;
     ns1:issuer "Présentation des collections du Musée de Lons-le-Saunier, 1. Néolithique, Châlain-Clairvaux, fouilles anciennes" ;
     ns1:pageEnd 222 ;
-    ns1:pageStart 211 .
+    ns1:pageStart 211 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
 

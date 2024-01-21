@@ -1,5 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/bib_Vlierman_2002_Scheeps> a ns1:Article,
@@ -11,5 +12,6 @@
     dc:title "Scheeps-en stadsarcheologie: de betekenis van scheeps (hout) vondsten in Nederlandse middeleeuwse steden"@en ;
     ns1:issuer "middeleeuwse toestanden. Archeologie, geschiedenis en monumentenzorg. amersfoort, roB/hilversum, Verloren" ;
     ns1:pageEnd 148 ;
-    ns1:pageStart 119 .
+    ns1:pageStart 119 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
 

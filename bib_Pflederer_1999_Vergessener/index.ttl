@@ -1,5 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/bib_Pflederer_1999_Vergessener> a ns1:Article,
@@ -10,5 +11,6 @@
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dc:title "Ein “vergessener” Einbaum im Starnberger See"@en ;
     ns1:issuer "Nachrichtenblatt Arbeitskreis Unterwasserarchäologie" ;
-    ns1:volume "5"^^xsd:string .
+    ns1:volume "5"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
 

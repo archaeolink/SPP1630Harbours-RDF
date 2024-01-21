@@ -1,5 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/bib_Marlier_2011_Epave> a ns1:Article,
@@ -11,5 +12,6 @@
     dc:title "L’épave Arles-Rhône 3: Étude préliminaire d’un chaland gallo-romain"@en ;
     ns1:issuer "Batellerie gallo-romaine: pratiques régionales et influences maritimes méditerranéennes. Actes de la table ronde internationale, Aix-en-Provence" ;
     ns1:pageEnd 151 ;
-    ns1:pageStart 131 .
+    ns1:pageStart 131 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
 

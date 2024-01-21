@@ -1,4 +1,5 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/bib_Loose_2012_Sekundar> a <http://purl.org/ontology/bibo/Thesis>,
@@ -7,5 +8,6 @@
     dc:created "2012"^^xsd:gYear ;
     dc:creator <http://data.archaeology.link/data/spphaefen/author_Loose_Jasmin> ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
-    dc:title "Sekundär verwendete Schiffsholzfunde aus einem sp{'a}tmittelalterlichen Leitungssystem des Quartier Frankenhof-Stralsund"@en .
+    dc:title "Sekundär verwendete Schiffsholzfunde aus einem sp{'a}tmittelalterlichen Leitungssystem des Quartier Frankenhof-Stralsund"@en ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
 

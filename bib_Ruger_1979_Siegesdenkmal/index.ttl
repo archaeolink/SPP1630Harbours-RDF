@@ -1,5 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/bib_Ruger_1979_Siegesdenkmal> a ns1:Article,
@@ -13,5 +14,6 @@
     dc:title "Ein Siegesdenkmal der legio VI victrix"@en ;
     ns1:issuer <http://www.wikidata.org/entity/Q892739> ;
     ns1:pageEnd 200 ;
-    ns1:pageStart 187 .
+    ns1:pageStart 187 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
 

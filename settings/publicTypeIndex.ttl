@@ -11508,7 +11508,6 @@
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Instant_collection>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Journal>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Organization>,
-        <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Person>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Person_collection>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Point>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Point_collection>,
@@ -11871,6 +11870,7 @@
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#bib_vonBerg_2013_Stadtkerngrabung>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_198801704.html>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_219647198.html>,
+        <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_Person.html>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_Q108267756.html>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_Q121363522.html>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_Q1414861.html>,
@@ -46396,9 +46396,6 @@
 <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Organization> ns1:forClass <#> ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/Organization> .
 
-<https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Person> ns1:forClass <#> ;
-    ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/Person> .
-
 <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#Person_collection> ns1:forClass <http://www.w3.org/2006/vcard/ns#Group> ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/Person_collection> .
 
@@ -47484,6 +47481,9 @@
 
 <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_219647198.html> ns1:forClass <http://purl.org/cerif/frapo/Project> ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/nonns_219647198.html> .
+
+<https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_Person.html> ns1:forClass <#> ;
+    ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/nonns_Person.html> .
 
 <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl#nonns_Q108267756.html> ns1:forClass foaf:Organization ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF/nonns_Q108267756.html> .

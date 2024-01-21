@@ -1,5 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/bib_Schaefer_2001_basaltlava> a ns1:Article,
@@ -12,5 +13,6 @@
     ns1:issuer "Basaltlava und Tuff-Exportschlager in römischer Zeit" ;
     ns1:number 53 ;
     ns1:pageEnd 27 ;
-    ns1:pageStart 6 .
+    ns1:pageStart 6 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
 

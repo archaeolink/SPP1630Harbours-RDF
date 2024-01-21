@@ -7,6 +7,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/3012> a ns1:Harbour,
@@ -18,6 +19,7 @@
     dc:creator <http://data.archaeology.link/data/spphaefen/l_kroeger> ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/spphaefen/bib_dbt_mods_00035241> ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> ;
     geo:hasGeometry <http://data.archaeology.link/data/spphaefen/3012_geom> ;
     ns1:locationSecure "reliable"^^xsd:string ;
     ns1:place_technique <http://www.wikidata.org/entity/Q596073> ;

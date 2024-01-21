@@ -1,6 +1,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/bib_Medas_2014_Piroga> a ns1:Collection,
@@ -12,5 +13,6 @@
     dc:title "La piroga rinvenuta nel fiume Po presso Boretto (Reggio Emilia)"@en ;
     dcterms:publisher "libreriauniversitaria.it" ;
     ns1:pageEnd 147 ;
-    ns1:pageStart 141 .
+    ns1:pageStart 141 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
 

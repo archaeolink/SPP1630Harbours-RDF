@@ -28,26 +28,27 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http:/data.archaeology.link/data/spphaefen/theds> a void:Dataset ;
-    rdfs:label ""@en ;
+<http://data.archaeology.link/data/spphaefen/dataset> a void:Dataset ;
+    rdfs:label "dataset"@en ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
-    dcterms:modified "2024-01-20T13:07:42"^^xsd:dateTime ;
+    dcterms:modified "2024-01-21T22:16:07"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
-    dcterms:title ""@en ;
+    dcterms:title "dataset"@en ;
     void:classes 25 ;
     void:dataDump <https://archaeolink.github.io/SPP1630Harbours-RDF/index.ttl> ;
     void:distinctObjects 28323 ;
     void:distinctSubjects 12350 ;
-    void:entities 11835 ;
+    void:entities 11836 ;
     void:exampleResource <http://data.archaeology.link/data/spphaefen/Harbour_collection> ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
     void:properties 33 ;
     void:rootResource <http://data.archaeology.link/data/spphaefen/Harbour_collection> ;
-    void:triples 87657 ;
-    void:uriSpace "http:/data.archaeology.link/data/spphaefen/"^^xsd:string ;
+    void:triples 99492 ;
+    void:uriSpace "http://data.archaeology.link/data/spphaefen/"^^xsd:string ;
     void:vocabulary dcam:,
         dcmitype:,
         dc:,

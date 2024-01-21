@@ -1,5 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/bib_Mirschenz_2016_dfg> a ns1:Article,
@@ -12,5 +13,6 @@
     ns1:doi "10.11588/air.2016.0.77235"^^xsd:string ;
     ns1:issuer <http://www.wikidata.org/entity/Q636527> ;
     ns1:pageEnd 114 ;
-    ns1:pageStart 112 .
+    ns1:pageStart 112 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
 

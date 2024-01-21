@@ -1,5 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/bib_Mcgrail_1985_Brigg> a ns1:Proceedings,
@@ -10,5 +11,6 @@
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dc:title "The Brigg' Raft': problems in reconstruction and in the assessment of performance"@en ;
     ns1:pageEnd 194 ;
-    ns1:pageStart 165 .
+    ns1:pageStart 165 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
 

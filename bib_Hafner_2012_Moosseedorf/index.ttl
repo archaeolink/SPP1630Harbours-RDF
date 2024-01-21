@@ -1,5 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/bib_Hafner_2012_Moosseedorf> a ns1:Article,
@@ -16,5 +17,6 @@
     ns1:issuer "Strandbadneubau, Pfahlbauten und das älteste Boot der Schweiz. Archäologie Bern/Archéologie bernoise" ;
     ns1:pageEnd 77 ;
     ns1:pageStart 71 ;
-    ns1:volume "2012"^^xsd:string .
+    ns1:volume "2012"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
 

@@ -1,5 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/bib_Bonnamour_2012_Vallee> a ns1:Article,
@@ -12,5 +13,6 @@
     ns1:issuer "Trois rivières (Champforgueil)" ;
     ns1:number 78 ;
     ns1:pageEnd 16 ;
-    ns1:pageStart 3 .
+    ns1:pageStart 3 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
 
