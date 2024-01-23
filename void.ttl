@@ -28,180 +28,120 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/spphaefen/dataset> a void:Dataset ;
-    rdfs:label "dataset"@en ;
-    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
-    dcterms:modified "2024-01-22T03:03:46"^^xsd:dateTime ;
-    dcterms:subject <http://dbpedia.org/resource/Location>,
-        <http://www.wikidata.org/entity/Q121810372>,
-        foaf:Person ;
-    dcterms:title "dataset"@en ;
-    void:classPartition <http://data.archaeology.link/data/spphaefen/dataset_Article>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Book>,
-        <http://data.archaeology.link/data/spphaefen/dataset_BookSection>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Catalog>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Collection>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Dataset>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Document>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Feature>,
-        <http://data.archaeology.link/data/spphaefen/dataset_FeatureCollection>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Geometry>,
-        <http://data.archaeology.link/data/spphaefen/dataset_GeometryCollection>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Group>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Harbour>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Instant>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Journal>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Organization>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Person>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Point>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Proceedings>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Project>,
-        <http://data.archaeology.link/data/spphaefen/dataset_SpatialObject>,
-        <http://data.archaeology.link/data/spphaefen/dataset_SpatialObjectCollection>,
-        <http://data.archaeology.link/data/spphaefen/dataset_TemporalEntity>,
-        <http://data.archaeology.link/data/spphaefen/dataset_Thesis> ;
-    void:classes 25 ;
-    void:dataDump <https://archaeolink.github.io/SPP1630Harbours-RDF/index.ttl> ;
-    void:distinctObjects 28323 ;
-    void:distinctSubjects 12350 ;
-    void:entities 11836 ;
-    void:exampleResource <http://data.archaeology.link/data/spphaefen/Harbour_collection> ;
-    void:feature <http://www.w3.org/ns/formats/RDFa>,
-        <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 33 ;
-    void:propertyPartition <http://data.archaeology.link/data/spphaefen/dataset_P17>,
-        <http://data.archaeology.link/data/spphaefen/dataset_P206>,
-        <http://data.archaeology.link/data/spphaefen/dataset_asWKT>,
-        <http://data.archaeology.link/data/spphaefen/dataset_comment>,
-        <http://data.archaeology.link/data/spphaefen/dataset_created>,
-        <http://data.archaeology.link/data/spphaefen/dataset_creator>,
-        <http://data.archaeology.link/data/spphaefen/dataset_doi>,
-        <http://data.archaeology.link/data/spphaefen/dataset_family_Name>,
-        <http://data.archaeology.link/data/spphaefen/dataset_firstName>,
-        <http://data.archaeology.link/data/spphaefen/dataset_hasBeginning>,
-        <http://data.archaeology.link/data/spphaefen/dataset_hasEnd>,
-        <http://data.archaeology.link/data/spphaefen/dataset_hasGeometry>,
-        <http://data.archaeology.link/data/spphaefen/dataset_hasTime>,
-        <http://data.archaeology.link/data/spphaefen/dataset_inXSDgYear>,
-        <http://data.archaeology.link/data/spphaefen/dataset_isOutputOf>,
-        <http://data.archaeology.link/data/spphaefen/dataset_isReferencedBy>,
-        <http://data.archaeology.link/data/spphaefen/dataset_isbn>,
-        <http://data.archaeology.link/data/spphaefen/dataset_issn>,
-        <http://data.archaeology.link/data/spphaefen/dataset_issuer>,
-        <http://data.archaeology.link/data/spphaefen/dataset_label>,
-        <http://data.archaeology.link/data/spphaefen/dataset_locationSecure>,
-        <http://data.archaeology.link/data/spphaefen/dataset_note>,
-        <http://data.archaeology.link/data/spphaefen/dataset_number>,
-        <http://data.archaeology.link/data/spphaefen/dataset_pageEnd>,
-        <http://data.archaeology.link/data/spphaefen/dataset_pageStart>,
-        <http://data.archaeology.link/data/spphaefen/dataset_partOf>,
-        <http://data.archaeology.link/data/spphaefen/dataset_place_technique>,
-        <http://data.archaeology.link/data/spphaefen/dataset_precision>,
-        <http://data.archaeology.link/data/spphaefen/dataset_publisher>,
-        <http://data.archaeology.link/data/spphaefen/dataset_subClassOf>,
-        <http://data.archaeology.link/data/spphaefen/dataset_title>,
-        <http://data.archaeology.link/data/spphaefen/dataset_type>,
-        <http://data.archaeology.link/data/spphaefen/dataset_volume> ;
-    void:rootResource <http://data.archaeology.link/data/spphaefen/Harbour_collection> ;
-    void:triples 99492 ;
-    void:uriSpace "http://data.archaeology.link/data/spphaefen/"^^xsd:string ;
-    void:vocabulary dcam:,
-        dcmitype:,
-        dc:,
-        dcterms:,
-        qb:,
-        vann:,
-        void:,
-        doap:,
-        geo:,
-        rdf:,
-        rdfs:,
-        xsd:,
-        owl:,
+<http://data.archaeology.link/data/spphaefen/dataset_> a void:Linkset ;
+    void:linkPredicate <http://www.spp-haefen.de/ont#precision>,
+        rdf:type ;
+    void:objectsTarget geo:,
+        <http://www.opengis.net/ont/sf#>,
+        <http://www.spp-haefen.de/ont#>,
         skos:,
         time:,
-        xml:,
-        csvw:,
-        dcat:,
-        prof:,
-        odrl:,
-        org:,
-        prov:,
-        sh:,
-        sosa:,
-        ssn:,
-        foaf:,
-        brick:,
-        schema:,
-        wgs: ;
-    foaf:homepage <https://archaeolink.github.io/SPP1630Harbours-RDF> ;
-    foaf:page <https://archaeolink.github.io/SPP1630Harbours-RDF/index.html> .
+        <http://www.w3.org/2006/vcard/ns#>,
+        dcat: ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:triples 1,
+        2,
+        3,
+        77,
+        3450,
+        4573 .
+
+<http://data.archaeology.link/data/spphaefen/dataset_0.1> a void:Linkset ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget foaf: ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:triples 163 .
+
+<http://data.archaeology.link/data/spphaefen/dataset_bibo> a void:Linkset ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://purl.org/ontology/bibo/> ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:triples 190 .
+
+<http://data.archaeology.link/data/spphaefen/dataset_entity> a void:Linkset ;
+    void:linkPredicate dcterms:publisher,
+        <http://purl.org/ontology/bibo/issuer>,
+        <http://www.spp-haefen.de/ont#place_technique>,
+        <http://www.wikidata.org/prop/direct/P17>,
+        <http://www.wikidata.org/prop/direct/P206> ;
+    void:objectsTarget <http://www.wikidata.org/entity/>,
+        <https://www.wikidata.org/entity/> ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:triples 6,
+        11,
+        21,
+        47,
+        2219,
+        3232,
+        3450 .
+
+<http://data.archaeology.link/data/spphaefen/dataset_projekt> a void:Linkset ;
+    void:linkPredicate <http://purl.org/cerif/frapo/isOutputOf> ;
+    void:objectsTarget <https://gepris.dfg.de/gepris/projekt/> ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:triples 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Article> a void:Dataset ;
     void:class <http://purl.org/ontology/bibo/Article> ;
-    void:entities 11836 .
+    void:entities 126 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Book> a void:Dataset ;
     void:class <http://purl.org/ontology/bibo/Book> ;
-    void:entities 11836 .
+    void:entities 30 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_BookSection> a void:Dataset ;
     void:class <http://purl.org/ontology/bibo/BookSection> ;
-    void:entities 11836 .
+    void:entities 1 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Catalog> a void:Dataset ;
     void:class dcat:Catalog ;
-    void:entities 11836 .
+    void:entities 1 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Collection> a void:Dataset ;
     void:class <http://purl.org/ontology/bibo/Collection>,
         skos:Collection ;
-    void:entities 11836 .
+    void:entities 3,
+        7 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Dataset> a void:Dataset ;
     void:class dcat:Dataset ;
-    void:entities 11836 .
+    void:entities 1 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Document> a void:Dataset ;
     void:class <http://purl.org/ontology/bibo/Document> ;
-    void:entities 11836 .
+    void:entities 3 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Feature> a void:Dataset ;
-    void:class geo:Feature ;
-    void:entities 11836 .
+    void:class geo:Feature .
 
 <http://data.archaeology.link/data/spphaefen/dataset_FeatureCollection> a void:Dataset ;
     void:class geo:FeatureCollection ;
-    void:entities 11836 .
+    void:entities 1 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Geometry> a void:Dataset ;
-    void:class geo:Geometry ;
-    void:entities 11836 .
+    void:class geo:Geometry .
 
 <http://data.archaeology.link/data/spphaefen/dataset_GeometryCollection> a void:Dataset ;
     void:class geo:GeometryCollection ;
-    void:entities 11836 .
+    void:entities 1 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Group> a void:Dataset ;
     void:class <http://www.w3.org/2006/vcard/ns#Group> ;
-    void:entities 11836 .
+    void:entities 1 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Harbour> a void:Dataset ;
     void:class <http://www.spp-haefen.de/ont#Harbour> ;
-    void:entities 11836 .
+    void:entities 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Instant> a void:Dataset ;
     void:class time:Instant ;
-    void:entities 11836 .
+    void:entities 3047 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Journal> a void:Dataset ;
-    void:class <http://purl.org/ontology/bibo/Journal> ;
-    void:entities 11836 .
+    void:class <http://purl.org/ontology/bibo/Journal> .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Organization> a void:Dataset ;
-    void:class foaf:Organization ;
-    void:entities 11836 .
+    void:class foaf:Organization .
 
 <http://data.archaeology.link/data/spphaefen/dataset_P17> a void:Dataset ;
     void:property <http://www.wikidata.org/prop/direct/P17> ;
@@ -213,35 +153,32 @@
 
 <http://data.archaeology.link/data/spphaefen/dataset_Person> a void:Dataset ;
     void:class foaf:Person ;
-    void:entities 11836 .
+    void:entities 163 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Point> a void:Dataset ;
     void:class <http://www.opengis.net/ont/sf#Point> ;
-    void:entities 11836 .
+    void:entities 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Proceedings> a void:Dataset ;
     void:class <http://purl.org/ontology/bibo/Proceedings> ;
-    void:entities 11836 .
+    void:entities 19 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Project> a void:Dataset ;
-    void:class <http://purl.org/cerif/frapo/Project> ;
-    void:entities 11836 .
+    void:class <http://purl.org/cerif/frapo/Project> .
 
 <http://data.archaeology.link/data/spphaefen/dataset_SpatialObject> a void:Dataset ;
-    void:class geo:SpatialObject ;
-    void:entities 11836 .
+    void:class geo:SpatialObject .
 
 <http://data.archaeology.link/data/spphaefen/dataset_SpatialObjectCollection> a void:Dataset ;
-    void:class geo:SpatialObjectCollection ;
-    void:entities 11836 .
+    void:class geo:SpatialObjectCollection .
 
 <http://data.archaeology.link/data/spphaefen/dataset_TemporalEntity> a void:Dataset ;
     void:class time:TemporalEntity ;
-    void:entities 11836 .
+    void:entities 1526 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Thesis> a void:Dataset ;
     void:class <http://purl.org/ontology/bibo/Thesis> ;
-    void:entities 11836 .
+    void:entities 4 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_asWKT> a void:Dataset ;
     void:property geo:asWKT ;
@@ -366,4 +303,114 @@
 <http://data.archaeology.link/data/spphaefen/dataset_volume> a void:Dataset ;
     void:property <http://purl.org/ontology/bibo/volume> ;
     void:triples 86 .
+
+<http://data.archaeology.link/data/spphaefen/dataset> a void:Dataset ;
+    rdfs:label "dataset"@en ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dcterms:modified "2024-01-23T02:26:13"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "dataset"@en ;
+    void:classPartition <http://data.archaeology.link/data/spphaefen/dataset_Article>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Book>,
+        <http://data.archaeology.link/data/spphaefen/dataset_BookSection>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Catalog>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Collection>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Dataset>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Document>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Feature>,
+        <http://data.archaeology.link/data/spphaefen/dataset_FeatureCollection>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Geometry>,
+        <http://data.archaeology.link/data/spphaefen/dataset_GeometryCollection>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Group>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Harbour>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Instant>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Journal>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Organization>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Person>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Point>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Proceedings>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Project>,
+        <http://data.archaeology.link/data/spphaefen/dataset_SpatialObject>,
+        <http://data.archaeology.link/data/spphaefen/dataset_SpatialObjectCollection>,
+        <http://data.archaeology.link/data/spphaefen/dataset_TemporalEntity>,
+        <http://data.archaeology.link/data/spphaefen/dataset_Thesis> ;
+    void:classes 25 ;
+    void:dataDump <https://archaeolink.github.io/SPP1630Harbours-RDF/index.ttl> ;
+    void:distinctObjects 28323 ;
+    void:distinctSubjects 12350 ;
+    void:entities 11836 ;
+    void:exampleResource <http://data.archaeology.link/data/spphaefen/Harbour_collection> ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 33 ;
+    void:propertyPartition <http://data.archaeology.link/data/spphaefen/dataset_P17>,
+        <http://data.archaeology.link/data/spphaefen/dataset_P206>,
+        <http://data.archaeology.link/data/spphaefen/dataset_asWKT>,
+        <http://data.archaeology.link/data/spphaefen/dataset_comment>,
+        <http://data.archaeology.link/data/spphaefen/dataset_created>,
+        <http://data.archaeology.link/data/spphaefen/dataset_creator>,
+        <http://data.archaeology.link/data/spphaefen/dataset_doi>,
+        <http://data.archaeology.link/data/spphaefen/dataset_family_Name>,
+        <http://data.archaeology.link/data/spphaefen/dataset_firstName>,
+        <http://data.archaeology.link/data/spphaefen/dataset_hasBeginning>,
+        <http://data.archaeology.link/data/spphaefen/dataset_hasEnd>,
+        <http://data.archaeology.link/data/spphaefen/dataset_hasGeometry>,
+        <http://data.archaeology.link/data/spphaefen/dataset_hasTime>,
+        <http://data.archaeology.link/data/spphaefen/dataset_inXSDgYear>,
+        <http://data.archaeology.link/data/spphaefen/dataset_isOutputOf>,
+        <http://data.archaeology.link/data/spphaefen/dataset_isReferencedBy>,
+        <http://data.archaeology.link/data/spphaefen/dataset_isbn>,
+        <http://data.archaeology.link/data/spphaefen/dataset_issn>,
+        <http://data.archaeology.link/data/spphaefen/dataset_issuer>,
+        <http://data.archaeology.link/data/spphaefen/dataset_label>,
+        <http://data.archaeology.link/data/spphaefen/dataset_locationSecure>,
+        <http://data.archaeology.link/data/spphaefen/dataset_note>,
+        <http://data.archaeology.link/data/spphaefen/dataset_number>,
+        <http://data.archaeology.link/data/spphaefen/dataset_pageEnd>,
+        <http://data.archaeology.link/data/spphaefen/dataset_pageStart>,
+        <http://data.archaeology.link/data/spphaefen/dataset_partOf>,
+        <http://data.archaeology.link/data/spphaefen/dataset_place_technique>,
+        <http://data.archaeology.link/data/spphaefen/dataset_precision>,
+        <http://data.archaeology.link/data/spphaefen/dataset_publisher>,
+        <http://data.archaeology.link/data/spphaefen/dataset_subClassOf>,
+        <http://data.archaeology.link/data/spphaefen/dataset_title>,
+        <http://data.archaeology.link/data/spphaefen/dataset_type>,
+        <http://data.archaeology.link/data/spphaefen/dataset_volume> ;
+    void:rootResource <http://data.archaeology.link/data/spphaefen/Harbour_collection> ;
+    void:triples 99492 ;
+    void:uriSpace "http://data.archaeology.link/data/spphaefen/"^^xsd:string ;
+    void:vocabulary dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    foaf:homepage <https://archaeolink.github.io/SPP1630Harbours-RDF> ;
+    foaf:page <https://archaeolink.github.io/SPP1630Harbours-RDF/index.html> .
 
