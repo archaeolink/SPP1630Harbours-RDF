@@ -28,40 +28,72 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/spphaefen/dataset_> a void:Linkset ;
-    rdfs:label "Linkset: dataset - "@en ;
-    void:linkPredicate <http://www.spp-haefen.de/ont#precision>,
-        rdf:type ;
-    void:objectsTarget geo:,
-        <http://www.opengis.net/ont/sf#>,
-        <http://www.spp-haefen.de/ont#>,
-        skos:,
-        time:,
-        <http://www.w3.org/2006/vcard/ns#>,
-        dcat: ;
+<http://data.archaeology.link/data/spphaefen/dataset_gepris.dfg.de_gepris_projekt_> a void:Linkset ;
+    rdfs:label "Linkset: dataset - projekt"@en ;
+    void:linkPredicate <http://purl.org/cerif/frapo/isOutputOf> ;
+    void:objectsTarget <https://gepris.dfg.de/gepris/projekt/> ;
     void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
-    void:triples 1,
-        2,
-        3,
-        77,
-        3450,
-        4573 .
+    void:triples 3450 .
 
-<http://data.archaeology.link/data/spphaefen/dataset_0.1> a void:Linkset ;
-    rdfs:label "Linkset: dataset - 0.1"@en ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget foaf: ;
-    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
-    void:triples 163 .
-
-<http://data.archaeology.link/data/spphaefen/dataset_bibo> a void:Linkset ;
+<http://data.archaeology.link/data/spphaefen/dataset_purl.org_ontology_bibo_> a void:Linkset ;
     rdfs:label "Linkset: dataset - bibo"@en ;
     void:linkPredicate rdf:type ;
     void:objectsTarget <http://purl.org/ontology/bibo/> ;
     void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
     void:triples 190 .
 
-<http://data.archaeology.link/data/spphaefen/dataset_entity> a void:Linkset ;
+<http://data.archaeology.link/data/spphaefen/dataset_www.opengis.net_ont_geosparql#> a void:Linkset ;
+    rdfs:label "Linkset: dataset - "@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget geo: ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:triples 2 .
+
+<http://data.archaeology.link/data/spphaefen/dataset_www.opengis.net_ont_sf#> a void:Linkset ;
+    rdfs:label "Linkset: dataset - "@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.opengis.net/ont/sf#> ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:triples 3450 .
+
+<http://data.archaeology.link/data/spphaefen/dataset_www.spp-haefen.de_ont#> a void:Linkset ;
+    rdfs:label "Linkset: dataset - "@en ;
+    void:linkPredicate <http://www.spp-haefen.de/ont#precision>,
+        rdf:type ;
+    void:objectsTarget <http://www.spp-haefen.de/ont#> ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:triples 77,
+        3450 .
+
+<http://data.archaeology.link/data/spphaefen/dataset_www.w3.org_2004_02_skos_core#> a void:Linkset ;
+    rdfs:label "Linkset: dataset - "@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget skos: ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:triples 3 .
+
+<http://data.archaeology.link/data/spphaefen/dataset_www.w3.org_2006_time#> a void:Linkset ;
+    rdfs:label "Linkset: dataset - "@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget time: ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:triples 4573 .
+
+<http://data.archaeology.link/data/spphaefen/dataset_www.w3.org_2006_vcard_ns#> a void:Linkset ;
+    rdfs:label "Linkset: dataset - "@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.w3.org/2006/vcard/ns#> ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:triples 1 .
+
+<http://data.archaeology.link/data/spphaefen/dataset_www.w3.org_ns_dcat#> a void:Linkset ;
+    rdfs:label "Linkset: dataset - "@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget dcat: ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:triples 2 .
+
+<http://data.archaeology.link/data/spphaefen/dataset_www.wikidata.org_entity_> a void:Linkset ;
     rdfs:label "Linkset: dataset - entity"@en ;
     void:linkPredicate dcterms:publisher,
         <http://purl.org/ontology/bibo/issuer>,
@@ -79,12 +111,12 @@
         3232,
         3450 .
 
-<http://data.archaeology.link/data/spphaefen/dataset_projekt> a void:Linkset ;
-    rdfs:label "Linkset: dataset - projekt"@en ;
-    void:linkPredicate <http://purl.org/cerif/frapo/isOutputOf> ;
-    void:objectsTarget <https://gepris.dfg.de/gepris/projekt/> ;
+<http://data.archaeology.link/data/spphaefen/dataset_xmlns.com_foaf_0.1_> a void:Linkset ;
+    rdfs:label "Linkset: dataset - 0.1"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget foaf: ;
     void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
-    void:triples 3450 .
+    void:triples 163 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Article> a void:Dataset ;
     rdfs:label "Class Partition: Article"@en ;
@@ -370,7 +402,7 @@
     rdfs:label "dataset"@en ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
-    dcterms:modified "2024-01-24T01:27:19"^^xsd:dateTime ;
+    dcterms:modified "2024-01-24T12:44:37"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
