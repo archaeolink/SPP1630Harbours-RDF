@@ -24193,10 +24193,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://www.spp-haefen.de/ont#Harbour",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Harbour.html",
         "parent": "http://www.opengis.net/ont/geosparql#Feature",
         "type": "geoclass",
-        "text": "Harbour (ns1:Harbour) [3450]",
+        "text": "Harbour (ns1:Harbour)",
         "data": {
           "to": {
             "http://purl.org/cerif/frapo/isOutputOf": {
@@ -24208,6 +24208,10 @@ var tree={
             },
             "http://purl.org/dc/elements/1.1/creator": {
               "instancecount": 1
+            },
+            "http://purl.org/dc/terms/isReferencedBy": {
+              "instancecount": 1,
+              "http://purl.org/ontology/bibo/Thesis": 1
             },
             "http://purl.org/dc/terms/partOf": {
               "instancecount": 1,
@@ -24235,7 +24239,11 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2004/02/skos/core#note": {
-              "instancecount": 1
+              "instancecount": 2
+            },
+            "http://www.w3.org/2006/time#hasTime": {
+              "instancecount": 1,
+              "http://www.w3.org/2006/time#TemporalEntity": 1
             },
             "http://www.wikidata.org/prop/direct/P17": {
               "instancecount": 1
@@ -24251,13 +24259,13 @@ var tree={
             }
           }
         },
-        "instancecount": 13
+        "instancecount": 16
       },
       {
-        "id": "http://www.opengis.net/ont/geosparql#Feature",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Feature.html",
         "parent": "#",
         "type": "class",
-        "text": "Feature (gsp:Feature)",
+        "text": "feature (gsp:Feature)",
         "data": {}
       },
       {
@@ -24471,10 +24479,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://purl.org/ontology/bibo/Book",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Book.html",
         "parent": "#",
         "type": "class",
-        "text": "Book (bibo:Book) [30]",
+        "text": "Book (bibo:Book)",
         "data": {
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
@@ -24487,6 +24495,12 @@ var tree={
             "http://purl.org/dc/elements/1.1/title": {
               "instancecount": 1
             },
+            "http://purl.org/dc/terms/publisher": {
+              "instancecount": 1
+            },
+            "http://purl.org/ontology/bibo/isbn": {
+              "instancecount": 1
+            },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
               "http://rdfs.org/ns/void#Dataset": 1
@@ -24496,17 +24510,13 @@ var tree={
             }
           },
           "from": {
-            "http://purl.org/dc/terms/isReferencedBy": {
-              "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://purl.org/ontology/bibo/Collection": 1
             }
           }
         },
-        "instancecount": 5
+        "instancecount": 7
       },
       {
         "id": "http://data.archaeology.link/data/spphaefen/bib_Arnold_1992_Batellerie",
@@ -25391,10 +25401,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Article.html",
         "parent": "#",
         "type": "class",
-        "text": "Article (bibo:Article) [126]",
+        "text": "Article (bibo:Article)",
         "data": {
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
@@ -25407,17 +25417,7 @@ var tree={
             "http://purl.org/dc/elements/1.1/title": {
               "instancecount": 1
             },
-            "http://purl.org/ontology/bibo/doi": {
-              "instancecount": 1
-            },
-            "http://purl.org/ontology/bibo/issuer": {
-              "instancecount": 1,
-              "http://purl.org/ontology/bibo/Journal": 1
-            },
-            "http://purl.org/ontology/bibo/pageEnd": {
-              "instancecount": 1
-            },
-            "http://purl.org/ontology/bibo/pageStart": {
+            "http://purl.org/dc/terms/publisher": {
               "instancecount": 1
             },
             "http://rdfs.org/ns/void#inDataset": {
@@ -25429,13 +25429,17 @@ var tree={
             }
           },
           "from": {
+            "http://purl.org/dc/terms/isReferencedBy": {
+              "instancecount": 0,
+              "http://www.spp-haefen.de/ont#Harbour": 13
+            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://purl.org/ontology/bibo/Collection": 1
             }
           }
         },
-        "instancecount": 9
+        "instancecount": 6
       },
       {
         "id": "http://data.archaeology.link/data/spphaefen/bib_Bartoli_2012_Creating",
@@ -25571,10 +25575,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://purl.org/ontology/bibo/Proceedings",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Proceedings.html",
         "parent": "#",
         "type": "class",
-        "text": "Proceedings (bibo:Proceedings) [19]",
+        "text": "Proceedings (bibo:Proceedings)",
         "data": {
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
@@ -25587,10 +25591,10 @@ var tree={
             "http://purl.org/dc/elements/1.1/title": {
               "instancecount": 1
             },
-            "http://purl.org/ontology/bibo/pageEnd": {
+            "http://purl.org/ontology/bibo/number": {
               "instancecount": 1
             },
-            "http://purl.org/ontology/bibo/pageStart": {
+            "http://purl.org/ontology/bibo/volume": {
               "instancecount": 1
             },
             "http://rdfs.org/ns/void#inDataset": {
@@ -25632,10 +25636,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://purl.org/ontology/bibo/Document",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Document.html",
         "parent": "#",
         "type": "class",
-        "text": "Document (bibo:Document) [3]",
+        "text": "Document (bibo:Document)",
         "data": {
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
@@ -25662,7 +25666,7 @@ var tree={
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
               "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 3
+              "http://www.spp-haefen.de/ont#Harbour": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -36355,10 +36359,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://www.w3.org/2006/time#TemporalEntity",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_TemporalEntity.html",
         "parent": "#",
         "type": "class",
-        "text": "TemporalEntity (time:TemporalEntity) [1526]",
+        "text": "TemporalEntity (time:TemporalEntity)",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -57723,10 +57727,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://www.w3.org/2006/time#Instant",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Instant.html",
         "parent": "#",
         "type": "class",
-        "text": "Instant (time:Instant) [3047]",
+        "text": "Instant (time:Instant)",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -81907,10 +81911,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://www.opengis.net/ont/sf#Point",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Point.html",
         "parent": "http://www.opengis.net/ont/geosparql#Geometry",
         "type": "geoclass",
-        "text": "Point (sf:Point) [3450]",
+        "text": "Point (sf:Point)",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -81941,10 +81945,10 @@ var tree={
         "instancecount": 4
       },
       {
-        "id": "http://www.opengis.net/ont/geosparql#Geometry",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Geometry.html",
         "parent": "#",
         "type": "class",
-        "text": "Geometry (gsp:Geometry)",
+        "text": "geometry (gsp:Geometry)",
         "data": {}
       },
       {
@@ -83115,7 +83119,7 @@ var tree={
           "from": {
             "http://purl.org/dc/elements/1.1/creator": {
               "instancecount": 0,
-              "http://purl.org/ontology/bibo/Book": 1
+              "http://purl.org/ontology/bibo/Article": 1
             },
             "http://www.w3.org/2006/vcard/ns#hasMember": {
               "instancecount": 0,
@@ -83154,10 +83158,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://purl.org/ontology/bibo/Thesis",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Thesis.html",
         "parent": "#",
         "type": "class",
-        "text": "Thesis (bibo:Thesis) [4]",
+        "text": "Thesis (bibo:Thesis)",
         "data": {
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
@@ -83170,6 +83174,10 @@ var tree={
             "http://purl.org/dc/elements/1.1/title": {
               "instancecount": 1
             },
+            "http://purl.org/dc/terms/publisher": {
+              "instancecount": 1,
+              "http://xmlns.com/foaf/0.1/Organization": 1
+            },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
               "http://rdfs.org/ns/void#Dataset": 1
@@ -83181,7 +83189,7 @@ var tree={
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
               "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 1
+              "http://www.spp-haefen.de/ont#Harbour": 35
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -83189,7 +83197,7 @@ var tree={
             }
           }
         },
-        "instancecount": 5
+        "instancecount": 6
       },
       {
         "id": "http://data.archaeology.link/data/spphaefen/bib_Medas_2014_Piroga",
@@ -83241,10 +83249,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://purl.org/ontology/bibo/Collection",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Collection.html",
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "collectionclass",
-        "text": "Collection (bibo:Collection) [7]",
+        "text": "Collection (bibo:Collection)",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -83258,19 +83266,19 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 19,
-              "http://purl.org/ontology/bibo/Proceedings": 19
+              "instancecount": 30,
+              "http://purl.org/ontology/bibo/Book": 30
             }
           },
           "from": {}
         },
-        "instancecount": 23
+        "instancecount": 34
       },
       {
-        "id": "http://www.w3.org/2004/02/skos/core#Collection",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Collection.html",
         "parent": "#",
         "type": "collectionclass",
-        "text": "Collection (skos:Collection) [3]",
+        "text": "Collection (skos:Collection)",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -83447,10 +83455,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://purl.org/ontology/bibo/Journal",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Journal.html",
         "parent": "#",
         "type": "class",
-        "text": "Journal (bibo:Journal) [22]",
+        "text": "Journal (bibo:Journal)",
         "data": {}
       },
       {
@@ -83531,10 +83539,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://xmlns.com/foaf/0.1/Organization",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Organization.html",
         "parent": "#",
         "type": "class",
-        "text": "Organization (foaf:Organization) [11]",
+        "text": "Organization (foaf:Organization)",
         "data": {}
       },
       {
@@ -83552,10 +83560,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://purl.org/cerif/frapo/Project",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Project.html",
         "parent": "#",
         "type": "class",
-        "text": "Project (frapo:Project) [2]",
+        "text": "Project (frapo:Project)",
         "data": {}
       },
       {
@@ -83566,10 +83574,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://purl.org/ontology/bibo/BookSection",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_BookSection.html",
         "parent": "#",
         "type": "class",
-        "text": "BookSection (bibo:BookSection) [1]",
+        "text": "BookSection (bibo:BookSection)",
         "data": {}
       },
       {
@@ -83580,10 +83588,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://www.w3.org/ns/dcat#Dataset",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Dataset.html",
         "parent": "#",
         "type": "class",
-        "text": "Dataset (dcat:Dataset) [1]",
+        "text": "Dataset (dcat:Dataset)",
         "data": {
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
@@ -83635,10 +83643,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_FeatureCollection.html",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "FeatureCollection (gsp:FeatureCollection) [1]",
+        "text": "FeatureCollection (gsp:FeatureCollection)",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -83670,7 +83678,7 @@ var tree={
         "instancecount": 3454
       },
       {
-        "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_SpatialObjectCollection.html",
         "parent": "#",
         "type": "collectionclass",
         "text": "SpatialObjectCollection (gsp:SpatialObjectCollection)",
@@ -83705,10 +83713,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://www.opengis.net/ont/geosparql#GeometryCollection",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_GeometryCollection.html",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "GeometryCollection (gsp:GeometryCollection) [1]",
+        "text": "GeometryCollection (gsp:GeometryCollection)",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -83738,10 +83746,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://www.w3.org/2006/vcard/ns#Group",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Group.html",
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "collectionclass",
-        "text": "Group (vcard2006:Group) [1]",
+        "text": "Group (vcard2006:Group)",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -83771,10 +83779,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://www.w3.org/ns/dcat#Catalog",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_Catalog.html",
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "collectionclass",
-        "text": "Catalog (dcat:Catalog) [1]",
+        "text": "Catalog (dcat:Catalog)",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -83798,10 +83806,10 @@ var tree={
         "instancecount": 5
       },
       {
-        "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
+        "id": "http://data.archaeology.link/data/spphaefen/nonns_SpatialObject.html",
         "parent": "#",
         "type": "class",
-        "text": "SpatialObject (gsp:SpatialObject)",
+        "text": "spatial object (gsp:SpatialObject)",
         "data": {}
       }
     ]

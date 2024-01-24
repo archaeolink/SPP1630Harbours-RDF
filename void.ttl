@@ -29,6 +29,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/spphaefen/dataset_> a void:Linkset ;
+    rdfs:label "Linkset: dataset - "@en ;
     void:linkPredicate <http://www.spp-haefen.de/ont#precision>,
         rdf:type ;
     void:objectsTarget geo:,
@@ -47,18 +48,21 @@
         4573 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_0.1> a void:Linkset ;
+    rdfs:label "Linkset: dataset - 0.1"@en ;
     void:linkPredicate rdf:type ;
     void:objectsTarget foaf: ;
     void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
     void:triples 163 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_bibo> a void:Linkset ;
+    rdfs:label "Linkset: dataset - bibo"@en ;
     void:linkPredicate rdf:type ;
     void:objectsTarget <http://purl.org/ontology/bibo/> ;
     void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
     void:triples 190 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_entity> a void:Linkset ;
+    rdfs:label "Linkset: dataset - entity"@en ;
     void:linkPredicate dcterms:publisher,
         <http://purl.org/ontology/bibo/issuer>,
         <http://www.spp-haefen.de/ont#place_technique>,
@@ -76,231 +80,289 @@
         3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_projekt> a void:Linkset ;
+    rdfs:label "Linkset: dataset - projekt"@en ;
     void:linkPredicate <http://purl.org/cerif/frapo/isOutputOf> ;
     void:objectsTarget <https://gepris.dfg.de/gepris/projekt/> ;
     void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
     void:triples 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Article> a void:Dataset ;
+    rdfs:label "Class Partition: Article"@en ;
     void:class <http://purl.org/ontology/bibo/Article> ;
     void:entities 126 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Book> a void:Dataset ;
+    rdfs:label "Class Partition: Book"@en ;
     void:class <http://purl.org/ontology/bibo/Book> ;
     void:entities 30 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_BookSection> a void:Dataset ;
+    rdfs:label "Class Partition: BookSection"@en ;
     void:class <http://purl.org/ontology/bibo/BookSection> ;
     void:entities 1 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Catalog> a void:Dataset ;
+    rdfs:label "Class Partition: Catalog"@en ;
     void:class dcat:Catalog ;
     void:entities 1 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Collection> a void:Dataset ;
+    rdfs:label "Class Partition: Collection"@en ;
     void:class <http://purl.org/ontology/bibo/Collection>,
         skos:Collection ;
     void:entities 3,
         7 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Dataset> a void:Dataset ;
+    rdfs:label "Class Partition: Dataset"@en ;
     void:class dcat:Dataset ;
     void:entities 1 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Document> a void:Dataset ;
+    rdfs:label "Class Partition: Document"@en ;
     void:class <http://purl.org/ontology/bibo/Document> ;
     void:entities 3 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Feature> a void:Dataset ;
+    rdfs:label "Class Partition: Feature"@en ;
     void:class geo:Feature .
 
 <http://data.archaeology.link/data/spphaefen/dataset_FeatureCollection> a void:Dataset ;
+    rdfs:label "Class Partition: FeatureCollection"@en ;
     void:class geo:FeatureCollection ;
     void:entities 1 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Geometry> a void:Dataset ;
+    rdfs:label "Class Partition: Geometry"@en ;
     void:class geo:Geometry .
 
 <http://data.archaeology.link/data/spphaefen/dataset_GeometryCollection> a void:Dataset ;
+    rdfs:label "Class Partition: GeometryCollection"@en ;
     void:class geo:GeometryCollection ;
     void:entities 1 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Group> a void:Dataset ;
+    rdfs:label "Class Partition: Group"@en ;
     void:class <http://www.w3.org/2006/vcard/ns#Group> ;
     void:entities 1 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Harbour> a void:Dataset ;
+    rdfs:label "Class Partition: Harbour"@en ;
     void:class <http://www.spp-haefen.de/ont#Harbour> ;
     void:entities 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Instant> a void:Dataset ;
+    rdfs:label "Class Partition: Instant"@en ;
     void:class time:Instant ;
     void:entities 3047 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Journal> a void:Dataset ;
+    rdfs:label "Class Partition: Journal"@en ;
     void:class <http://purl.org/ontology/bibo/Journal> .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Organization> a void:Dataset ;
+    rdfs:label "Class Partition: Organization"@en ;
     void:class foaf:Organization .
 
 <http://data.archaeology.link/data/spphaefen/dataset_P17> a void:Dataset ;
+    rdfs:label "Property Partition: P17"@en ;
     void:property <http://www.wikidata.org/prop/direct/P17> ;
     void:triples 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_P206> a void:Dataset ;
+    rdfs:label "Property Partition: P206"@en ;
     void:property <http://www.wikidata.org/prop/direct/P206> ;
     void:triples 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Person> a void:Dataset ;
+    rdfs:label "Class Partition: Person"@en ;
     void:class foaf:Person ;
     void:entities 163 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Point> a void:Dataset ;
+    rdfs:label "Class Partition: Point"@en ;
     void:class <http://www.opengis.net/ont/sf#Point> ;
     void:entities 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Proceedings> a void:Dataset ;
+    rdfs:label "Class Partition: Proceedings"@en ;
     void:class <http://purl.org/ontology/bibo/Proceedings> ;
     void:entities 19 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Project> a void:Dataset ;
+    rdfs:label "Class Partition: Project"@en ;
     void:class <http://purl.org/cerif/frapo/Project> .
 
 <http://data.archaeology.link/data/spphaefen/dataset_SpatialObject> a void:Dataset ;
+    rdfs:label "Class Partition: SpatialObject"@en ;
     void:class geo:SpatialObject .
 
 <http://data.archaeology.link/data/spphaefen/dataset_SpatialObjectCollection> a void:Dataset ;
+    rdfs:label "Class Partition: SpatialObjectCollection"@en ;
     void:class geo:SpatialObjectCollection .
 
 <http://data.archaeology.link/data/spphaefen/dataset_TemporalEntity> a void:Dataset ;
+    rdfs:label "Class Partition: TemporalEntity"@en ;
     void:class time:TemporalEntity ;
     void:entities 1526 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_Thesis> a void:Dataset ;
+    rdfs:label "Class Partition: Thesis"@en ;
     void:class <http://purl.org/ontology/bibo/Thesis> ;
     void:entities 4 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_asWKT> a void:Dataset ;
+    rdfs:label "Property Partition: asWKT"@en ;
     void:property geo:asWKT ;
     void:triples 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_comment> a void:Dataset ;
+    rdfs:label "Property Partition: comment"@en ;
     void:property rdfs:comment ;
     void:triples 68 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_created> a void:Dataset ;
+    rdfs:label "Property Partition: created"@en ;
     void:property dc:created ;
     void:triples 3634 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_creator> a void:Dataset ;
+    rdfs:label "Property Partition: creator"@en ;
     void:property dc:creator ;
     void:triples 3676 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_doi> a void:Dataset ;
+    rdfs:label "Property Partition: doi"@en ;
     void:property <http://purl.org/ontology/bibo/doi> ;
     void:triples 6 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_family_Name> a void:Dataset ;
+    rdfs:label "Property Partition: family_Name"@en ;
     void:property foaf:family_Name ;
     void:triples 163 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_firstName> a void:Dataset ;
+    rdfs:label "Property Partition: firstName"@en ;
     void:property foaf:firstName ;
     void:triples 163 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_hasBeginning> a void:Dataset ;
+    rdfs:label "Property Partition: hasBeginning"@en ;
     void:property time:hasBeginning ;
     void:triples 1526 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_hasEnd> a void:Dataset ;
+    rdfs:label "Property Partition: hasEnd"@en ;
     void:property time:hasEnd ;
     void:triples 1521 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_hasGeometry> a void:Dataset ;
+    rdfs:label "Property Partition: hasGeometry"@en ;
     void:property geo:hasGeometry ;
     void:triples 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_hasTime> a void:Dataset ;
+    rdfs:label "Property Partition: hasTime"@en ;
     void:property time:hasTime ;
     void:triples 1526 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_inXSDgYear> a void:Dataset ;
+    rdfs:label "Property Partition: inXSDgYear"@en ;
     void:property time:inXSDgYear ;
     void:triples 3047 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_isOutputOf> a void:Dataset ;
+    rdfs:label "Property Partition: isOutputOf"@en ;
     void:property <http://purl.org/cerif/frapo/isOutputOf> ;
     void:triples 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_isReferencedBy> a void:Dataset ;
+    rdfs:label "Property Partition: isReferencedBy"@en ;
     void:property dcterms:isReferencedBy ;
     void:triples 1728 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_isbn> a void:Dataset ;
+    rdfs:label "Property Partition: isbn"@en ;
     void:property <http://purl.org/ontology/bibo/isbn> ;
     void:triples 3 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_issn> a void:Dataset ;
+    rdfs:label "Property Partition: issn"@en ;
     void:property <http://purl.org/ontology/bibo/issn> ;
     void:triples 2 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_issuer> a void:Dataset ;
+    rdfs:label "Property Partition: issuer"@en ;
     void:property <http://purl.org/ontology/bibo/issuer> ;
     void:triples 108 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_label> a void:Dataset ;
+    rdfs:label "Property Partition: label"@en ;
     void:property rdfs:label ;
     void:triples 12161 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_locationSecure> a void:Dataset ;
+    rdfs:label "Property Partition: locationSecure"@en ;
     void:property <http://www.spp-haefen.de/ont#locationSecure> ;
     void:triples 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_note> a void:Dataset ;
+    rdfs:label "Property Partition: note"@en ;
     void:property skos:note ;
     void:triples 6317 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_number> a void:Dataset ;
+    rdfs:label "Property Partition: number"@en ;
     void:property <http://purl.org/ontology/bibo/number> ;
     void:triples 51 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_pageEnd> a void:Dataset ;
+    rdfs:label "Property Partition: pageEnd"@en ;
     void:property <http://purl.org/ontology/bibo/pageEnd> ;
     void:triples 110 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_pageStart> a void:Dataset ;
+    rdfs:label "Property Partition: pageStart"@en ;
     void:property <http://purl.org/ontology/bibo/pageStart> ;
     void:triples 110 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_partOf> a void:Dataset ;
+    rdfs:label "Property Partition: partOf"@en ;
     void:property dcterms:partOf ;
     void:triples 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_place_technique> a void:Dataset ;
+    rdfs:label "Property Partition: place_technique"@en ;
     void:property <http://www.spp-haefen.de/ont#place_technique> ;
     void:triples 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_precision> a void:Dataset ;
+    rdfs:label "Property Partition: precision"@en ;
     void:property <http://www.spp-haefen.de/ont#precision> ;
     void:triples 77 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_publisher> a void:Dataset ;
+    rdfs:label "Property Partition: publisher"@en ;
     void:property dcterms:publisher ;
     void:triples 74 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_subClassOf> a void:Dataset ;
+    rdfs:label "Property Partition: subClassOf"@en ;
     void:property rdfs:subClassOf ;
     void:triples 4 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_title> a void:Dataset ;
+    rdfs:label "Property Partition: title"@en ;
     void:property dc:title ;
     void:triples 184 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_type> a void:Dataset ;
+    rdfs:label "Property Partition: type"@en ;
     void:property rdf:type ;
     void:triples 11859 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_volume> a void:Dataset ;
+    rdfs:label "Property Partition: volume"@en ;
     void:property <http://purl.org/ontology/bibo/volume> ;
     void:triples 86 .
 
@@ -308,7 +370,7 @@
     rdfs:label "dataset"@en ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
-    dcterms:modified "2024-01-23T02:26:13"^^xsd:dateTime ;
+    dcterms:modified "2024-01-24T00:55:13"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
