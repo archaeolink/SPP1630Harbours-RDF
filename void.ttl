@@ -398,11 +398,33 @@
     void:property <http://purl.org/ontology/bibo/volume> ;
     void:triples 86 .
 
+<http://dbpedia.org/resource/Location> rdfs:label "Location"@en .
+
+void: rdfs:label "Vocabulary of Interlinked Datasets (VoID)"@en .
+
+rdf: rdfs:label "The RDF Concepts Vocabulary (RDF)"@en .
+
+rdfs: rdfs:label "The RDF Schema vocabulary (RDFS)"@en .
+
+owl: rdfs:label "Web Ontology Language 2 Vocabulary"@en .
+
+sosa: rdfs:label "Sensor, Observation, Sample, and Actuator (SOSA) Ontology"@en .
+
+<http://www.wikidata.org/entity/Q121810372> rdfs:label "Location"@en .
+
+geo: rdfs:label "The GeoSPARQL Ontology"@en .
+
+dcat: rdfs:label "DCAT Vocabulary"@en .
+
+foaf: rdfs:label "Friend Of A Friend Ontology"@en .
+
+foaf:Person rdfs:label "Person"@en .
+
 <http://data.archaeology.link/data/spphaefen/dataset> a void:Dataset ;
     rdfs:label "dataset"@en ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
-    dcterms:modified "2024-01-24T12:44:37"^^xsd:dateTime ;
+    dcterms:modified "2024-01-27T23:18:48"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
