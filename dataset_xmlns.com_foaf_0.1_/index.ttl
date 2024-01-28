@@ -8,7 +8,7 @@
 <http://data.archaeology.link/data/spphaefen/dataset_xmlns.com_foaf_0.1_> a void:Linkset,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Linkset: dataset - 0.1"@en ;
+    rdfs:label "Linkset: dataset - Friend Of A Friend Ontology (foaf:)"@en ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     void:linkPredicate rdf:type ;
     void:objectsTarget foaf: ;

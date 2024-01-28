@@ -7,7 +7,7 @@
 <http://data.archaeology.link/data/spphaefen/dataset_www.opengis.net_ont_sf#> a void:Linkset,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Linkset: dataset - "@en ;
+    rdfs:label "Linkset: dataset - Simple Features Vocabulary (sf:)"@en ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     void:linkPredicate rdf:type ;
     void:objectsTarget <http://www.opengis.net/ont/sf#> ;

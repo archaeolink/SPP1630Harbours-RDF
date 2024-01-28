@@ -36,28 +36,28 @@
     void:triples 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_purl.org_ontology_bibo_> a void:Linkset ;
-    rdfs:label "Linkset: dataset - bibo"@en ;
+    rdfs:label "Linkset: dataset - Bibliography Ontology (bibo:)"@en ;
     void:linkPredicate rdf:type ;
     void:objectsTarget <http://purl.org/ontology/bibo/> ;
     void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
     void:triples 190 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_www.opengis.net_ont_geosparql#> a void:Linkset ;
-    rdfs:label "Linkset: dataset - "@en ;
+    rdfs:label "Linkset: dataset - The GeoSPARQL Ontology (gsp:)"@en ;
     void:linkPredicate rdf:type ;
     void:objectsTarget geo: ;
     void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
     void:triples 2 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_www.opengis.net_ont_sf#> a void:Linkset ;
-    rdfs:label "Linkset: dataset - "@en ;
+    rdfs:label "Linkset: dataset - Simple Features Vocabulary (sf:)"@en ;
     void:linkPredicate rdf:type ;
     void:objectsTarget <http://www.opengis.net/ont/sf#> ;
     void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
     void:triples 3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_www.spp-haefen.de_ont#> a void:Linkset ;
-    rdfs:label "Linkset: dataset - "@en ;
+    rdfs:label "Linkset: dataset - ns1:"@en ;
     void:linkPredicate <http://www.spp-haefen.de/ont#precision>,
         rdf:type ;
     void:objectsTarget <http://www.spp-haefen.de/ont#> ;
@@ -66,35 +66,36 @@
         3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_www.w3.org_2004_02_skos_core#> a void:Linkset ;
-    rdfs:label "Linkset: dataset - "@en ;
+    rdfs:label "Linkset: dataset - skos:"@en ;
     void:linkPredicate rdf:type ;
     void:objectsTarget skos: ;
     void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
     void:triples 3 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_www.w3.org_2006_time#> a void:Linkset ;
-    rdfs:label "Linkset: dataset - "@en ;
+    rdfs:label "Linkset: dataset - time:"@en ;
     void:linkPredicate rdf:type ;
     void:objectsTarget time: ;
     void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
     void:triples 4573 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_www.w3.org_2006_vcard_ns#> a void:Linkset ;
-    rdfs:label "Linkset: dataset - "@en ;
+    rdfs:label "Linkset: dataset - Vcard Vocabulary (vcard2006:)"@en ;
     void:linkPredicate rdf:type ;
     void:objectsTarget <http://www.w3.org/2006/vcard/ns#> ;
     void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
     void:triples 1 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_www.w3.org_ns_dcat#> a void:Linkset ;
-    rdfs:label "Linkset: dataset - "@en ;
+    rdfs:label "Linkset: dataset - DCAT Vocabulary (dcat:)"@en ;
     void:linkPredicate rdf:type ;
     void:objectsTarget dcat: ;
     void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
     void:triples 2 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_www.wikidata.org_entity_> a void:Linkset ;
-    rdfs:label "Linkset: dataset - entity"@en ;
+    rdfs:label "Linkset: dataset - Wikidata Entities (wde:)"@en,
+        "Linkset: dataset - entity"@en ;
     void:linkPredicate dcterms:publisher,
         <http://purl.org/ontology/bibo/issuer>,
         <http://www.spp-haefen.de/ont#place_technique>,
@@ -112,7 +113,7 @@
         3450 .
 
 <http://data.archaeology.link/data/spphaefen/dataset_xmlns.com_foaf_0.1_> a void:Linkset ;
-    rdfs:label "Linkset: dataset - 0.1"@en ;
+    rdfs:label "Linkset: dataset - Friend Of A Friend Ontology (foaf:)"@en ;
     void:linkPredicate rdf:type ;
     void:objectsTarget foaf: ;
     void:subjectsTarget <http://data.archaeology.link/data/spphaefen/dataset> ;
@@ -400,23 +401,7 @@
 
 <http://dbpedia.org/resource/Location> rdfs:label "Location"@en .
 
-void: rdfs:label "Vocabulary of Interlinked Datasets (VoID)"@en .
-
-rdf: rdfs:label "The RDF Concepts Vocabulary (RDF)"@en .
-
-rdfs: rdfs:label "The RDF Schema vocabulary (RDFS)"@en .
-
-owl: rdfs:label "Web Ontology Language 2 Vocabulary"@en .
-
-sosa: rdfs:label "Sensor, Observation, Sample, and Actuator (SOSA) Ontology"@en .
-
-<http://www.wikidata.org/entity/Q121810372> rdfs:label "Location"@en .
-
-geo: rdfs:label "The GeoSPARQL Ontology"@en .
-
-dcat: rdfs:label "DCAT Vocabulary"@en .
-
-foaf: rdfs:label "Friend Of A Friend Ontology"@en .
+<http://www.wikidata.org/entity/Q121810372> rdfs:label "geospatial data"@en .
 
 foaf:Person rdfs:label "Person"@en .
 
@@ -424,7 +409,7 @@ foaf:Person rdfs:label "Person"@en .
     rdfs:label "dataset"@en ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
-    dcterms:modified "2024-01-27T23:55:40"^^xsd:dateTime ;
+    dcterms:modified "2024-01-28T02:28:57"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
