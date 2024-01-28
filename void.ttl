@@ -411,7 +411,7 @@ foaf:Person rdfs:label "Person"@en .
     rdfs:label "dataset"@en ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
-    dcterms:modified "2024-01-28T03:26:50"^^xsd:dateTime ;
+    dcterms:modified "2024-01-28T03:38:58"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://www.wikidata.org/entity/Q121810372>,
