@@ -401,6 +401,8 @@
 
 <http://dbpedia.org/resource/Location> rdfs:label "Location"@en .
 
+<http://dbpedia.org/resource/OGC_GeoSPARQL> rdfs:label "OGC GeoSPARQL"@en .
+
 <http://www.wikidata.org/entity/Q121810372> rdfs:label "geospatial data"@en .
 
 foaf:Person rdfs:label "Person"@en .
@@ -409,8 +411,9 @@ foaf:Person rdfs:label "Person"@en .
     rdfs:label "dataset"@en ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
-    dcterms:modified "2024-01-28T02:28:57"^^xsd:dateTime ;
+    dcterms:modified "2024-01-28T02:54:45"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
     dcterms:title "dataset"@en ;
