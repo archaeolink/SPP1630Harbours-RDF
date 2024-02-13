@@ -9,5 +9,5 @@
     rdfs:label "Occurrences of vocabulary http://xmlns.com/foaf/0.1/ in spp_dataset" ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     ns1:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
-    ns1:occurrences 163 .
+    ns1:occurrences 326 .
 

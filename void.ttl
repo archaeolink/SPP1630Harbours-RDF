@@ -54,7 +54,7 @@
 <http://data.archaeology.link/data/spphaefen/dcat_spp_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dcat# in spp_dataset" ;
     voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
-    voaf:occurrences 2 .
+    voaf:occurrences 4 .
 
 <http://data.archaeology.link/data/spphaefen/dcmitype_spp_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcmitype/ in spp_dataset" ;
@@ -71,12 +71,12 @@
 <http://data.archaeology.link/data/spphaefen/foaf_spp_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://xmlns.com/foaf/0.1/ in spp_dataset" ;
     voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
-    voaf:occurrences 163 .
+    voaf:occurrences 326 .
 
 <http://data.archaeology.link/data/spphaefen/geo_spp_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in spp_dataset" ;
     voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
-    voaf:occurrences 2 .
+    voaf:occurrences 4 .
 
 <http://data.archaeology.link/data/spphaefen/odrl_spp_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in spp_dataset" ;
@@ -121,7 +121,7 @@
 <http://data.archaeology.link/data/spphaefen/skos_spp_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2004/02/skos/core# in spp_dataset" ;
     voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
-    voaf:occurrences 3 .
+    voaf:occurrences 6 .
 
 <http://data.archaeology.link/data/spphaefen/sosa_spp_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/sosa/ in spp_dataset" ;
@@ -225,7 +225,7 @@
 <http://data.archaeology.link/data/spphaefen/time_spp_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2006/time# in spp_dataset" ;
     voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
-    voaf:occurrences 4573 .
+    voaf:occurrences 9146 .
 
 <http://data.archaeology.link/data/spphaefen/vann_spp_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/vocab/vann/ in spp_dataset" ;
@@ -763,7 +763,7 @@ foaf:Person rdfs:label "Person"@en .
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
-    dcterms:modified "2024-02-13T03:08:17"^^xsd:dateTime ;
+    dcterms:modified "2024-02-13T03:24:10"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
