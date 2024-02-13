@@ -13,5 +13,5 @@
     dc:title "Die Mainzer Römerschiffe: Berichte Über Entdeckung, Ausgrabung und Bergung"@en ;
     dcterms:publisher "H. Krach" ;
     ns1:volume "1"^^xsd:string ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

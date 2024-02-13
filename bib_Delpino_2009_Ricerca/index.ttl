@@ -12,5 +12,5 @@
     dc:title "La Ricerca archeologica in acque interne: il villaggio neolitico de 'la marmotta' sulle antiche sponde del lago di bracciano (Anguillara Sabazia, Roma)"@en ;
     ns1:pageEnd 274 ;
     ns1:pageStart 263 ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

@@ -16,5 +16,5 @@
     dc:title "Die neolithischen Ufersiedlungen von Twann. Band 3: Der bronzezeitliche Einbaum und die nachneolithischen Sedimente"@en ;
     dcterms:publisher "Staatlicher Lehrmittelverlag Bern 1977" ;
     ns1:volume "3"^^xsd:string ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

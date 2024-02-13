@@ -11,5 +11,5 @@
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dc:title "Viking Age Ships and Shipbuilding in Hedeby/Haithabu and Schleswig. Ships and Boats of the North Vol. 2"@en ;
     dcterms:publisher "Schleswig and Roskilde" ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

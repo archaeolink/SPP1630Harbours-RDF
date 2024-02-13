@@ -12,5 +12,5 @@
     dc:title "A landlubber's view of shipbuilding procedure in the Celtic barges of Zwammerdam, the Netherlands"@en ;
     ns1:pageEnd 51 ;
     ns1:pageStart 35 ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

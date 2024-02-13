@@ -11,5 +11,5 @@
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dc:title "Waardestelling Vleuten 2: een 10e-eeuwse aak ontdekt bij het graven van de Vikingrijn op de Vinex-locatie Leidsche Rijn, Utrecht"@en ;
     dcterms:publisher "Amersfoort: Rijksdienst voor het Cultureel Erfgoed" ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

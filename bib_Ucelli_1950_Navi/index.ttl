@@ -12,5 +12,5 @@
     dc:title "Le Navi di Nemi"@en ;
     ns1:issuer "fig" ;
     ns1:volume "200"^^xsd:string ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

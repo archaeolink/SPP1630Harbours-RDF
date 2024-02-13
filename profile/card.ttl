@@ -6,7 +6,7 @@
     foaf:primaryTopic <https://archaeolink.github.io/SPP1630Harbours-RDF/profile/card#> .
 
 <https://archaeolink.github.io/SPP1630Harbours-RDF/profile/card#> a foaf:Person ;
-    ns2:storage <https://archaeolink.github.io/SPP1630Harbours-RDF> ;
+    ns2:storage <https://archaeolink.github.io/SPP1630Harbours-RDFspp_dataset> ;
     ns1:privateTypeIndex <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/privateTypeIndex.ttl> ;
     ns1:publicTypeIndex <https://archaeolink.github.io/SPP1630Harbours-RDF/settings/publicTypeIndex.ttl> .
 

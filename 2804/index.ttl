@@ -20,7 +20,7 @@
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dcterms:isReferencedBy <http://data.archaeology.link/data/spphaefen/bib_Vlierman_1996_Kleine> ;
     dcterms:partOf <http://data.archaeology.link/data/spphaefen/bib_dbt_mods_00035241> ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
     geo:hasGeometry <http://data.archaeology.link/data/spphaefen/2804_geom> ;
     ns3:locationSecure "highly reliable"^^xsd:string ;
     ns3:place_technique "unknown" ;

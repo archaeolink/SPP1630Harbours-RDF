@@ -18,7 +18,7 @@
     dc:creator <http://data.archaeology.link/data/spphaefen/l_kroeger> ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/spphaefen/bib_dbt_mods_00035241> ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
     geo:hasGeometry <http://data.archaeology.link/data/spphaefen/2233_geom> ;
     ns3:locationSecure "uncertain"^^xsd:string ;
     ns3:place_technique <http://www.wikidata.org/entity/Q596073> ;

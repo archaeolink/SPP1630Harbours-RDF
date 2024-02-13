@@ -12,5 +12,5 @@
     dc:title "The conservation of the Poole log-boat: sucrose treatment on a large scale"@en ;
     ns1:pageEnd 291 ;
     ns1:pageStart 281 ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

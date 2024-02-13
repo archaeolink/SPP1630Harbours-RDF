@@ -13,5 +13,5 @@
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dc:title "Der Rhein als europäische Verkehrsachse: II"@en ;
     dcterms:publisher "Vor-und Frühgeschichtliche Archäologie, Rheinische Friedrich-Wilhelms~…" ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

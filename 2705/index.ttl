@@ -21,7 +21,7 @@
     dcterms:isReferencedBy <http://data.archaeology.link/data/spphaefen/bib_Bonino_2003_Sogno>,
         <http://data.archaeology.link/data/spphaefen/bib_Ucelli_1950_Navi> ;
     dcterms:partOf <http://data.archaeology.link/data/spphaefen/bib_dbt_mods_00035241> ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
     geo:hasGeometry <http://data.archaeology.link/data/spphaefen/2705_geom> ;
     ns2:locationSecure "reliable"^^xsd:string ;
     ns2:place_technique "planked vessel" ;

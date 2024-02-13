@@ -13,5 +13,5 @@
     dc:title "Die römerzeitlichen Schiffsfunde von Oberstimm in Bayern"@en ;
     dcterms:publisher <http://www.wikidata.org/entity/Q108267756> ;
     ns1:volume "50"^^xsd:string ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

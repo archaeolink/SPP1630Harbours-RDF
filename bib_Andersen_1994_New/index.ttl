@@ -12,5 +12,5 @@
     dc:title "New finds of Mesolithic logboats in Denmark"@en ;
     ns1:pageEnd 10 ;
     ns1:pageStart 1 ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

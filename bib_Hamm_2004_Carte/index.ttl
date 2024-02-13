@@ -11,5 +11,5 @@
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dc:title "Carte archéologique de la Gaule: La Meurthe-et-Moselle"@en ;
     dcterms:publisher "Académie des inscriptions et belles-lettres" ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

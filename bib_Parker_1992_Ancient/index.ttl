@@ -11,5 +11,5 @@
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dc:title "Ancient shipwrecks of the Mediterranean and the Roman provinces"@en ;
     dcterms:publisher "British Archaeological Reports" ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

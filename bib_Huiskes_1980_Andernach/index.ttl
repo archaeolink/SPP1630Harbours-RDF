@@ -13,5 +13,5 @@
     dc:title "Andernach im Mittelalter: von den Anfängen bis zum Ende des 14. Jahrhunderts"@en ;
     dcterms:publisher "L. Röhrscheid" ;
     ns1:isbn "9783792804414"^^xsd:string ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

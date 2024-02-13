@@ -12,5 +12,5 @@
     dc:title "Ships of Aquileia"@en ;
     ns1:issuer "Underwater archaeological research on marine and inland routes of the Upper Adriatic Sea. Skyllis-Zeitschrift für Unterwasserarchäologie" ;
     ns1:volume "13"^^xsd:string ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

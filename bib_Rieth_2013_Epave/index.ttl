@@ -12,5 +12,5 @@
     dc:title "L'épave de la première moitié du xve siècle de la Canche à Beutin (Pas-de-Calais). Archéologie nautique d'un caboteur fluvio-maritime et d'un territoire fluvial"@en ;
     ns1:issuer "Revue du Nord. Collection Archéologie (Hors série)" ;
     ns1:volume "20"^^xsd:string ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

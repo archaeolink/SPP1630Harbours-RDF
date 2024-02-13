@@ -12,5 +12,5 @@
     dc:title "Sewn boats in Italy: sutiles naves and barche cucite"@en ;
     ns1:pageEnd 104 ;
     ns1:pageStart 87 ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

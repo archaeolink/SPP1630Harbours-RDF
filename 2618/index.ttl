@@ -19,7 +19,7 @@
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dcterms:isReferencedBy <http://data.archaeology.link/data/spphaefen/bib_Gregory_1997_Comparative> ;
     dcterms:partOf <http://data.archaeology.link/data/spphaefen/bib_dbt_mods_00035241> ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
     geo:hasGeometry <http://data.archaeology.link/data/spphaefen/2618_geom> ;
     ns2:locationSecure "reliable"^^xsd:string ;
     ns2:place_technique <http://www.wikidata.org/entity/Q596073> ;

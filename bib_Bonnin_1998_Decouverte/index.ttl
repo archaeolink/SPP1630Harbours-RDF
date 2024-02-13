@@ -12,5 +12,5 @@
     dc:title "Découverte de deux pirogues monoxyles mésolithiques entre Corbeil-Essonnes (Essonne) et Melun (Seine-et-Marne)"@en ;
     ns1:pageEnd 311 ;
     ns1:pageStart 305 ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

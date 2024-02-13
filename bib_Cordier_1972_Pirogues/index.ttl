@@ -17,5 +17,5 @@
     ns1:pageEnd 211 ;
     ns1:pageStart 206 ;
     ns1:volume "69"^^xsd:string ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

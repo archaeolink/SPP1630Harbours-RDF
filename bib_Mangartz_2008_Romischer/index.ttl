@@ -13,5 +13,5 @@
     dc:title "Römischer Basaltlava-Abbau zwischen Eifel und Rhein: Monographien des Römisch-Germanischen Zentralmuseums"@en ;
     dcterms:publisher <https://www.wikidata.org/entity/Q878029> ;
     ns1:isbn "9783884671153"^^xsd:string ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

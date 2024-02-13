@@ -22,7 +22,7 @@
         <http://data.archaeology.link/data/spphaefen/bib_Bonino_1985_Sewn>,
         <http://data.archaeology.link/data/spphaefen/bib_Parker_1992_Ancient> ;
     dcterms:partOf <http://data.archaeology.link/data/spphaefen/bib_dbt_mods_00035241> ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
     geo:hasGeometry <http://data.archaeology.link/data/spphaefen/2653_geom> ;
     ns1:locationSecure "uncertain"^^xsd:string ;
     ns1:place_technique "unknown" ;

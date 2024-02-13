@@ -21,7 +21,7 @@
     dcterms:isReferencedBy <http://data.archaeology.link/data/spphaefen/bib_Rech_2004_Gefundene>,
         <http://data.archaeology.link/data/spphaefen/bib_Zwick_2012_Variationen> ;
     dcterms:partOf <http://data.archaeology.link/data/spphaefen/bib_dbt_mods_00035241> ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
     geo:hasGeometry <http://data.archaeology.link/data/spphaefen/1477_geom> ;
     ns1:locationSecure "highly reliable"^^xsd:string ;
     ns1:place_technique "planked vessel" ;

@@ -13,5 +13,5 @@
     dc:title "Einbaumfunde aus dem Salzburger Land"@en ;
     dcterms:publisher <http://www.wikidata.org/entity/Q1601032> ;
     ns1:volume "90"^^xsd:string ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

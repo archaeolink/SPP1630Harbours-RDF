@@ -14,5 +14,5 @@
     dc:title "Treatment of Neolithic dugout canoe from Paris-Bercy: controlled drying after PEG impregnation and attempt at modelling of the drying process"@en ;
     ns1:pageEnd 580 ;
     ns1:pageStart 567 ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

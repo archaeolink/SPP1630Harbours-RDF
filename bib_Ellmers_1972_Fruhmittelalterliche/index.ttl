@@ -13,5 +13,5 @@
     dc:title "Frühmittelalterliche Handelsschiffahrt in Mittel-und Nordeuropa"@en ;
     dcterms:publisher "K. Wachholtz" ;
     ns1:volume "28"^^xsd:string ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

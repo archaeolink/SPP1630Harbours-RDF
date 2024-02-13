@@ -23,7 +23,7 @@
         <http://data.archaeology.link/data/spphaefen/bib_Parker_1992_Ancient>,
         <http://data.archaeology.link/data/spphaefen/bib_Terfve_1998_Remontage> ;
     dcterms:partOf <http://data.archaeology.link/data/spphaefen/bib_dbt_mods_00035241> ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
     geo:hasGeometry <http://data.archaeology.link/data/spphaefen/49_geom> ;
     ns2:locationSecure "reliable"^^xsd:string ;
     ns2:place_technique <http://www.wikidata.org/entity/Q5457690> ;

@@ -20,7 +20,7 @@
     dcterms:isReferencedBy <http://data.archaeology.link/data/spphaefen/bib_Beaudouin_2004_Anciens>,
         <http://data.archaeology.link/data/spphaefen/bib_Joncheray_1986_embarcations> ;
     dcterms:partOf <http://data.archaeology.link/data/spphaefen/bib_dbt_mods_00035241> ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
     geo:hasGeometry <http://data.archaeology.link/data/spphaefen/1143_geom> ;
     ns2:locationSecure "reliable"^^xsd:string ;
     ns2:place_technique <http://www.wikidata.org/entity/Q596073> ;

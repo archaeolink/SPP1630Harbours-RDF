@@ -9,5 +9,5 @@
     dc:creator <http://data.archaeology.link/data/spphaefen/author_Van_Holk_André_FL> ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dc:title "48 A Roman barge with an artefactual inventory from De Meern (the Netherlands)"@en ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

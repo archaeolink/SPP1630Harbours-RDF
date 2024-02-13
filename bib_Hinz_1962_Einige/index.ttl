@@ -12,5 +12,5 @@
     dc:title "Einige niederrheinische Fundstellen mit mittelalterlicher Keramik"@en ;
     ns1:issuer <http://www.wikidata.org/entity/Q892739> ;
     ns1:volume "162"^^xsd:string ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

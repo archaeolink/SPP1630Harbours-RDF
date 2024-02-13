@@ -12,5 +12,5 @@
     dc:title "The Brigg' Raft': problems in reconstruction and in the assessment of performance"@en ;
     ns1:pageEnd 194 ;
     ns1:pageStart 165 ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

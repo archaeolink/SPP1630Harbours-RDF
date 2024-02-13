@@ -12,5 +12,5 @@
     dc:title "A new boat burial from the Snape Anglo-Saxon cemetery, Suffolk"@en ;
     ns1:pageEnd 134 ;
     ns1:pageStart 126 ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

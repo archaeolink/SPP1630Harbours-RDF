@@ -16,5 +16,5 @@
     ns1:number 6 ;
     ns1:pageEnd 55 ;
     ns1:pageStart 54 ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

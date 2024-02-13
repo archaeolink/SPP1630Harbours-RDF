@@ -13,5 +13,5 @@
     ns1:issuer "Batellerie gallo-romaine: pratiques régionales et influences maritimes méditerranéennes. Actes de la table ronde internationale, Aix-en-Provence" ;
     ns1:pageEnd 151 ;
     ns1:pageStart 131 ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

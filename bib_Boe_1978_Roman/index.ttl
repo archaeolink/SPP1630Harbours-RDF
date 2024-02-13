@@ -13,5 +13,5 @@
     ns1:issuer "Roman Shipping and Trade: Britain and the Rhine Provinces, Hertford" ;
     ns1:pageEnd 30 ;
     ns1:pageStart 22 ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

@@ -13,5 +13,5 @@
     ns1:issuer <https://www.wikidata.org/entity/Q121363522> ;
     ns1:pageEnd 92 ;
     ns1:pageStart 90 ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

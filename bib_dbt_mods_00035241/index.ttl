@@ -14,5 +14,5 @@
     dc:title "Within The Network Of Fluvial Ports : Database (csv)"@en ;
     ns1:doi "10.22032/dbt.35241"^^xsd:string ;
     ns1:volume "1"^^xsd:string ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

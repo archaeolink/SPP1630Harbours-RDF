@@ -20,7 +20,7 @@
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dcterms:isReferencedBy <http://data.archaeology.link/data/spphaefen/bib_Hirte_1987_Archaologie> ;
     dcterms:partOf <http://data.archaeology.link/data/spphaefen/bib_dbt_mods_00035241> ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
     geo:hasGeometry <http://data.archaeology.link/data/spphaefen/2737_geom> ;
     ns1:locationSecure "reliable"^^xsd:string ;
     ns1:place_technique <http://www.wikidata.org/entity/Q596073> ;

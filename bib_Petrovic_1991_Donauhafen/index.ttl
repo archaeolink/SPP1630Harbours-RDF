@@ -14,5 +14,5 @@
     dc:title "Ein Donauhafen von Trajan bei dem Kastell Aquae (Moesia Superior)"@en ;
     ns1:pageEnd 8 ;
     ns1:pageStart 295 ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

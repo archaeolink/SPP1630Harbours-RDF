@@ -13,5 +13,5 @@
     ns1:issuer "Einbaum, Lastensegler, Dampfschiff. Frühe Schifffahrt in Südwestdeutschland (Stuttgart 2000)" ;
     ns1:pageEnd 50 ;
     ns1:pageStart 41 ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 

@@ -12,5 +12,5 @@
     dc:title "A new look at the Utrecht ship’"@en ;
     ns1:number 9 ;
     ns1:volume "183"^^xsd:string ;
-    void:inDataset <http://data.archaeology.link/data/spphaefen/dataset> .
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
 
