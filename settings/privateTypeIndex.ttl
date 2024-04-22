@@ -1,6 +1,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://archaeolink.github.io/SPP1630Harbours-RDF/settings/privateTypeIndex.ttl> a <http://www.w3.org/ns/ldp#RDFResource>,
+<https://archaeolink.github.io/SPP1630Harbours-RDF//settings/privateTypeIndex.ttl> a <http://www.w3.org/ns/ldp#RDFResource>,
         <http://www.w3.org/ns/solid/terms#ListedDocument>,
         <http://www.w3.org/ns/solid/terms#TypeIndex> ;
     rdfs:label "Private Type Index"@en ;

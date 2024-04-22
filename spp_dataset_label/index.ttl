@@ -9,5 +9,5 @@
     rdfs:label "Property Partition: label"@en ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     void:property rdfs:label ;
-    void:triples 12161 .
+    void:triples 12174 .
 

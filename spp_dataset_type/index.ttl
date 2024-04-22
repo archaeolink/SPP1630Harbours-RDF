@@ -10,5 +10,5 @@
     rdfs:label "Property Partition: type"@en ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     void:property rdf:type ;
-    void:triples 11859 .
+    void:triples 11872 .
 
