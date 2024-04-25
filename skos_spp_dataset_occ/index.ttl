@@ -9,5 +9,5 @@
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2004/02/skos/core# in spp_dataset" ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     ns1:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
-    ns1:occurrences 6 .
+    ns1:occurrences 8 .
 
