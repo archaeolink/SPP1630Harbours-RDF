@@ -11518,6 +11518,7 @@ owl:ObjectProperty a owl:Class .
         <https://archaeolink.github.io/SPP1630Harbours-RDF//settings/publicTypeIndex.ttl#Document>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF//settings/publicTypeIndex.ttl#Document_collection>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF//settings/publicTypeIndex.ttl#Feature>,
+        <https://archaeolink.github.io/SPP1630Harbours-RDF//settings/publicTypeIndex.ttl#FeatureCollection>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF//settings/publicTypeIndex.ttl#Geometry>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF//settings/publicTypeIndex.ttl#GeometryCollection>,
         <https://archaeolink.github.io/SPP1630Harbours-RDF//settings/publicTypeIndex.ttl#Group>,
@@ -11924,6 +11925,9 @@ owl:ObjectProperty a owl:Class .
         <https://archaeolink.github.io/SPP1630Harbours-RDF//settings/publicTypeIndex.ttl#nonns_Q97623887.html> .
 
 <http://purl.org/ontology/bibo/BookSection> a owl:Class .
+
+geo:FeatureCollection a owl:Class ;
+    rdfs:subClassOf geo:SpatialObjectCollection .
 
 geo:GeometryCollection a owl:Class ;
     rdfs:subClassOf geo:SpatialObjectCollection .
@@ -46398,6 +46402,9 @@ dcat:Dataset a owl:Class .
 <https://archaeolink.github.io/SPP1630Harbours-RDF//settings/publicTypeIndex.ttl#Feature> ns1:forClass <#> ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF//Feature> .
 
+<https://archaeolink.github.io/SPP1630Harbours-RDF//settings/publicTypeIndex.ttl#FeatureCollection> ns1:forClass geo:SpatialObjectCollection ;
+    ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF//FeatureCollection> .
+
 <https://archaeolink.github.io/SPP1630Harbours-RDF//settings/publicTypeIndex.ttl#Geometry> ns1:forClass <#> ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF//Geometry> .
 
@@ -46410,7 +46417,7 @@ dcat:Dataset a owl:Class .
 <https://archaeolink.github.io/SPP1630Harbours-RDF//settings/publicTypeIndex.ttl#Harbour> ns1:forClass geo:Feature ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF//Harbour> .
 
-<https://archaeolink.github.io/SPP1630Harbours-RDF//settings/publicTypeIndex.ttl#Harbour_collection> ns1:forClass skos:Collection ;
+<https://archaeolink.github.io/SPP1630Harbours-RDF//settings/publicTypeIndex.ttl#Harbour_collection> ns1:forClass geo:FeatureCollection ;
     ns1:instance <https://archaeolink.github.io/SPP1630Harbours-RDF//Harbour_collection> .
 
 <https://archaeolink.github.io/SPP1630Harbours-RDF//settings/publicTypeIndex.ttl#Instant> ns1:forClass <#> ;
@@ -47620,12 +47627,12 @@ geo:Geometry a owl:Class ;
 
 geo:SpatialObject a owl:Class .
 
-geo:SpatialObjectCollection a owl:Class ;
-    rdfs:subClassOf skos:Collection .
-
 <http://purl.org/ontology/bibo/Document> a owl:Class .
 
 <http://purl.org/ontology/bibo/Thesis> a owl:Class .
+
+geo:SpatialObjectCollection a owl:Class ;
+    rdfs:subClassOf skos:Collection .
 
 <http://purl.org/ontology/bibo/Collection> a owl:Class ;
     rdfs:subClassOf skos:Collection .

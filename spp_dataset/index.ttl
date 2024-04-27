@@ -40,15 +40,15 @@
     ns1:averageSubjectIRILength 55 ;
     ns1:datatypes 0 ;
     ns1:distinctBlankNodes 0 ;
-    ns1:distinctIRIReferences 44232 ;
+    ns1:distinctIRIReferences 44234 ;
     ns1:distinctLiterals 0 ;
-    ns1:distinctRDFNodes 44232 ;
+    ns1:distinctRDFNodes 44234 ;
     ns1:languages 0 ;
     ns1:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     dcterms:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
-    dcterms:modified "2024-04-27T00:59:57"^^xsd:dateTime ;
+    dcterms:modified "2024-04-27T01:18:12"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -65,6 +65,7 @@
         <http://data.archaeology.link/data/spphaefen/spp_dataset_Dataset>,
         <http://data.archaeology.link/data/spphaefen/spp_dataset_Document>,
         <http://data.archaeology.link/data/spphaefen/spp_dataset_Feature>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_FeatureCollection>,
         <http://data.archaeology.link/data/spphaefen/spp_dataset_Geometry>,
         <http://data.archaeology.link/data/spphaefen/spp_dataset_GeometryCollection>,
         <http://data.archaeology.link/data/spphaefen/spp_dataset_Group>,
@@ -80,10 +81,10 @@
         <http://data.archaeology.link/data/spphaefen/spp_dataset_SpatialObjectCollection>,
         <http://data.archaeology.link/data/spphaefen/spp_dataset_TemporalEntity>,
         <http://data.archaeology.link/data/spphaefen/spp_dataset_Thesis> ;
-    void:classes 24 ;
+    void:classes 25 ;
     void:dataDump <https://archaeolink.github.io/SPP1630Harbours-RDF//index.ttl> ;
-    void:distinctObjects 31847 ;
-    void:distinctSubjects 12349 ;
+    void:distinctObjects 31848 ;
+    void:distinctSubjects 12350 ;
     void:entities 11836 ;
     void:exampleResource <http://data.archaeology.link/data/spphaefen/Harbour_collection> ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
@@ -126,7 +127,7 @@
         <http://data.archaeology.link/data/spphaefen/spp_dataset_type>,
         <http://data.archaeology.link/data/spphaefen/spp_dataset_volume> ;
     void:rootResource <http://data.archaeology.link/data/spphaefen/Harbour_collection> ;
-    void:triples 99491 ;
+    void:triples 99492 ;
     void:uriSpace "http://data.archaeology.link/data/spphaefen/"^^xsd:string ;
     void:vocabulary ns1:,
         dcam:,
