@@ -6,7 +6,7 @@
 <http://data.archaeology.link/data/spphaefen/spp_dataset_gepris.dfg.de_gepris_projekt_> a void:Linkset,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Linkset: spp_dataset - "@en ;
+    rdfs:label "Linkset: spp_dataset - projekt"@en ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     void:linkPredicate <http://purl.org/cerif/frapo/isOutputOf> ;
     void:objectsTarget <https://gepris.dfg.de/gepris/projekt/> ;
