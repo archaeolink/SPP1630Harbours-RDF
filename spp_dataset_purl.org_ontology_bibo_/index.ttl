@@ -7,7 +7,7 @@
 <http://data.archaeology.link/data/spphaefen/spp_dataset_purl.org_ontology_bibo_> a void:Linkset,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Linkset: spp_dataset - Bibliography Ontology (bibo:)"@en ;
+    rdfs:label "Linkset: spp_dataset - "@en ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
     void:linkPredicate rdf:type ;
     void:objectsTarget <http://purl.org/ontology/bibo/> ;
