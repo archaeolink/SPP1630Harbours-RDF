@@ -24238,10 +24238,6 @@ var tree={
             "http://www.w3.org/2004/02/skos/core#note": {
               "instancecount": 1
             },
-            "http://www.w3.org/2006/time#hasTime": {
-              "instancecount": 0,
-              "http://www.w3.org/2006/time#TemporalEntity": 1
-            },
             "http://www.wikidata.org/prop/direct/P17": {
               "instancecount": 0
             },
@@ -24507,7 +24503,7 @@ var tree={
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
               "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 124
+              "http://www.spp-haefen.de/ont#Harbour": 10
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -25417,16 +25413,6 @@ var tree={
               "instancecount": 0
             },
             "http://purl.org/ontology/bibo/issuer": {
-              "instancecount": 0,
-              "http://purl.org/ontology/bibo/Journal": 1
-            },
-            "http://purl.org/ontology/bibo/number": {
-              "instancecount": 0
-            },
-            "http://purl.org/ontology/bibo/pageEnd": {
-              "instancecount": 0
-            },
-            "http://purl.org/ontology/bibo/pageStart": {
               "instancecount": 0
             },
             "http://purl.org/ontology/bibo/volume": {
@@ -25444,7 +25430,7 @@ var tree={
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
               "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 2
+              "http://www.spp-haefen.de/ont#Harbour": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -25620,6 +25606,10 @@ var tree={
             }
           },
           "from": {
+            "http://purl.org/dc/terms/isReferencedBy": {
+              "instancecount": 0,
+              "http://www.spp-haefen.de/ont#Harbour": 2
+            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://purl.org/ontology/bibo/Collection": 1
@@ -25679,6 +25669,10 @@ var tree={
             }
           },
           "from": {
+            "http://purl.org/dc/terms/isReferencedBy": {
+              "instancecount": 0,
+              "http://www.spp-haefen.de/ont#Harbour": 1
+            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://purl.org/ontology/bibo/Collection": 1
@@ -83134,7 +83128,7 @@ var tree={
           "from": {
             "http://purl.org/dc/elements/1.1/creator": {
               "instancecount": 0,
-              "http://purl.org/ontology/bibo/Proceedings": 1
+              "http://purl.org/ontology/bibo/Article": 2
             },
             "http://www.w3.org/2006/vcard/ns#hasMember": {
               "instancecount": 0,
@@ -83189,10 +83183,6 @@ var tree={
             "http://purl.org/dc/elements/1.1/title": {
               "instancecount": 0
             },
-            "http://purl.org/dc/terms/publisher": {
-              "instancecount": 0,
-              "http://xmlns.com/foaf/0.1/Organization": 1
-            },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
               "http://www.w3.org/ns/adms#Asset": 1,
@@ -83205,7 +83195,7 @@ var tree={
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
               "instancecount": 0,
-              "http://www.spp-haefen.de/ont#Harbour": 35
+              "http://www.spp-haefen.de/ont#Harbour": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -83283,14 +83273,13 @@ var tree={
               "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://purl.org/ontology/bibo/BookSection": 1,
-              "http://www.w3.org/ns/dcat#Dataset": 1
+              "instancecount": 2,
+              "http://purl.org/ontology/bibo/Document": 3
             }
           },
           "from": {}
         },
-        "instancecount": 1
+        "instancecount": 3
       },
       {
         "id": "http://www.w3.org/2004/02/skos/core#Collection",
@@ -83311,13 +83300,13 @@ var tree={
               "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://purl.org/ontology/bibo/Collection": 1
+              "instancecount": 1525,
+              "http://www.w3.org/2006/time#TemporalEntity": 1526
             }
           },
           "from": {}
         },
-        "instancecount": 1
+        "instancecount": 1526
       },
       {
         "id": "http://data.archaeology.link/data/spphaefen/nonns_Q15765043.html",
