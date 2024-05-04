@@ -1,8 +1,8 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix ns1: <http://www.spp-haefen.de/ont#> .
-@prefix ns2: <http://purl.org/cerif/frapo/> .
+@prefix ns1: <http://purl.org/cerif/frapo/> .
+@prefix ns2: <http://www.spp-haefen.de/ont#> .
 @prefix ns3: <http://www.wikidata.org/prop/direct/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -10,11 +10,11 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/spphaefen/2807> a ns1:Harbour,
+<http://data.archaeology.link/data/spphaefen/2807> a ns2:Harbour,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Kapel-Avezaath, Gelderland"@en ;
-    ns2:isOutputOf <https://gepris.dfg.de/gepris/projekt/198801704> ;
+    ns1:isOutputOf <https://gepris.dfg.de/gepris/projekt/198801704> ;
     dc:created "2014"^^xsd:gYear ;
     dc:creator <http://data.archaeology.link/data/spphaefen/l_kroeger> ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
@@ -23,8 +23,8 @@
     dcterms:partOf <http://data.archaeology.link/data/spphaefen/bib_dbt_mods_00035241> ;
     void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
     geo:hasGeometry <http://data.archaeology.link/data/spphaefen/2807_geom> ;
-    ns1:locationSecure "reliable"^^xsd:string ;
-    ns1:place_technique <http://www.wikidata.org/entity/Q5457690> ;
+    ns2:locationSecure "reliable"^^xsd:string ;
+    ns2:place_technique <http://www.wikidata.org/entity/Q5457690> ;
     skos:note "Bockius 2002a",
         "Bockius 2003a",
         "Bockius 2003a, S. 487; Bockius 2002a; Lehmann 1990; Hakelberg 2003, S. 196f.; Ellmers 1972, S. 292; Brouwers u. a. 2013, S. 26; Böcking 1980, S. 341",
