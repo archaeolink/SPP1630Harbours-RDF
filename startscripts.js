@@ -1842,7 +1842,7 @@ function setupLeaflet(baselayers,epsg,baseMaps,overlayMaps,map,featurecolls,date
         clustersfrozen=!clustersfrozen
     }, 'toggleClusters')
     layercontrol=L.control.layers(baseMaps,overlayMaps).addTo(map)
-	if(dateatt!=null && dateatt!=""){
+	if(dateatt!=null && dateatt!="" && dateatt!="[]" && dateatt!=[]){
 		var sliderControl = L.control.sliderControl({
 			position: "bottomleft",
 			layer: layerr,
@@ -1851,6 +1851,9 @@ function setupLeaflet(baselayers,epsg,baseMaps,overlayMaps,map,featurecolls,date
 			showAllOnStart: true,
 			timeAttribute: dateatt
 		});
+        sliderControl.options.markers.sort(function (a, b) {
+            return (a.properties[dateatt] > b.properties[dateatt]);
+        });
 		map.addControl(sliderControl);
 		sliderControl.startSlider();
 	}
