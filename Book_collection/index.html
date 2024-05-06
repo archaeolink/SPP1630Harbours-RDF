@@ -26,118 +26,33 @@ var relativedepth=1</script><body><div id="header"><h1 id="title"><a href="http:
 </select><a id="formatlink" href="#" target="_blank"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg></a>&nbsp;
 <button id="downloadButton" onclick="download()">Download</button><a href="..//sparql.html?endpoint=https://archaeolink.github.io/SPP1630Harbours-RDF//index.ttl&query=SELECT%20?sub%20?pred%20?obj%20%0AWHERE%20%7B%0A%20BIND(%3Chttp%3A//data.archaeology.link/data/spphaefen/Book_collection%3E%20AS%20?sub)%20%0A?sub%20?pred%20?obj%20.%20%0A%7D%0A">Query</a><br/></div></div><dialog id="classrelationdialog" width="500" height="500" modal="true"></dialog><dialog id="dataschemadialog" width="500" height="500" modal="true"></dialog>
 <div class="container-fluid"><div class="row-fluid" id="main-wrapper">
-<details><summary>[BIBTEX]</summary><pre>@book{bib_Rech_2004_Gefundene,
-author={Rech, Manfred},
-publisher={Landesarchäologe},
-title={Gefundene Vergangenheit: Archäologie des Mittelalters in Bremen mit besonderer Berücksichtigung von Riga; Begleitpublikation zur gleichnamigen Ausstellung im Focke-Museum/Bremer Landesmuseum vom 19. November 2003 bis 28. März 2004}
-}
-@book{bib_Weerd_1978_Ships,
+<details><summary>[BIBTEX]</summary><pre>@book{bib_Weerd_1978_Ships,
 author={de Weerd, Maarten Derk},
 title={Ships of the Roman period at Zwammerdam}
-}
-@book{bib_Vorst_2005_Constructie,
-author={Vorst, Yardeni},
-title={De constructie en herkomst van de Romeinse platbodem'Woerden 7': een studie van jaarringpatronen en bewerkingssporen}
-}
-@book{bib_Gaspari_1998_Frachtschiff,
-author={Gaspari, Andrej},
-publisher={Römisch-Germanisches Zentralmuseum},
-title={Das Frachtschiff aus Lipe im Moor von Laibach (Ljubljana)}
-}
-@book{bib_Reinders_1983_Drie,
-author={Reinders, Reiner},
-publisher={RWS, FL},
-title={Drie middeleeuwse rivierschepen gevonden bij Meinerswijk (Arnhem) opgravingsverslagen 5, 6 en 7}
-}
-@book{bib_Beaudouin_2004_Anciens,
-author={Beaudouin, Francois},
-publisher={Association des amis du Musée de la batellerie},
-title={Les anciens bateaux de la Loire: étude archéologique des épaves monoxyles de la région des Pays de Loire}
-}
-@book{bib_Maurin_1998_3000,
-author={Maurin, Bernard},
-publisher={Gaia},
-title={3000 ans sous les eaux: vingt ans de fouilles arch{'e}ologiques dans le lac de Sanguinet}
-}
-@book{bib_Lithberg_1932_Fundgegenstande,
-author={Lithberg, Nils},
-publisher={A.-B. Centraltryckeriet},
-title={Die Fundgegenstände von Nils Lithberg: Schloss Hallwil}
-}
-@book{bib_Fry_2000_Coiti,
-author={Fry, Malcolm Frederick},
-publisher={Environmental & Heritage Service, Department of the Environment},
-title={Coití: Logboats from Northern Ireland}
-}
-@book{bib_Huiskes_1980_Andernach,
-author={Huiskes, Manfred},
-isbn={9783792804414},
-publisher={L. Röhrscheid},
-title={Andernach im Mittelalter: von den Anfängen bis zum Ende des 14. Jahrhunderts}
-}
-@book{bib_Bockius_2002_Romerzeitlichen,
-author={Bockius, Ronald},
-publisher={Verlag des Römisch-Germanischen Zentralmuseums},
-title={Die römerzeitlichen Schiffsfunde von Oberstimm in Bayern},
-volume={50}
-}
-@book{bib_Bonino_2003_Sogno,
-author={Bonino, Marco},
-publisher={Felici},
-title={Un sogno ellenistico: le navi di Nemi}
-}
-@book{bib_Ammann_1977_neolithischen,
-author={Ammann, Brigitta and Furger, Alex R and Joos, Marcel and Liese-Kleiber, Helga},
-publisher={Staatlicher Lehrmittelverlag Bern 1977},
-title={Die neolithischen Ufersiedlungen von Twann. Band 3: Der bronzezeitliche Einbaum und die nachneolithischen Sedimente},
-volume={3}
-}
-@book{bib_Gresser_2008_Peche,
-author={Gresser, Pierre},
-doi={10.1484/M.BURG-EB.5.105849},
-title={Pêche et pisciculture dans les eaux princières en Franche-Comté aux XIVe et XVe siècles}
-}
-@book{bib_Kennecke_2016_Rhein,
-author={Bemmann, Jan and Kennecke, Heike and Mirschenz, Manuela},
-publisher={Vor-und Frühgeschichtliche Archäologie, Rheinische Friedrich-Wilhelms~…},
-title={Der Rhein als europäische Verkehrsachse: II}
-}
-@book{bib_Vlierman_1996_Kleine,
-author={Vlierman, Karel},
-publisher={Nederlands Instituut voor Scheeps-en onderwaterArcheologie/ROB (NISA)},
-title={Kleine bootjes en middeleeuws scheepshout met constructiedetails}
-}
-@book{bib_Ellmers_1972_Fruhmittelalterliche,
-author={Ellmers, Detlev},
-publisher={K. Wachholtz},
-title={Frühmittelalterliche Handelsschiffahrt in Mittel-und Nordeuropa},
-volume={28}
-}
-@book{bib_Hamm_2004_Carte,
-author={Hamm, Gilles},
-publisher={Académie des inscriptions et belles-lettres},
-title={Carte archéologique de la Gaule: La Meurthe-et-Moselle}
 }
 @book{bib_Ayala_2009_Lyon,
 author={Ayala, Grégoire},
 publisher={Ed. lyonnaises d'art et d'histoire},
 title={Lyon, les bateaux de Saint-Georges: une histoire sauv{'e}e des eaux}
 }
-@book{bib_Rebourg_1994_Carte,
-author={Rebourg, Alain},
-publisher={Éditions de la Maison des sciences de l'homme, Paris},
-title={Carte archéologique de la Gaule: 71/3. Saône-et-Loire}
+@book{bib_Lithberg_1932_Fundgegenstande,
+author={Lithberg, Nils},
+publisher={A.-B. Centraltryckeriet},
+title={Die Fundgegenstände von Nils Lithberg: Schloss Hallwil}
 }
-@book{bib_Beaudouin_1985_Bateaux,
-author={Beaudouin, Francois},
-publisher={Editions de l'Estran},
-title={Bateaux des fleuves de France}
+@book{bib_Gresser_2008_Peche,
+author={Gresser, Pierre},
+doi={10.1484/M.BURG-EB.5.105849},
+title={Pêche et pisciculture dans les eaux princières en Franche-Comté aux XIVe et XVe siècles}
 }
-@book{bib_Bonino_1978_Archeologia,
-author={Bonino, Marco},
-publisher={Longo},
-title={Archeologia e tradizione navale tra la Romagna e il Po},
-volume={5}
+@book{bib_Maurin_1998_3000,
+author={Maurin, Bernard},
+publisher={Gaia},
+title={3000 ans sous les eaux: vingt ans de fouilles arch{'e}ologiques dans le lac de Sanguinet}
+}
+@book{bib_Vorst_2005_Constructie,
+author={Vorst, Yardeni},
+title={De constructie en herkomst van de Romeinse platbodem'Woerden 7': een studie van jaarringpatronen en bewerkingssporen}
 }
 @book{bib_Hunold_2011_Erbe,
 author={Hunold, Angelika},
@@ -145,20 +60,15 @@ isbn={9783795424398},
 publisher={Schnell + Steiner},
 title={Das Erbe des Vulkans: eine Reise in die Erd- und Technikgeschichte zwischen Eifel und Rhein}
 }
-@book{bib_De_1978_Ships,
-author={de Weerd, Maarten Derk},
-title={Ships of the Roman period at Zwammerdam}
+@book{bib_Kennecke_2016_Rhein,
+author={Bemmann, Jan and Kennecke, Heike and Mirschenz, Manuela},
+publisher={Vor-und Frühgeschichtliche Archäologie, Rheinische Friedrich-Wilhelms~…},
+title={Der Rhein als europäische Verkehrsachse: II}
 }
-@book{bib_Rupprecht_1984_Mainzer,
-author={Rupprecht, Gerd},
-publisher={H. Krach},
-title={Die Mainzer Römerschiffe: Berichte Über Entdeckung, Ausgrabung und Bergung},
-volume={1}
-}
-@book{bib_Lommerzheim_2004_Rheinzeiten,
-author={Lommerzheim, Ralf and Oesterwind, Bernd C},
-publisher={Inst. für Denkmalschutz und Denkmalpflege},
-title={Rheinzeiten: archäologische Entdeckungen am Düsseldorfer Rheinufer}
+@book{bib_Reinders_1983_Drie,
+author={Reinders, Reiner},
+publisher={RWS, FL},
+title={Drie middeleeuwse rivierschepen gevonden bij Meinerswijk (Arnhem) opgravingsverslagen 5, 6 en 7}
 }
 @book{bib_Pohl_2009_Einbaumfunde,
 author={Pohl, Henrik},
@@ -166,15 +76,105 @@ publisher={Verlag der österreichischen Akademie der Wissenschaften},
 title={Einbaumfunde aus dem Salzburger Land},
 volume={90}
 }
+@book{bib_Vlierman_1996_Kleine,
+author={Vlierman, Karel},
+publisher={Nederlands Instituut voor Scheeps-en onderwaterArcheologie/ROB (NISA)},
+title={Kleine bootjes en middeleeuws scheepshout met constructiedetails}
+}
+@book{bib_De_1978_Ships,
+author={de Weerd, Maarten Derk},
+title={Ships of the Roman period at Zwammerdam}
+}
+@book{bib_Rech_2004_Gefundene,
+author={Rech, Manfred},
+publisher={Landesarchäologe},
+title={Gefundene Vergangenheit: Archäologie des Mittelalters in Bremen mit besonderer Berücksichtigung von Riga; Begleitpublikation zur gleichnamigen Ausstellung im Focke-Museum/Bremer Landesmuseum vom 19. November 2003 bis 28. März 2004}
+}
+@book{bib_Bonino_2003_Sogno,
+author={Bonino, Marco},
+publisher={Felici},
+title={Un sogno ellenistico: le navi di Nemi}
+}
 @book{bib_Bockius_2006_Patromischen,
 author={Bockius, Ronald},
 publisher={Verlag des Römisch-Germanischen Zentralmuseums},
 title={Die spätrömischen Schiffswracks aus Mainz: schiffsarchäologisch-technikgeschichtliche Untersuchung spätantiker Schiffsfunde vom nördlichen Oberrhein}
 }
+@book{bib_Beaudouin_1985_Bateaux,
+author={Beaudouin, Francois},
+publisher={Editions de l'Estran},
+title={Bateaux des fleuves de France}
+}
+@book{bib_Fry_2000_Coiti,
+author={Fry, Malcolm Frederick},
+publisher={Environmental & Heritage Service, Department of the Environment},
+title={Coití: Logboats from Northern Ireland}
+}
+@book{bib_Gaspari_1998_Frachtschiff,
+author={Gaspari, Andrej},
+publisher={Römisch-Germanisches Zentralmuseum},
+title={Das Frachtschiff aus Lipe im Moor von Laibach (Ljubljana)}
+}
+@book{bib_Ammann_1977_neolithischen,
+author={Ammann, Brigitta and Furger, Alex R and Joos, Marcel and Liese-Kleiber, Helga},
+publisher={Staatlicher Lehrmittelverlag Bern 1977},
+title={Die neolithischen Ufersiedlungen von Twann. Band 3: Der bronzezeitliche Einbaum und die nachneolithischen Sedimente},
+volume={3}
+}
+@book{bib_Hamm_2004_Carte,
+author={Hamm, Gilles},
+publisher={Académie des inscriptions et belles-lettres},
+title={Carte archéologique de la Gaule: La Meurthe-et-Moselle}
+}
+@book{bib_Rebourg_1994_Carte,
+author={Rebourg, Alain},
+publisher={Éditions de la Maison des sciences de l'homme, Paris},
+title={Carte archéologique de la Gaule: 71/3. Saône-et-Loire}
+}
+@book{bib_Lommerzheim_2004_Rheinzeiten,
+author={Lommerzheim, Ralf and Oesterwind, Bernd C},
+publisher={Inst. für Denkmalschutz und Denkmalpflege},
+title={Rheinzeiten: archäologische Entdeckungen am Düsseldorfer Rheinufer}
+}
+@book{bib_Huiskes_1980_Andernach,
+author={Huiskes, Manfred},
+isbn={9783792804414},
+publisher={L. Röhrscheid},
+title={Andernach im Mittelalter: von den Anfängen bis zum Ende des 14. Jahrhunderts}
+}
+@book{bib_Rupprecht_1984_Mainzer,
+author={Rupprecht, Gerd},
+publisher={H. Krach},
+title={Die Mainzer Römerschiffe: Berichte Über Entdeckung, Ausgrabung und Bergung},
+volume={1}
+}
+@book{bib_Beaudouin_2004_Anciens,
+author={Beaudouin, Francois},
+publisher={Association des amis du Musée de la batellerie},
+title={Les anciens bateaux de la Loire: étude archéologique des épaves monoxyles de la région des Pays de Loire}
+}
+@book{bib_Ellmers_1972_Fruhmittelalterliche,
+author={Ellmers, Detlev},
+publisher={K. Wachholtz},
+title={Frühmittelalterliche Handelsschiffahrt in Mittel-und Nordeuropa},
+volume={28}
+}
+@book{bib_Bonino_1978_Archeologia,
+author={Bonino, Marco},
+publisher={Longo},
+title={Archeologia e tradizione navale tra la Romagna e il Po},
+volume={5}
+}
 @book{bib_Berti_1990_Fortuna,
 author={Berti, Fede},
 publisher={Nuova alfa editoriale},
 title={Fortuna Maris: la nave romana di Comacchio}
+}
+@book{bib_Bockius_2002_Romerzeitlichen,
+author={Bockius, Ronald},
+publisher={Verlag des Römisch-Germanischen Zentralmuseums},
+title={Die römerzeitlichen Schiffsfunde von Oberstimm in Bayern},
+volume={50}
 }
 @book{bib_Gleirscher_2006_Ertauchte,
 author={Gleirscher, Paul and für Kärnten, L},
