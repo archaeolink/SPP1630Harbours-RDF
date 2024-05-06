@@ -1,20 +1,20 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix ns1: <http://www.wikidata.org/prop/direct/> .
-@prefix ns2: <http://www.spp-haefen.de/ont#> .
-@prefix ns3: <http://purl.org/cerif/frapo/> .
+@prefix ns1: <http://www.spp-haefen.de/ont#> .
+@prefix ns2: <http://purl.org/cerif/frapo/> .
+@prefix ns3: <http://www.wikidata.org/prop/direct/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/spphaefen/607> a ns2:Harbour,
+<http://data.archaeology.link/data/spphaefen/607> a ns1:Harbour,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Llyn Llydaw"@en ;
-    ns3:isOutputOf <https://gepris.dfg.de/gepris/projekt/198801704> ;
+    ns2:isOutputOf <https://gepris.dfg.de/gepris/projekt/198801704> ;
     dc:created "2017"^^xsd:gYear ;
     dc:creator <http://data.archaeology.link/data/spphaefen/l_kroeger> ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
@@ -22,12 +22,12 @@
     dcterms:partOf <http://data.archaeology.link/data/spphaefen/bib_dbt_mods_00035241> ;
     void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
     geo:hasGeometry <http://data.archaeology.link/data/spphaefen/607_geom> ;
-    ns2:locationSecure "reliable"^^xsd:string ;
-    ns2:place_technique <http://www.wikidata.org/entity/Q596073> ;
+    ns1:locationSecure "reliable"^^xsd:string ;
+    ns1:place_technique <http://www.wikidata.org/entity/Q596073> ;
     skos:note "Grimes 1931",
         "Lanting 1998, 629; McGrail 1978, 236f.; Grimes 1931, 142ff.",
         "McGrail 1978" ;
     time:hasTime <http://data.archaeology.link/data/spphaefen/607_foundation> ;
-    ns1:P17 <http://www.wikidata.org/entity/Q25> ;
-    ns1:P206 <http://www.wikidata.org/entity/Q3086201> .
+    ns3:P17 <http://www.wikidata.org/entity/Q25> ;
+    ns3:P206 <http://www.wikidata.org/entity/Q3086201> .
 
