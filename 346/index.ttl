@@ -2,18 +2,18 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://www.wikidata.org/prop/direct/> .
-@prefix ns2: <http://purl.org/cerif/frapo/> .
-@prefix ns3: <http://www.spp-haefen.de/ont#> .
+@prefix ns2: <http://www.spp-haefen.de/ont#> .
+@prefix ns3: <http://purl.org/cerif/frapo/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/spphaefen/346> a ns3:Harbour,
+<http://data.archaeology.link/data/spphaefen/346> a ns2:Harbour,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "River Bann at Shillington's Quay, Portadown (Fry No. 85; Gregory I326)"@en ;
-    ns2:isOutputOf <https://gepris.dfg.de/gepris/projekt/198801704> ;
+    ns3:isOutputOf <https://gepris.dfg.de/gepris/projekt/198801704> ;
     dc:created "2017"^^xsd:gYear ;
     dc:creator <http://data.archaeology.link/data/spphaefen/l_kroeger> ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
@@ -22,8 +22,8 @@
     dcterms:partOf <http://data.archaeology.link/data/spphaefen/bib_dbt_mods_00035241> ;
     void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
     geo:hasGeometry <http://data.archaeology.link/data/spphaefen/346_geom> ;
-    ns3:locationSecure "reliable"^^xsd:string ;
-    ns3:place_technique <http://www.wikidata.org/entity/Q596073> ;
+    ns2:locationSecure "reliable"^^xsd:string ;
+    ns2:place_technique <http://www.wikidata.org/entity/Q596073> ;
     skos:note "Fry 2000, 97; Gregory 1997, 499ff." ;
     ns1:P17 <http://www.wikidata.org/entity/Q26> ;
     ns1:P206 <http://www.wikidata.org/entity/Q3072966> .
