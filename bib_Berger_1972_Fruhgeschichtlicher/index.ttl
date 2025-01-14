@@ -1,0 +1,18 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Berger_1972_Fruhgeschichtlicher> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "1972"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Berger_Hans-Georg> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Ein frühgeschichtlicher Einbaumfund aus der Aller bei Wienhausen, Kr. Celle"@en ;
+    ns1:issuer <http://www.wikidata.org/entity/Q23785465> ;
+    ns1:pageEnd 232 ;
+    ns1:pageStart 231 ;
+    ns1:volume "41"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

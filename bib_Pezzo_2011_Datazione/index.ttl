@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Pezzo_2011_Datazione> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2011"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Calcagnile_Lucio>,
+        <http://data.archaeology.link/data/spphaefen/author_Jasmine_Rizzi>,
+        <http://data.archaeology.link/data/spphaefen/author_Marisa_D’Elia>,
+        <http://data.archaeology.link/data/spphaefen/author_Pezzo_Maria_Ivana>,
+        <http://data.archaeology.link/data/spphaefen/author_Quarta_Gianluca>,
+        <http://data.archaeology.link/data/spphaefen/author_Stefano_Marconi>,
+        <http://data.archaeology.link/data/spphaefen/author_Stefano_Medas> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Datazione assoluta della piroga monossile di Ponte di Piave (TV). Analisi dendrocronologiche e radiocarboniche"@en ;
+    ns1:issuer "ANNALI DEL MUSEO CIVICO DI ROVERETO. SEZIONE: ARCHEOLOGIA, STORIA, SCIENZE NATURALI" ;
+    ns1:pageEnd 101 ;
+    ns1:pageStart 91 ;
+    ns1:volume "25"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

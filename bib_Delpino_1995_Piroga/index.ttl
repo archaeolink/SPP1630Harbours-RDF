@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Delpino_1995_Piroga> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "1995"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Delpino_MA_Fugazzola>,
+        <http://data.archaeology.link/data/spphaefen/author_Mineo_M> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "La piroga neolitica del lago di Bracciano (“La Marmotta 1”)"@en ;
+    ns1:issuer "Bullettino di paletnologia italiana" ;
+    ns1:pageEnd 266 ;
+    ns1:pageStart 197 ;
+    ns1:volume "86"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

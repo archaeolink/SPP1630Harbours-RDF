@@ -1,0 +1,15 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Bartoli_2012_Creating> a <http://purl.org/ontology/bibo/Proceedings>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2012"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Bartoli_Dante>,
+        <http://data.archaeology.link/data/spphaefen/author_Capulli_Massimo>,
+        <http://data.archaeology.link/data/spphaefen/author_Holt_Peter> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Creating a GIS for the Underwater Research Project ANAXUM: the Stella 1 Shipwreck"@en ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

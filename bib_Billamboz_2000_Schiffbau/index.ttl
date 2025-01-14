@@ -1,0 +1,17 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Billamboz_2000_Schiffbau> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2000"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Billamboz_André> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Schiffbau und Waldlandschaft am Bodensee. Holzuntersuchungen an Schiffswracks und Uferkonstruktionen"@en ;
+    ns1:issuer "Einbaum, Lastensegler, Dampfschiff. Frühe Schifffahrt in Südwestdeutschland (Stuttgart 2000)" ;
+    ns1:pageEnd 50 ;
+    ns1:pageStart 41 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

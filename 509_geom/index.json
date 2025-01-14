@@ -1,0 +1,1 @@
+{"http://rdfs.org/ns/void#inDataset": ["http://data.archaeology.link/data/spphaefen/spp_dataset"], "http://www.opengis.net/ont/geosparql#asWKT": ["POINT(-2.185 57.468)"], "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": ["http://www.opengis.net/ont/sf#Point"], "http://www.w3.org/2000/01/rdf-schema#label": ["Knaven (Mowat No. 83) Geometry"]}

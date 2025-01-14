@@ -1,0 +1,16 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Bonino_1985_Sewn> a ns1:Proceedings,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "1985"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Bonino_Marco> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Sewn boats in Italy: sutiles naves and barche cucite"@en ;
+    ns1:pageEnd 104 ;
+    ns1:pageStart 87 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

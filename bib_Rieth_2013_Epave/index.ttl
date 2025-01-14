@@ -1,0 +1,16 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Rieth_2013_Epave> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2013"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Rieth_Éric> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "L'épave de la première moitié du xve siècle de la Canche à Beutin (Pas-de-Calais). Archéologie nautique d'un caboteur fluvio-maritime et d'un territoire fluvial"@en ;
+    ns1:issuer "Revue du Nord. Collection Archéologie (Hors série)" ;
+    ns1:volume "20"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

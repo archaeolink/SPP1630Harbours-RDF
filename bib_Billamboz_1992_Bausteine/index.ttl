@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Billamboz_1992_Bausteine> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "1992"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Billamboz_André> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Bausteine einer lokalen Jahrringchronologie des Federseegebietes"@en ;
+    ns1:issuer "Fundberichte aus Baden-Württemberg" ;
+    ns1:number 1 ;
+    ns1:pageEnd 306 ;
+    ns1:pageStart 293 ;
+    ns1:volume "17"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

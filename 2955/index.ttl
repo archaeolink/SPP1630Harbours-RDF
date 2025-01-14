@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://www.spp-haefen.de/ont#> .
+@prefix ns2: <http://www.wikidata.org/prop/direct/> .
+@prefix ns3: <http://purl.org/cerif/frapo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/2955> a ns1:Harbour,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Czarne, Jezioro, pow. Olsztyn"@en ;
+    ns3:isOutputOf <https://gepris.dfg.de/gepris/projekt/198801704> ;
+    dc:created "2016"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/l_kroeger> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dcterms:partOf <http://data.archaeology.link/data/spphaefen/bib_dbt_mods_00035241> ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    geo:hasGeometry <http://data.archaeology.link/data/spphaefen/2955_geom> ;
+    ns1:locationSecure "reliable"^^xsd:string ;
+    ns1:place_technique <http://www.wikidata.org/entity/Q596073> ;
+    skos:note "Ossowski 1999",
+        "Ossowski 1999, S. 194f." ;
+    time:hasTime <http://data.archaeology.link/data/spphaefen/2955_foundation> ;
+    ns2:P17 <http://www.wikidata.org/entity/Q36> ;
+    ns2:P206 "Jezioro Czarne"^^xsd:string .
+

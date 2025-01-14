@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Fielitz_2003_Einbaumfund> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2003"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Fielitz_Wilhelm> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Ein Einbaumfund bei Forst an der Oberweser 1938"@en ;
+    dcterms:publisher "DEU" ;
+    ns1:issuer <http://www.wikidata.org/entity/Q27715836> ;
+    ns1:pageEnd 134 ;
+    ns1:pageStart 125 ;
+    ns1:volume "26"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

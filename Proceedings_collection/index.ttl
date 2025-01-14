@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://data.archaeology.link/data/spphaefen/Proceedings_collection> a <http://purl.org/ontology/bibo/Collection>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Proceedings Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    rdfs:member <http://data.archaeology.link/data/spphaefen/bib_Andersen_1994_New>,
+        <http://data.archaeology.link/data/spphaefen/bib_Bartoli_2012_Creating>,
+        <http://data.archaeology.link/data/spphaefen/bib_Bonino_1985_Sewn>,
+        <http://data.archaeology.link/data/spphaefen/bib_Bonnin_1998_Decouverte>,
+        <http://data.archaeology.link/data/spphaefen/bib_Delpino_2009_Ricerca>,
+        <http://data.archaeology.link/data/spphaefen/bib_Devals_2005_Brivet>,
+        <http://data.archaeology.link/data/spphaefen/bib_Filmer_1988_New>,
+        <http://data.archaeology.link/data/spphaefen/bib_Foxon_1997_Hasholme>,
+        <http://data.archaeology.link/data/spphaefen/bib_Gaspari_2016_46>,
+        <http://data.archaeology.link/data/spphaefen/bib_Hutchings_1997_Conservation>,
+        <http://data.archaeology.link/data/spphaefen/bib_Manders_2017_76>,
+        <http://data.archaeology.link/data/spphaefen/bib_Mcgrail_1985_Brigg>,
+        <http://data.archaeology.link/data/spphaefen/bib_Moortel_2003_Van>,
+        <http://data.archaeology.link/data/spphaefen/bib_Petrovic_1991_Donauhafen>,
+        <http://data.archaeology.link/data/spphaefen/bib_Rieth_2017_22>,
+        <http://data.archaeology.link/data/spphaefen/bib_Tran_1997_Treatment>,
+        <http://data.archaeology.link/data/spphaefen/bib_Weerd_1985_Landlubber>,
+        <http://data.archaeology.link/data/spphaefen/bib_Zwick_2017_48>,
+        <http://data.archaeology.link/data/spphaefen/bib_vanHolk_2016_48> .
+

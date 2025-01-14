@@ -1,0 +1,15 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Brouwers_2015_Middeleeuwse> a <http://purl.org/ontology/bibo/Article>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2015"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Brouwers_Will>,
+        <http://data.archaeology.link/data/spphaefen/author_Jansma_E>,
+        <http://data.archaeology.link/data/spphaefen/author_ers_M> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Middeleeuwse scheepsresten in Nederland: De vroege middeleeuwen 500-1050"@en ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

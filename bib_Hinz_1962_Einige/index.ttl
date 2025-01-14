@@ -1,0 +1,16 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Hinz_1962_Einige> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "1962"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Hinz_Hermann> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Einige niederrheinische Fundstellen mit mittelalterlicher Keramik"@en ;
+    ns1:issuer <http://www.wikidata.org/entity/Q892739> ;
+    ns1:volume "162"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

@@ -1,0 +1,13 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Weerd_1978_Ships> a <http://purl.org/ontology/bibo/Book>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "1978"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_de_Weerd_Maarten_Derk> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Ships of the Roman period at Zwammerdam"@en ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

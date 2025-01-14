@@ -1,0 +1,17 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Izaguirre_2006_Urbieta> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2006"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Izaguirre_Manuel> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "The Urbieta Wreck (Gernika) Basque Country"@en ;
+    ns1:issuer <https://www.wikidata.org/entity/Q121363522> ;
+    ns1:pageEnd 92 ;
+    ns1:pageStart 90 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

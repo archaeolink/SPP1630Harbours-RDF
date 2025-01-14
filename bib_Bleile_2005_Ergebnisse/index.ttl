@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Bleile_2005_Ergebnisse> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2005"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Bleile_Ralf> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Ergebnisse unterwasserarchäologischer Untersuchungen in den Binnenseen Mecklenburg-Vorpommerns (2000--2004)"@en ;
+    ns1:issuer "Nachrichtenblatt Arbeitskreis Unterwasserarchäologie" ;
+    ns1:number 12 ;
+    ns1:pageEnd 120 ;
+    ns1:pageStart 103 ;
+    ns1:volume "11"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

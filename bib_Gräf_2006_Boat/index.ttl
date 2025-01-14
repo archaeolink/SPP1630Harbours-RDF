@@ -1,0 +1,16 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Gräf_2006_Boat> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2006"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Gräf_Daniela> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Boat Mills in Europe from Early Medieval to Modern Times. Ver{'o}ffentlichungen des Landesamtes für Archäologie mit Landesmuseum für Vorgeschichte"@en ;
+    ns1:issuer "Bibliotheca Molinologica" ;
+    ns1:volume "19"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

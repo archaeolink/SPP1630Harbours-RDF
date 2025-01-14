@@ -1,0 +1,16 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Filmer_1988_New> a ns1:Proceedings,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "1988"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Filmer-Sankey_William> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "A new boat burial from the Snape Anglo-Saxon cemetery, Suffolk"@en ;
+    ns1:pageEnd 134 ;
+    ns1:pageStart 126 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

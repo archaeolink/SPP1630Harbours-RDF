@@ -1,0 +1,18 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Schaefer_2000_Andernach> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2000"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Schäfer_Klaus> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Andernach--Drehscheibe des antiken Steinhandels"@en ;
+    ns1:issuer "Steinbruch und Bergwerk. Denkmäler römischer Technikgeschichte zwischen Eifel und Rhein. Kataloghandbuch zu den Ausstellungen in den Museen von mayen und Andernach (Bockius, R., Bosinski, G., Hörter, F., Hunold, A., Mangartz, F., Oesterwind, BC, Schaaff. H., Schäfer, K.), Vulkanpark-Forschungen" ;
+    ns1:pageEnd 109 ;
+    ns1:pageStart 83 ;
+    ns1:volume "2"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

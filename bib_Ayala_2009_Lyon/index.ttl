@@ -1,0 +1,15 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Ayala_2009_Lyon> a <http://purl.org/ontology/bibo/Book>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2009"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Ayala_Grégoire> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Lyon, les bateaux de Saint-Georges: une histoire sauv{'e}e des eaux"@en ;
+    dcterms:publisher "Ed. lyonnaises d'art et d'histoire" ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

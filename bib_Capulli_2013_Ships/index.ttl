@@ -1,0 +1,16 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Capulli_2013_Ships> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2013"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Capulli_Massimo> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Ships of Aquileia"@en ;
+    ns1:issuer "Underwater archaeological research on marine and inland routes of the Upper Adriatic Sea. Skyllis-Zeitschrift für Unterwasserarchäologie" ;
+    ns1:volume "13"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

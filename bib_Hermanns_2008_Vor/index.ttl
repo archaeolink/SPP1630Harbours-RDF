@@ -1,0 +1,17 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Hermanns_2008_Vor> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2008"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Hermanns_Marcus_Heinrich> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Zum vor-und frühgeschichtlichen Wasserverkehr im Gebiet von Nordrhein-Westfalen. Zwei Stammboote im Museum der Deutschen Binnenschifffahrt in Duisburg"@en ;
+    ns1:issuer <http://www.wikidata.org/entity/Q892739> ;
+    ns1:pageEnd 89 ;
+    ns1:pageStart 73 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

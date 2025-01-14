@@ -1,0 +1,18 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Petrovic_1991_Donauhafen> a ns1:Proceedings,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "1991"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Dobson_MJ>,
+        <http://data.archaeology.link/data/spphaefen/author_Maxfield_VA>,
+        <http://data.archaeology.link/data/spphaefen/author_Petrović_Petar> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Ein Donauhafen von Trajan bei dem Kastell Aquae (Moesia Superior)"@en ;
+    ns1:pageEnd 8 ;
+    ns1:pageStart 295 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

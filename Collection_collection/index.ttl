@@ -1,0 +1,13 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://data.archaeology.link/data/spphaefen/Collection_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Collection Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    rdfs:member <http://data.archaeology.link/data/spphaefen/bib_Medas_2014_Piroga> .
+

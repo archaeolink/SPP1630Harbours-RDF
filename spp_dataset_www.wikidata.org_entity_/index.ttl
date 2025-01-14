@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_www.wikidata.org_entity_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: spp_dataset - Wikidata Entities (wde:)"@en,
+        "Linkset: spp_dataset - entity"@en ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    void:linkPredicate dcterms:publisher,
+        <http://purl.org/ontology/bibo/issuer>,
+        <http://www.spp-haefen.de/ont#place_technique>,
+        <http://www.wikidata.org/prop/direct/P17>,
+        <http://www.wikidata.org/prop/direct/P206> ;
+    void:objectsTarget <http://www.wikidata.org/entity/>,
+        <https://www.wikidata.org/entity/> ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    void:triples 6,
+        11,
+        21,
+        47,
+        2219,
+        3232,
+        3450 .
+

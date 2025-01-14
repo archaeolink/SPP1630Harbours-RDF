@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Beltrame_2012_Navi> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2012"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Beltrame_Carlo>,
+        <http://data.archaeology.link/data/spphaefen/author_Paolo_Arata> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Le navi di Pisa. Una questione ancora' pendente'"@en ;
+    ns1:issuer "L'ARCHEOLOGO SUBACQUEO" ;
+    ns1:pageEnd 14 ;
+    ns1:pageStart 9 ;
+    ns1:volume "54"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

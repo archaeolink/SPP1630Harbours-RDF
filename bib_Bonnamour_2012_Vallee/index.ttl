@@ -1,0 +1,18 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Bonnamour_2012_Vallee> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2012"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Bonnamour_Louis> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "La vallée du Doubs, axe de communications à travers les âges"@en ;
+    ns1:issuer "Trois rivières (Champforgueil)" ;
+    ns1:number 78 ;
+    ns1:pageEnd 16 ;
+    ns1:pageStart 3 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

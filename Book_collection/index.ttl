@@ -1,0 +1,41 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://data.archaeology.link/data/spphaefen/Book_collection> a <http://purl.org/ontology/bibo/Collection>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Book Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    rdfs:member <http://data.archaeology.link/data/spphaefen/bib_Ammann_1977_neolithischen>,
+        <http://data.archaeology.link/data/spphaefen/bib_Ayala_2009_Lyon>,
+        <http://data.archaeology.link/data/spphaefen/bib_Beaudouin_1985_Bateaux>,
+        <http://data.archaeology.link/data/spphaefen/bib_Beaudouin_2004_Anciens>,
+        <http://data.archaeology.link/data/spphaefen/bib_Berti_1990_Fortuna>,
+        <http://data.archaeology.link/data/spphaefen/bib_Bockius_2002_Romerzeitlichen>,
+        <http://data.archaeology.link/data/spphaefen/bib_Bockius_2006_Patromischen>,
+        <http://data.archaeology.link/data/spphaefen/bib_Bonino_1978_Archeologia>,
+        <http://data.archaeology.link/data/spphaefen/bib_Bonino_2003_Sogno>,
+        <http://data.archaeology.link/data/spphaefen/bib_De_1978_Ships>,
+        <http://data.archaeology.link/data/spphaefen/bib_Ellmers_1972_Fruhmittelalterliche>,
+        <http://data.archaeology.link/data/spphaefen/bib_Fry_2000_Coiti>,
+        <http://data.archaeology.link/data/spphaefen/bib_Gaspari_1998_Frachtschiff>,
+        <http://data.archaeology.link/data/spphaefen/bib_Gleirscher_2006_Ertauchte>,
+        <http://data.archaeology.link/data/spphaefen/bib_Gresser_2008_Peche>,
+        <http://data.archaeology.link/data/spphaefen/bib_Hamm_2004_Carte>,
+        <http://data.archaeology.link/data/spphaefen/bib_Huiskes_1980_Andernach>,
+        <http://data.archaeology.link/data/spphaefen/bib_Hunold_2011_Erbe>,
+        <http://data.archaeology.link/data/spphaefen/bib_Kennecke_2016_Rhein>,
+        <http://data.archaeology.link/data/spphaefen/bib_Lithberg_1932_Fundgegenstande>,
+        <http://data.archaeology.link/data/spphaefen/bib_Lommerzheim_2004_Rheinzeiten>,
+        <http://data.archaeology.link/data/spphaefen/bib_Maurin_1998_3000>,
+        <http://data.archaeology.link/data/spphaefen/bib_Pohl_2009_Einbaumfunde>,
+        <http://data.archaeology.link/data/spphaefen/bib_Rebourg_1994_Carte>,
+        <http://data.archaeology.link/data/spphaefen/bib_Rech_2004_Gefundene>,
+        <http://data.archaeology.link/data/spphaefen/bib_Reinders_1983_Drie>,
+        <http://data.archaeology.link/data/spphaefen/bib_Rupprecht_1984_Mainzer>,
+        <http://data.archaeology.link/data/spphaefen/bib_Vlierman_1996_Kleine>,
+        <http://data.archaeology.link/data/spphaefen/bib_Vorst_2005_Constructie>,
+        <http://data.archaeology.link/data/spphaefen/bib_Weerd_1978_Ships> .
+

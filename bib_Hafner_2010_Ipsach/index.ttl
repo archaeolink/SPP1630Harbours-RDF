@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Hafner_2010_Ipsach> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2010"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Hafner_Albert> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Ipsach, Bahnweg. Bergung eines spätmittelalterlichen Wasserfahrzeugs"@en ;
+    dcterms:publisher "Rub Media" ;
+    ns1:issuer "Archäologie Bern-Jahrbuch des Archäologischen Dienstes des Kantons Bern" ;
+    ns1:pageEnd 95 ;
+    ns1:pageStart 94 ;
+    ns1:volume "2010"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

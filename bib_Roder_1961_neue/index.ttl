@@ -1,0 +1,21 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Roder_1961_neue> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "1961"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Röder_Josef> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Neue Ausgrabungen in Andernach"@en ;
+    dcterms:publisher "Deutsches Archäologisches Institut" ;
+    ns1:issuer "Germania: Anzeiger der Römisch-Germanischen Kommission des Deutschen Archäologischen Instituts" ;
+    ns1:number 1 ;
+    ns1:pageEnd 213 ;
+    ns1:pageStart 208 ;
+    ns1:volume "39"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

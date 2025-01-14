@@ -1,0 +1,18 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Bonnet_1982_Ports> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "1982"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Bonnet_F> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Les ports romains d’Aventicum"@en ;
+    ns1:issuer <http://www.wikidata.org/entity/Q298183> ;
+    ns1:pageEnd 31 ;
+    ns1:pageStart 127 ;
+    ns1:volume "5"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

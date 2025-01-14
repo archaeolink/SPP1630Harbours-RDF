@@ -1,0 +1,17 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Bockius_2011_Technological> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2011"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Bockius_Ronald> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Technological Transfer From the Mediterranean to the Northern Provinces"@en ;
+    ns1:issuer "Batellerie gallo-romaine pratiques régionales et influences ma-ritimes méditerranéennes, bibliothèque darchéologie méditerranéenne et africaine" ;
+    ns1:pageEnd 59 ;
+    ns1:pageStart 47 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

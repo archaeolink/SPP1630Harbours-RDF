@@ -1,0 +1,903 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vext: <http://ldf.fi/void-ext#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/adms_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/adms# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/brick_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://brickschema.org/schema/Brick# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/csvw_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/csvw# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/dc_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/elements/1.1/ in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/dcam_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcam/ in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/dcat_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dcat# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    voaf:occurrences 4 .
+
+<http://data.archaeology.link/data/spphaefen/dcmitype_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcmitype/ in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/dcterms_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/terms/ in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/doap_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://usefulinc.com/ns/doap# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/foaf_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://xmlns.com/foaf/0.1/ in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    voaf:occurrences 326 .
+
+<http://data.archaeology.link/data/spphaefen/geo_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    voaf:occurrences 4 .
+
+<http://data.archaeology.link/data/spphaefen/odrl_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/org_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/org# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/owl_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2002/07/owl# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/prof_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dx/prof/ in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/prov_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/prov# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/qb_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/linked-data/cube# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/rdf_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/1999/02/22-rdf-syntax-ns# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/rdfs_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2000/01/rdf-schema# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/schema_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://schema.org/ in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/sh_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/shacl# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/skos_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2004/02/skos/core# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    voaf:occurrences 6 .
+
+<http://data.archaeology.link/data/spphaefen/sosa_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/sosa/ in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_gepris.dfg.de_gepris_projekt_> a void:Linkset ;
+    rdfs:label "Linkset: spp_dataset - projekt"@en ;
+    void:linkPredicate <http://purl.org/cerif/frapo/isOutputOf> ;
+    void:objectsTarget <https://gepris.dfg.de/gepris/projekt/> ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    void:triples 3450 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_purl.org_ontology_bibo_> a void:Linkset ;
+    rdfs:label "Linkset: spp_dataset - Bibliography Ontology (bibo:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://purl.org/ontology/bibo/> ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    void:triples 190 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_www.opengis.net_ont_geosparql_> a void:Linkset ;
+    rdfs:label "Linkset: spp_dataset - The GeoSPARQL Ontology (gsp:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget geo: ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    void:triples 2 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_www.opengis.net_ont_sf_> a void:Linkset ;
+    rdfs:label "Linkset: spp_dataset - Simple Features Vocabulary (sf:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.opengis.net/ont/sf#> ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    void:triples 3450 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_www.spp-haefen.de_ont_> a void:Linkset ;
+    rdfs:label "Linkset: spp_dataset - ns1:"@en ;
+    void:linkPredicate <http://www.spp-haefen.de/ont#precision>,
+        rdf:type ;
+    void:objectsTarget <http://www.spp-haefen.de/ont#> ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    void:triples 77,
+        3450 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_www.w3.org_2004_02_skos_core_> a void:Linkset ;
+    rdfs:label "Linkset: spp_dataset - skos:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget skos: ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    void:triples 3 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_www.w3.org_2006_time_> a void:Linkset ;
+    rdfs:label "Linkset: spp_dataset - time:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget time: ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    void:triples 4573 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_www.w3.org_2006_vcard_ns_> a void:Linkset ;
+    rdfs:label "Linkset: spp_dataset - Vcard Vocabulary (vcard2006:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.w3.org/2006/vcard/ns#> ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    void:triples 1 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_www.w3.org_ns_dcat_> a void:Linkset ;
+    rdfs:label "Linkset: spp_dataset - DCAT Vocabulary (dcat:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget dcat: ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    void:triples 2 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_www.wikidata.org_entity_> a void:Linkset ;
+    rdfs:label "Linkset: spp_dataset - Wikidata Entities (wde:)"@en,
+        "Linkset: spp_dataset - entity"@en ;
+    void:linkPredicate dcterms:publisher,
+        <http://purl.org/ontology/bibo/issuer>,
+        <http://www.spp-haefen.de/ont#place_technique>,
+        <http://www.wikidata.org/prop/direct/P17>,
+        <http://www.wikidata.org/prop/direct/P206> ;
+    void:objectsTarget <http://www.wikidata.org/entity/>,
+        <https://www.wikidata.org/entity/> ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    void:triples 6,
+        11,
+        21,
+        47,
+        2219,
+        3232,
+        3450 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_xmlns.com_foaf_0.1_> a void:Linkset ;
+    rdfs:label "Linkset: spp_dataset - Friend Of A Friend Ontology (foaf:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget foaf: ;
+    void:subjectsTarget <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    void:triples 163 .
+
+<http://data.archaeology.link/data/spphaefen/ssn_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/ssn/ in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/time_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2006/time# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> ;
+    voaf:occurrences 9146 .
+
+<http://data.archaeology.link/data/spphaefen/vann_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocab/vann/ in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/vext_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://ldf.fi/void-ext# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/voaf_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocommons/voaf# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/void_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://rdfs.org/ns/void# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/wgs_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://www.w3.org/2003/01/geo/wgs84_pos# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/xml_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/XML/1998/namespace in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/xsd_spp_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2001/XMLSchema# in spp_dataset" ;
+    voaf:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<https://github.com/archaeolink/SPP1630Harbours-RDF> a adms:AssetRepository ;
+    rdfs:label "Repository for spp_dataset"@en ;
+    dcat:accessURL "https://github.com/archaeolink/SPP1630Harbours-RDF"^^xsd:anyURI ;
+    dcat:dataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Article> a void:Dataset ;
+    rdfs:label "Class Partition: Article"@en ;
+    void:class <http://purl.org/ontology/bibo/Article> ;
+    void:entities 126 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Book> a void:Dataset ;
+    rdfs:label "Class Partition: Book"@en ;
+    void:class <http://purl.org/ontology/bibo/Book> ;
+    void:entities 30 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_BookSection> a void:Dataset ;
+    rdfs:label "Class Partition: BookSection"@en ;
+    void:class <http://purl.org/ontology/bibo/BookSection> ;
+    void:entities 1 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Catalog> a void:Dataset ;
+    rdfs:label "Class Partition: Catalog"@en ;
+    void:class dcat:Catalog ;
+    void:entities 1 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Collection> a void:Dataset ;
+    rdfs:label "Class Partition: Collection"@en ;
+    void:class <http://purl.org/ontology/bibo/Collection>,
+        skos:Collection ;
+    void:entities 3,
+        7 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Dataset> a void:Dataset ;
+    rdfs:label "Class Partition: Dataset"@en ;
+    void:class dcat:Dataset ;
+    void:entities 1 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Document> a void:Dataset ;
+    rdfs:label "Class Partition: Document"@en ;
+    void:class <http://purl.org/ontology/bibo/Document> ;
+    void:entities 3 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Feature> a void:Dataset ;
+    rdfs:label "Class Partition: Feature"@en ;
+    void:class geo:Feature .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_FeatureCollection> a void:Dataset ;
+    rdfs:label "Class Partition: FeatureCollection"@en ;
+    void:class geo:FeatureCollection ;
+    void:entities 1 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Geometry> a void:Dataset ;
+    rdfs:label "Class Partition: Geometry"@en ;
+    void:class geo:Geometry .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_GeometryCollection> a void:Dataset ;
+    rdfs:label "Class Partition: GeometryCollection"@en ;
+    void:class geo:GeometryCollection ;
+    void:entities 1 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Group> a void:Dataset ;
+    rdfs:label "Class Partition: Group"@en ;
+    void:class <http://www.w3.org/2006/vcard/ns#Group> ;
+    void:entities 1 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Harbour> a void:Dataset ;
+    rdfs:label "Class Partition: Harbour"@en ;
+    void:class <http://www.spp-haefen.de/ont#Harbour> ;
+    void:entities 3450 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Instant> a void:Dataset ;
+    rdfs:label "Class Partition: Instant"@en ;
+    void:class time:Instant ;
+    void:entities 3047 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Journal> a void:Dataset ;
+    rdfs:label "Class Partition: Journal"@en ;
+    void:class <http://purl.org/ontology/bibo/Journal> .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Organization> a void:Dataset ;
+    rdfs:label "Class Partition: Organization"@en ;
+    void:class foaf:Organization .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_P17> a void:Dataset ;
+    rdfs:label "Property Partition: P17"@en ;
+    void:property <http://www.wikidata.org/prop/direct/P17> ;
+    void:triples 3450 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_P206> a void:Dataset ;
+    rdfs:label "Property Partition: P206"@en ;
+    void:property <http://www.wikidata.org/prop/direct/P206> ;
+    void:triples 3450 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Person> a void:Dataset ;
+    rdfs:label "Class Partition: Person"@en ;
+    void:class foaf:Person ;
+    void:entities 163 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Point> a void:Dataset ;
+    rdfs:label "Class Partition: Point"@en ;
+    void:class <http://www.opengis.net/ont/sf#Point> ;
+    void:entities 3450 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Proceedings> a void:Dataset ;
+    rdfs:label "Class Partition: Proceedings"@en ;
+    void:class <http://purl.org/ontology/bibo/Proceedings> ;
+    void:entities 19 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Project> a void:Dataset ;
+    rdfs:label "Class Partition: Project"@en ;
+    void:class <http://purl.org/cerif/frapo/Project> .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_SpatialObject> a void:Dataset ;
+    rdfs:label "Class Partition: SpatialObject"@en ;
+    void:class geo:SpatialObject .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_SpatialObjectCollection> a void:Dataset ;
+    rdfs:label "Class Partition: SpatialObjectCollection"@en ;
+    void:class geo:SpatialObjectCollection .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_TemporalEntity> a void:Dataset ;
+    rdfs:label "Class Partition: TemporalEntity"@en ;
+    void:class time:TemporalEntity ;
+    void:entities 1526 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_Thesis> a void:Dataset ;
+    rdfs:label "Class Partition: Thesis"@en ;
+    void:class <http://purl.org/ontology/bibo/Thesis> ;
+    void:entities 4 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_asWKT> a void:Dataset ;
+    rdfs:label "Property Partition: asWKT"@en ;
+    void:property geo:asWKT ;
+    void:triples 3450 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_comment> a void:Dataset ;
+    rdfs:label "Property Partition: comment"@en ;
+    void:property rdfs:comment ;
+    void:triples 68 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_created> a void:Dataset ;
+    rdfs:label "Property Partition: created"@en ;
+    void:property dc:created ;
+    void:triples 3634 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_creator> a void:Dataset ;
+    rdfs:label "Property Partition: creator"@en ;
+    void:property dc:creator ;
+    void:triples 3676 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_dataset> a void:Dataset ;
+    rdfs:label "Property Partition: dataset"@en ;
+    void:property dcat:dataset ;
+    void:triples 1 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_dist_ttl> a adms:AssetDistribution ;
+    rdfs:label "spp_dataset TTL Distribution"@en ;
+    dcat:downloadURL "https://archaeolink.github.io/SPP1630Harbours-RDF//index.ttl"^^xsd:anyURI ;
+    dcat:mediaType <http://www.w3.org/ns/formats/Turtle> .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_doi> a void:Dataset ;
+    rdfs:label "Property Partition: doi"@en ;
+    void:property <http://purl.org/ontology/bibo/doi> ;
+    void:triples 6 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_family_Name> a void:Dataset ;
+    rdfs:label "Property Partition: family_Name"@en ;
+    void:property foaf:family_Name ;
+    void:triples 163 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_firstName> a void:Dataset ;
+    rdfs:label "Property Partition: firstName"@en ;
+    void:property foaf:firstName ;
+    void:triples 163 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_hasBeginning> a void:Dataset ;
+    rdfs:label "Property Partition: hasBeginning"@en ;
+    void:property time:hasBeginning ;
+    void:triples 1526 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_hasEnd> a void:Dataset ;
+    rdfs:label "Property Partition: hasEnd"@en ;
+    void:property time:hasEnd ;
+    void:triples 1521 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_hasGeometry> a void:Dataset ;
+    rdfs:label "Property Partition: hasGeometry"@en ;
+    void:property geo:hasGeometry ;
+    void:triples 3450 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_hasMember> a void:Dataset ;
+    rdfs:label "Property Partition: hasMember"@en ;
+    void:property <http://www.w3.org/2006/vcard/ns#hasMember> ;
+    void:triples 163 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_hasTime> a void:Dataset ;
+    rdfs:label "Property Partition: hasTime"@en ;
+    void:property time:hasTime ;
+    void:triples 1526 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_inXSDgYear> a void:Dataset ;
+    rdfs:label "Property Partition: inXSDgYear"@en ;
+    void:property time:inXSDgYear ;
+    void:triples 3047 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_isOutputOf> a void:Dataset ;
+    rdfs:label "Property Partition: isOutputOf"@en ;
+    void:property <http://purl.org/cerif/frapo/isOutputOf> ;
+    void:triples 3450 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_isReferencedBy> a void:Dataset ;
+    rdfs:label "Property Partition: isReferencedBy"@en ;
+    void:property dcterms:isReferencedBy ;
+    void:triples 1728 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_isbn> a void:Dataset ;
+    rdfs:label "Property Partition: isbn"@en ;
+    void:property <http://purl.org/ontology/bibo/isbn> ;
+    void:triples 3 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_issn> a void:Dataset ;
+    rdfs:label "Property Partition: issn"@en ;
+    void:property <http://purl.org/ontology/bibo/issn> ;
+    void:triples 2 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_issuer> a void:Dataset ;
+    rdfs:label "Property Partition: issuer"@en ;
+    void:property <http://purl.org/ontology/bibo/issuer> ;
+    void:triples 108 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_label> a void:Dataset ;
+    rdfs:label "Property Partition: label"@en ;
+    void:property rdfs:label ;
+    void:triples 12174 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_locationSecure> a void:Dataset ;
+    rdfs:label "Property Partition: locationSecure"@en ;
+    void:property <http://www.spp-haefen.de/ont#locationSecure> ;
+    void:triples 3450 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_member> a void:Dataset ;
+    rdfs:label "Property Partition: member"@en ;
+    void:property rdfs:member ;
+    void:triples 11657 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_note> a void:Dataset ;
+    rdfs:label "Property Partition: note"@en ;
+    void:property skos:note ;
+    void:triples 6317 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_number> a void:Dataset ;
+    rdfs:label "Property Partition: number"@en ;
+    void:property <http://purl.org/ontology/bibo/number> ;
+    void:triples 51 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_pageEnd> a void:Dataset ;
+    rdfs:label "Property Partition: pageEnd"@en ;
+    void:property <http://purl.org/ontology/bibo/pageEnd> ;
+    void:triples 110 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_pageStart> a void:Dataset ;
+    rdfs:label "Property Partition: pageStart"@en ;
+    void:property <http://purl.org/ontology/bibo/pageStart> ;
+    void:triples 110 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_partOf> a void:Dataset ;
+    rdfs:label "Property Partition: partOf"@en ;
+    void:property dcterms:partOf ;
+    void:triples 3450 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_place_technique> a void:Dataset ;
+    rdfs:label "Property Partition: place_technique"@en ;
+    void:property <http://www.spp-haefen.de/ont#place_technique> ;
+    void:triples 3450 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_precision> a void:Dataset ;
+    rdfs:label "Property Partition: precision"@en ;
+    void:property <http://www.spp-haefen.de/ont#precision> ;
+    void:triples 77 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_publisher> a void:Dataset ;
+    rdfs:label "Property Partition: publisher"@en ;
+    void:property dcterms:publisher ;
+    void:triples 74 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_subClassOf> a void:Dataset ;
+    rdfs:label "Property Partition: subClassOf"@en ;
+    void:property rdfs:subClassOf ;
+    void:triples 10 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_title> a void:Dataset ;
+    rdfs:label "Property Partition: title"@en ;
+    void:property dc:title ;
+    void:triples 184 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_type> a void:Dataset ;
+    rdfs:label "Property Partition: type"@en ;
+    void:property rdf:type ;
+    void:triples 11872 .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset_volume> a void:Dataset ;
+    rdfs:label "Property Partition: volume"@en ;
+    void:property <http://purl.org/ontology/bibo/volume> ;
+    void:triples 86 .
+
+<http://dbpedia.org/resource/Location> rdfs:label "Location"@en .
+
+<http://dbpedia.org/resource/OGC_GeoSPARQL> rdfs:label "OGC GeoSPARQL"@en .
+
+<http://dbpedia.org/resource/Time> rdfs:label "Time Data"@en .
+
+vext: a voaf:Vocabulary ;
+    rdfs:label "vext Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vext"^^xsd:string ;
+    vann:preferredNamespaceUri "http://ldf.fi/void-ext#"^^xsd:anyURI ;
+    voaf:usageInDataset vext:_spp_dataset_occ .
+
+dcam: a voaf:Vocabulary ;
+    rdfs:label "dcam Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcam"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcam/"^^xsd:anyURI ;
+    voaf:usageInDataset dcam:_spp_dataset_occ .
+
+dcmitype: a voaf:Vocabulary ;
+    rdfs:label "dcmitype Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcmitype"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcmitype/"^^xsd:anyURI ;
+    voaf:usageInDataset dcmitype:_spp_dataset_occ .
+
+dc: a voaf:Vocabulary ;
+    rdfs:label "dc Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dc"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/elements/1.1/"^^xsd:anyURI ;
+    voaf:usageInDataset dc:_spp_dataset_occ .
+
+dcterms: a voaf:Vocabulary ;
+    rdfs:label "dcterms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcterms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/terms/"^^xsd:anyURI ;
+    voaf:usageInDataset dcterms:_spp_dataset_occ .
+
+qb: a voaf:Vocabulary ;
+    rdfs:label "qb Vocabulary"@en ;
+    vann:preferredNamespacePrefix "qb"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/linked-data/cube#"^^xsd:anyURI ;
+    voaf:usageInDataset qb:_spp_dataset_occ .
+
+vann: a voaf:Vocabulary ;
+    rdfs:label "vann Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vann"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocab/vann/"^^xsd:anyURI ;
+    voaf:usageInDataset vann:_spp_dataset_occ .
+
+voaf: a voaf:Vocabulary ;
+    rdfs:label "voaf Vocabulary"@en ;
+    vann:preferredNamespacePrefix "voaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocommons/voaf#"^^xsd:anyURI ;
+    voaf:usageInDataset voaf:_spp_dataset_occ .
+
+void: a voaf:Vocabulary ;
+    rdfs:label "Vocabulary of Interlinked Datasets (VoID)"@en ;
+    vann:preferredNamespacePrefix "void"^^xsd:string ;
+    vann:preferredNamespaceUri "http://rdfs.org/ns/void#"^^xsd:anyURI ;
+    voaf:usageInDataset void:_spp_dataset_occ .
+
+doap: a voaf:Vocabulary ;
+    rdfs:label "doap Vocabulary"@en ;
+    vann:preferredNamespacePrefix "doap"^^xsd:string ;
+    vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#"^^xsd:anyURI ;
+    voaf:usageInDataset doap:_spp_dataset_occ .
+
+rdf: a voaf:Vocabulary ;
+    rdfs:label "The RDF Concepts Vocabulary (RDF)"@en ;
+    vann:preferredNamespacePrefix "rdf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/1999/02/22-rdf-syntax-ns#"^^xsd:anyURI ;
+    voaf:usageInDataset rdf:_spp_dataset_occ .
+
+rdfs: a voaf:Vocabulary ;
+    rdfs:label "The RDF Schema vocabulary (RDFS)"@en ;
+    vann:preferredNamespacePrefix "rdfs"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
+    voaf:usageInDataset rdfs:_spp_dataset_occ .
+
+xsd: a voaf:Vocabulary ;
+    rdfs:label "XML Schema"@en ;
+    vann:preferredNamespacePrefix "xsd"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2001/XMLSchema#"^^xsd:anyURI ;
+    voaf:usageInDataset xsd:_spp_dataset_occ .
+
+owl: a voaf:Vocabulary ;
+    rdfs:label "Web Ontology Language 2 Vocabulary"@en ;
+    vann:preferredNamespacePrefix "owl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#"^^xsd:anyURI ;
+    voaf:usageInDataset owl:_spp_dataset_occ .
+
+xml: a voaf:Vocabulary ;
+    rdfs:label "xml Vocabulary"@en ;
+    vann:preferredNamespacePrefix "xml"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/XML/1998/namespace"^^xsd:anyURI ;
+    voaf:usageInDataset xml:_spp_dataset_occ .
+
+adms: a voaf:Vocabulary ;
+    rdfs:label "adms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "adms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/adms#"^^xsd:anyURI ;
+    voaf:usageInDataset adms:_spp_dataset_occ .
+
+csvw: a voaf:Vocabulary ;
+    rdfs:label "csvw Vocabulary"@en ;
+    vann:preferredNamespacePrefix "csvw"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/csvw#"^^xsd:anyURI ;
+    voaf:usageInDataset csvw:_spp_dataset_occ .
+
+prof: a voaf:Vocabulary ;
+    rdfs:label "prof Vocabulary"@en ;
+    vann:preferredNamespacePrefix "prof"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dx/prof/"^^xsd:anyURI ;
+    voaf:usageInDataset prof:_spp_dataset_occ .
+
+odrl: a voaf:Vocabulary ;
+    rdfs:label "odrl Vocabulary"@en ;
+    vann:preferredNamespacePrefix "odrl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/odrl/2/"^^xsd:anyURI ;
+    voaf:usageInDataset odrl:_spp_dataset_occ .
+
+org: a voaf:Vocabulary ;
+    rdfs:label "org Vocabulary"@en ;
+    vann:preferredNamespacePrefix "org"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/org#"^^xsd:anyURI ;
+    voaf:usageInDataset org:_spp_dataset_occ .
+
+prov: a voaf:Vocabulary ;
+    rdfs:label "W3C Provenance Ontology"@en ;
+    vann:preferredNamespacePrefix "prov"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/prov#"^^xsd:anyURI ;
+    voaf:usageInDataset prov:_spp_dataset_occ .
+
+sh: a voaf:Vocabulary ;
+    rdfs:label "Shapes Constraint Language (SHACL)"@en ;
+    vann:preferredNamespacePrefix "sh"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/shacl#"^^xsd:anyURI ;
+    voaf:usageInDataset sh:_spp_dataset_occ .
+
+sosa: a voaf:Vocabulary ;
+    rdfs:label "Sensor, Observation, Sample, and Actuator (SOSA) Ontology"@en ;
+    vann:preferredNamespacePrefix "sosa"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/sosa/"^^xsd:anyURI ;
+    voaf:usageInDataset sosa:_spp_dataset_occ .
+
+ssn: a voaf:Vocabulary ;
+    rdfs:label "ssn Vocabulary"@en ;
+    vann:preferredNamespacePrefix "ssn"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/ssn/"^^xsd:anyURI ;
+    voaf:usageInDataset ssn:_spp_dataset_occ .
+
+<http://www.wikidata.org/entity/Q121810372> rdfs:label "geospatial data"@en .
+
+brick: a voaf:Vocabulary ;
+    rdfs:label "brick Vocabulary"@en ;
+    vann:preferredNamespacePrefix "brick"^^xsd:string ;
+    vann:preferredNamespaceUri "https://brickschema.org/schema/Brick#"^^xsd:anyURI ;
+    voaf:usageInDataset brick:_spp_dataset_occ .
+
+schema: a voaf:Vocabulary ;
+    rdfs:label "schema Vocabulary"@en ;
+    vann:preferredNamespacePrefix "schema"^^xsd:string ;
+    vann:preferredNamespaceUri "https://schema.org/"^^xsd:anyURI ;
+    voaf:usageInDataset schema:_spp_dataset_occ .
+
+wgs: a voaf:Vocabulary ;
+    rdfs:label "wgs Vocabulary"@en ;
+    vann:preferredNamespacePrefix "wgs"^^xsd:string ;
+    vann:preferredNamespaceUri "https://www.w3.org/2003/01/geo/wgs84_pos#"^^xsd:anyURI ;
+    voaf:usageInDataset wgs:_spp_dataset_occ .
+
+geo: a voaf:Vocabulary ;
+    rdfs:label "The GeoSPARQL Ontology"@en ;
+    vann:preferredNamespacePrefix "geo"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.opengis.net/ont/geosparql#"^^xsd:anyURI ;
+    voaf:usageInDataset geo:_spp_dataset_occ .
+
+skos: a voaf:Vocabulary ;
+    rdfs:label "skos Vocabulary"@en ;
+    vann:preferredNamespacePrefix "skos"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
+    voaf:usageInDataset skos:_spp_dataset_occ .
+
+time: a voaf:Vocabulary ;
+    rdfs:label "time Vocabulary"@en ;
+    vann:preferredNamespacePrefix "time"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2006/time#"^^xsd:anyURI ;
+    voaf:usageInDataset time:_spp_dataset_occ .
+
+dcat: a voaf:Vocabulary ;
+    rdfs:label "DCAT Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcat"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dcat#"^^xsd:anyURI ;
+    voaf:usageInDataset dcat:_spp_dataset_occ .
+
+foaf: a voaf:Vocabulary ;
+    rdfs:label "Friend Of A Friend Ontology"@en ;
+    vann:preferredNamespacePrefix "foaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/"^^xsd:anyURI ;
+    voaf:usageInDataset foaf:_spp_dataset_occ .
+
+foaf:Person rdfs:label "Person"@en .
+
+<http://data.archaeology.link/data/spphaefen/spp_dataset> a void:Dataset,
+        adms:Asset ;
+    rdfs:label "spp_dataset"@en ;
+    vext:averageLiteralLength 0 ;
+    vext:averageObjectIRILength 39 ;
+    vext:averagePropertyIRILength 38 ;
+    vext:averageSubjectIRILength 55 ;
+    vext:datatypes 0 ;
+    vext:distinctBlankNodes 0 ;
+    vext:distinctIRIReferences 44234 ;
+    vext:distinctLiterals 0 ;
+    vext:distinctRDFNodes 44234 ;
+    vext:languages 0 ;
+    vext:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dcterms:modified "2025-01-14T01:32:35"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "spp_dataset"@en ;
+    vann:preferredNamespacePrefix "spp"^^xsd:string ;
+    vann:preferredNamespaceUri "http://data.archaeology.link/data/spphaefen/"^^xsd:anyURI ;
+    void:classPartition <http://data.archaeology.link/data/spphaefen/spp_dataset_Article>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Book>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_BookSection>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Catalog>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Collection>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Dataset>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Document>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Feature>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_FeatureCollection>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Geometry>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_GeometryCollection>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Group>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Harbour>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Instant>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Journal>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Organization>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Person>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Point>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Proceedings>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Project>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_SpatialObject>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_SpatialObjectCollection>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_TemporalEntity>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_Thesis> ;
+    void:classes 25 ;
+    void:dataDump <https://archaeolink.github.io/SPP1630Harbours-RDF//index.ttl> ;
+    void:distinctObjects 31848 ;
+    void:distinctSubjects 12350 ;
+    void:entities 11836 ;
+    void:exampleResource <http://data.archaeology.link/data/spphaefen/Harbour_collection> ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 36 ;
+    void:propertyPartition <http://data.archaeology.link/data/spphaefen/spp_dataset_P17>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_P206>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_asWKT>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_comment>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_created>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_creator>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_dataset>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_doi>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_family_Name>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_firstName>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_hasBeginning>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_hasEnd>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_hasGeometry>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_hasMember>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_hasTime>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_inXSDgYear>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_isOutputOf>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_isReferencedBy>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_isbn>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_issn>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_issuer>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_label>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_locationSecure>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_member>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_note>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_number>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_pageEnd>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_pageStart>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_partOf>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_place_technique>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_precision>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_publisher>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_subClassOf>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_title>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_type>,
+        <http://data.archaeology.link/data/spphaefen/spp_dataset_volume> ;
+    void:rootResource <http://data.archaeology.link/data/spphaefen/Harbour_collection> ;
+    void:triples 99492 ;
+    void:uriSpace "http://data.archaeology.link/data/spphaefen/"^^xsd:string ;
+    void:vocabulary vext:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        voaf:,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        adms:,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://data.archaeology.link/data/spphaefen/spp_dataset_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://archaeolink.github.io/SPP1630Harbours-RDF/> ;
+    foaf:homepage <https://archaeolink.github.io/SPP1630Harbours-RDF/> ;
+    foaf:page <https://archaeolink.github.io/SPP1630Harbours-RDF//index.html> .
+

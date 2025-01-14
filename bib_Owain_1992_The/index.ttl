@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Owain_1992_The> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "1992"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Owain_T._P._Roberts> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "The Brigg ‘raft’ reassessed as a round bilge Bronze Age boat"@en ;
+    dcterms:publisher <http://www.wikidata.org/entity/Q1508259> ;
+    ns1:doi "10.1111/j.1095-9270.1992.tb00370.x"^^xsd:string ;
+    ns1:issuer <http://www.wikidata.org/entity/Q15750622> ;
+    ns1:number 3 ;
+    ns1:pageEnd 258 ;
+    ns1:pageStart 245 ;
+    ns1:volume "21"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

@@ -1,0 +1,18 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Mirschenz_2016_dfg> a ns1:Article,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2016"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_Mirschenz_Manuela> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "Das DFG-Projekt „Der Rhein als europäische Verkehrsachse “"@en ;
+    ns1:doi "10.11588/air.2016.0.77235"^^xsd:string ;
+    ns1:issuer <http://www.wikidata.org/entity/Q636527> ;
+    ns1:pageEnd 114 ;
+    ns1:pageStart 112 ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+

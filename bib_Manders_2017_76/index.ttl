@@ -1,0 +1,13 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/spphaefen/bib_Manders_2017_76> a <http://purl.org/ontology/bibo/Proceedings>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2017"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/author_ers_Martijn> ;
+    dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
+    dc:title "76. A coincidence? Two medieval boats (Vleuten 1 and 2) found during the construction of a housing development at Leidsche Rijn (the Netherlands)"@en ;
+    void:inDataset <http://data.archaeology.link/data/spphaefen/spp_dataset> .
+
