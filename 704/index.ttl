@@ -2,8 +2,8 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://www.spp-haefen.de/ont#> .
-@prefix ns2: <http://purl.org/cerif/frapo/> .
-@prefix ns3: <http://www.wikidata.org/prop/direct/> .
+@prefix ns2: <http://www.wikidata.org/prop/direct/> .
+@prefix ns3: <http://purl.org/cerif/frapo/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix void: <http://rdfs.org/ns/void#> .
@@ -13,7 +13,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Augustenborg Fjord ll (Ulkebøl Vestermark)"@en ;
-    ns2:isOutputOf <https://gepris.dfg.de/gepris/projekt/198801704> ;
+    ns3:isOutputOf <https://gepris.dfg.de/gepris/projekt/198801704> ;
     dc:created "2016"^^xsd:gYear ;
     dc:creator <http://data.archaeology.link/data/spphaefen/l_kroeger> ;
     dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> ;
@@ -24,6 +24,6 @@
     ns1:place_technique <http://www.wikidata.org/entity/Q596073> ;
     skos:note "Bork-Pedersen 2011",
         "Bork-Pedersen 2011, Kataloget S. 9" ;
-    ns3:P17 <http://www.wikidata.org/entity/Q35> ;
-    ns3:P206 <http://www.wikidata.org/entity/Q545> .
+    ns2:P17 <http://www.wikidata.org/entity/Q35> ;
+    ns2:P206 <http://www.wikidata.org/entity/Q545> .
 
