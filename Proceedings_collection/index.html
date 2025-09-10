@@ -26,48 +26,41 @@ var relativedepth=1</script><body><div id="header"><h1 id="title"><a href="http:
 </select><a id="formatlink" href="#" target="_blank"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg></a>&nbsp;
 <button id="downloadButton" onclick="download()">Download</button><a href="..//sparql.html?endpoint=https://archaeolink.github.io/SPP1630Harbours-RDF//index.ttl&query=SELECT%20?sub%20?pred%20?obj%20%0AWHERE%20%7B%0A%20BIND(%3Chttp%3A//data.archaeology.link/data/spphaefen/Proceedings_collection%3E%20AS%20?sub)%20%0A?sub%20?pred%20?obj%20.%20%0A%7D%0A">Query</a><br/></div></div><dialog id="classrelationdialog" width="500" height="500" modal="true"></dialog><dialog id="dataschemadialog" width="500" height="500" modal="true"></dialog>
 <div class="container-fluid"><div class="row-fluid" id="main-wrapper">
-<details><summary>[BIBTEX]</summary><pre>@inproceedings{bib_Rieth_2017_22,
-author={Rieth, Éric},
-title={22. The shipwreck (EP1-Canche) of a fluvial-maritime coaster of the first half of the 15th century from Beutin (Pas-de-Calais, France). Its nautical environment and functional context}
-}
-@inproceedings{bib_Foxon_1997_Hasholme,
-author={Foxon, Andrew D},
-pages={547--553},
-title={The Hasholme Iron Age logboat: 17 metres of trouble!}
-}
-@inproceedings{bib_Tran_1997_Treatment,
-author={Damery, E and Hiron, X and Tran, Quoc Khoi},
-pages={567--580},
-title={Treatment of Neolithic dugout canoe from Paris-Bercy: controlled drying after PEG impregnation and attempt at modelling of the drying process}
-}
-@inproceedings{bib_vanHolk_2016_48,
-author={Van Holk, André FL},
-title={48 A Roman barge with an artefactual inventory from De Meern (the Netherlands)}
-}
-@inproceedings{bib_Bartoli_2012_Creating,
+<details><summary>[BIBTEX]</summary><pre>@inproceedings{bib_Bartoli_2012_Creating,
 author={Bartoli, Dante and Capulli, Massimo and Holt, Peter},
 title={Creating a GIS for the Underwater Research Project ANAXUM: the Stella 1 Shipwreck}
+}
+@inproceedings{bib_Manders_2017_76,
+author={ers, Martijn},
+title={76. A coincidence? Two medieval boats (Vleuten 1 and 2) found during the construction of a housing development at Leidsche Rijn (the Netherlands)}
+}
+@inproceedings{bib_Zwick_2017_48,
+author={Zwick, Daniel},
+title={48. A 15th-century shipwreck with Scandinavian features from Bremen (Germany)}
+}
+@inproceedings{bib_Gaspari_2016_46,
+author={Eris, Miran and Gaspari, Andrej and Smalcelj, Marija},
+title={46 Roman river barge from Sisak (Siscia), Croatia}
 }
 @inproceedings{bib_Hutchings_1997_Conservation,
 author={Hutchings, Jeremy},
 pages={281--291},
 title={The conservation of the Poole log-boat: sucrose treatment on a large scale}
 }
-@inproceedings{bib_Devals_2005_Brivet,
-author={Devals, Christophe},
-number={126},
-pages={75--88},
-title={Le Brivet, archéologie d'une rivière en Haute-Bretagne (France). Vers la reconnaissance d'un grand site du Moyen Age?}
-}
 @inproceedings{bib_Bonino_1985_Sewn,
 author={Bonino, Marco},
 pages={87--104},
 title={Sewn boats in Italy: sutiles naves and barche cucite}
 }
-@inproceedings{bib_Weerd_1985_Landlubber,
-author={de Weerd, Maarten Derk},
-pages={35--51},
-title={A landlubber's view of shipbuilding procedure in the Celtic barges of Zwammerdam, the Netherlands}
+@inproceedings{bib_Bonnin_1998_Decouverte,
+author={Bonnin, Philippe},
+pages={305--311},
+title={Découverte de deux pirogues monoxyles mésolithiques entre Corbeil-Essonnes (Essonne) et Melun (Seine-et-Marne)}
+}
+@inproceedings{bib_Filmer_1988_New,
+author={Filmer-Sankey, William},
+pages={126--134},
+title={A new boat burial from the Snape Anglo-Saxon cemetery, Suffolk}
 }
 @inproceedings{bib_Moortel_2003_Van,
 author={Moortel, A},
@@ -75,49 +68,56 @@ number={9},
 title={A new look at the Utrecht ship’},
 volume={183}
 }
-@inproceedings{bib_Bonnin_1998_Decouverte,
-author={Bonnin, Philippe},
-pages={305--311},
-title={Découverte de deux pirogues monoxyles mésolithiques entre Corbeil-Essonnes (Essonne) et Melun (Seine-et-Marne)}
-}
-@inproceedings{bib_Petrovic_1991_Donauhafen,
-author={Dobson, MJ and Maxfield, VA and Petrović, Petar},
-pages={295--8},
-title={Ein Donauhafen von Trajan bei dem Kastell Aquae (Moesia Superior)}
+@inproceedings{bib_Weerd_1985_Landlubber,
+author={de Weerd, Maarten Derk},
+pages={35--51},
+title={A landlubber's view of shipbuilding procedure in the Celtic barges of Zwammerdam, the Netherlands}
 }
 @inproceedings{bib_Mcgrail_1985_Brigg,
 author={McGrail, Sean},
 pages={165--194},
 title={The Brigg' Raft': problems in reconstruction and in the assessment of performance}
 }
-@inproceedings{bib_Zwick_2017_48,
-author={Zwick, Daniel},
-title={48. A 15th-century shipwreck with Scandinavian features from Bremen (Germany)}
-}
-@inproceedings{bib_Manders_2017_76,
-author={ers, Martijn},
-title={76. A coincidence? Two medieval boats (Vleuten 1 and 2) found during the construction of a housing development at Leidsche Rijn (the Netherlands)}
-}
-@inproceedings{bib_Delpino_2009_Ricerca,
-author={Delpino, Chiara},
-pages={263--274},
-title={La Ricerca archeologica in acque interne: il villaggio neolitico de 'la marmotta' sulle antiche sponde del lago di bracciano (Anguillara Sabazia, Roma)}
-}
-@inproceedings{bib_Gaspari_2016_46,
-author={Eris, Miran and Gaspari, Andrej and Smalcelj, Marija},
-title={46 Roman river barge from Sisak (Siscia), Croatia}
+@inproceedings{bib_vanHolk_2016_48,
+author={Van Holk, André FL},
+title={48 A Roman barge with an artefactual inventory from De Meern (the Netherlands)}
 }
 @inproceedings{bib_Andersen_1994_New,
 author={Andersen, Soren H},
 pages={1--10},
 title={New finds of Mesolithic logboats in Denmark}
 }
-@inproceedings{bib_Filmer_1988_New,
-author={Filmer-Sankey, William},
-pages={126--134},
-title={A new boat burial from the Snape Anglo-Saxon cemetery, Suffolk}
+@inproceedings{bib_Petrovic_1991_Donauhafen,
+author={Dobson, MJ and Maxfield, VA and Petrović, Petar},
+pages={295--8},
+title={Ein Donauhafen von Trajan bei dem Kastell Aquae (Moesia Superior)}
 }
-</pre></details><div style="overflow-x:auto;"><table border=1 width=100% class=description><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">type <span style="color: #666;">(rdf:type)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" property="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" resource="http://purl.org/ontology/bibo/Collection" target="_blank" href="http://purl.org/ontology/bibo/Collection">Collection <span style="color: #666;">(bibo:Collection)</span></a> <a href="../nonns_Collection.html">[x]</a></span></td></tr><tr class="even"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/2000/01/rdf-schema#label">label <span style="color: #666;">(rdfs:label)</span></a> </span></td><td class="wrapword"><span itemprop="http://www.w3.org/2000/01/rdf-schema#label" property="http://www.w3.org/2000/01/rdf-schema#label" content="Proceedings Instances Collection datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">"Proceedings Instances Collection <small>(<a style="color: #666;" target="_blank" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a>) (<a href="http://www.lexvo.org/page/iso639-1/"en" target="_blank">iso6391:en</a>)</small></span></td></tr><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/2000/01/rdf-schema#member">member <span style="color: #666;">(rdfs:member)</span></a> </span></td><td class="wrapword"><details><summary>19 values</summary><ul><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Rieth_2017_22" href="../bib_Rieth_2017_22/index.html">22. The shipwreck (EP1-Canche) of a fluvial-maritime coaster of the first half of the 15th century from Beutin (Pas-de-Calais, France). Its nautical environment and functional context <span style="color: #666;">(spp:bib_Rieth_2017_22)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Gaspari_2016_46" href="../bib_Gaspari_2016_46/index.html">46 Roman river barge from Sisak (Siscia), Croatia <span style="color: #666;">(spp:bib_Gaspari_2016_46)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_vanHolk_2016_48" href="../bib_vanHolk_2016_48/index.html">48 A Roman barge with an artefactual inventory from De Meern (the Netherlands) <span style="color: #666;">(spp:bib_vanHolk_2016_48)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Zwick_2017_48" href="../bib_Zwick_2017_48/index.html">48. A 15th-century shipwreck with Scandinavian features from Bremen (Germany) <span style="color: #666;">(spp:bib_Zwick_2017_48)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Manders_2017_76" href="../bib_Manders_2017_76/index.html">76. A coincidence? Two medieval boats (Vleuten 1 and 2) found during the construction of a housing development at Leidsche Rijn (the Netherlands) <span style="color: #666;">(spp:bib_Manders_2017_76)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Weerd_1985_Landlubber" href="../bib_Weerd_1985_Landlubber/index.html">A landlubber's view of shipbuilding procedure in the Celtic barges of Zwammerdam, the Netherlands <span style="color: #666;">(spp:bib_Weerd_1985_Landlubber)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Filmer_1988_New" href="../bib_Filmer_1988_New/index.html">A new boat burial from the Snape Anglo-Saxon cemetery, Suffolk <span style="color: #666;">(spp:bib_Filmer_1988_New)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Moortel_2003_Van" href="../bib_Moortel_2003_Van/index.html">A new look at the Utrecht ship’ <span style="color: #666;">(spp:bib_Moortel_2003_Van)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Bartoli_2012_Creating" href="../bib_Bartoli_2012_Creating/index.html">Creating a GIS for the Underwater Research Project ANAXUM: the Stella 1 Shipwreck <span style="color: #666;">(spp:bib_Bartoli_2012_Creating)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Bonnin_1998_Decouverte" href="../bib_Bonnin_1998_Decouverte/index.html">Découverte de deux pirogues monoxyles mésolithiques entre Corbeil-Essonnes (Essonne) et Melun (Seine-et-Marne) <span style="color: #666;">(spp:bib_Bonnin_1998_Decouverte)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Petrovic_1991_Donauhafen" href="../bib_Petrovic_1991_Donauhafen/index.html">Ein Donauhafen von Trajan bei dem Kastell Aquae (Moesia Superior) <span style="color: #666;">(spp:bib_Petrovic_1991_Donauhafen)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Delpino_2009_Ricerca" href="../bib_Delpino_2009_Ricerca/index.html">La Ricerca archeologica in acque interne: il villaggio neolitico de 'la marmotta' sulle antiche sponde del lago di bracciano (Anguillara Sabazia, Roma) <span style="color: #666;">(spp:bib_Delpino_2009_Ricerca)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Devals_2005_Brivet" href="../bib_Devals_2005_Brivet/index.html">Le Brivet, archéologie d'une rivière en Haute-Bretagne (France). Vers la reconnaissance d'un grand site du Moyen Age? <span style="color: #666;">(spp:bib_Devals_2005_Brivet)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Andersen_1994_New" href="../bib_Andersen_1994_New/index.html">New finds of Mesolithic logboats in Denmark <span style="color: #666;">(spp:bib_Andersen_1994_New)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Bonino_1985_Sewn" href="../bib_Bonino_1985_Sewn/index.html">Sewn boats in Italy: sutiles naves and barche cucite <span style="color: #666;">(spp:bib_Bonino_1985_Sewn)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Mcgrail_1985_Brigg" href="../bib_Mcgrail_1985_Brigg/index.html">The Brigg' Raft': problems in reconstruction and in the assessment of performance <span style="color: #666;">(spp:bib_Mcgrail_1985_Brigg)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Foxon_1997_Hasholme" href="../bib_Foxon_1997_Hasholme/index.html">The Hasholme Iron Age logboat: 17 metres of trouble! <span style="color: #666;">(spp:bib_Foxon_1997_Hasholme)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Hutchings_1997_Conservation" href="../bib_Hutchings_1997_Conservation/index.html">The conservation of the Poole log-boat: sucrose treatment on a large scale <span style="color: #666;">(spp:bib_Hutchings_1997_Conservation)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Tran_1997_Treatment" href="../bib_Tran_1997_Treatment/index.html">Treatment of Neolithic dugout canoe from Paris-Bercy: controlled drying after PEG impregnation and attempt at modelling of the drying process <span style="color: #666;">(spp:bib_Tran_1997_Treatment)</span></a></span></li></ul></details></td></tr></tbody></table></div><h5>Metadata</h5><div style="overflow-x:auto;"><table border=1 width=100% class=description><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://rdfs.org/ns/void#inDataset">inDataset <span style="color: #666;">(void:inDataset)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://rdfs.org/ns/void#inDataset" property="http://rdfs.org/ns/void#inDataset" resource="http://data.archaeology.link/data/spphaefen/spp_dataset" href="../spp_dataset/index.html">spp_dataset <span style="color: #666;">(spp:spp_dataset)</span></a> <span style="font-weight:bold">[99492 <a href="http://purl.org/ontology/bibo/pageEnd" target="_blank">bibo:pageEnd</a>]</span></span></td></tr></tbody></table></div><div id="footer"><div class="container-fluid"><span id="citationlink"><details><summary>[CITE]</summary><pre>@misc{Proceedings_collection
+@inproceedings{bib_Devals_2005_Brivet,
+author={Devals, Christophe},
+number={126},
+pages={75--88},
+title={Le Brivet, archéologie d'une rivière en Haute-Bretagne (France). Vers la reconnaissance d'un grand site du Moyen Age?}
+}
+@inproceedings{bib_Rieth_2017_22,
+author={Rieth, Éric},
+title={22. The shipwreck (EP1-Canche) of a fluvial-maritime coaster of the first half of the 15th century from Beutin (Pas-de-Calais, France). Its nautical environment and functional context}
+}
+@inproceedings{bib_Delpino_2009_Ricerca,
+author={Delpino, Chiara},
+pages={263--274},
+title={La Ricerca archeologica in acque interne: il villaggio neolitico de 'la marmotta' sulle antiche sponde del lago di bracciano (Anguillara Sabazia, Roma)}
+}
+@inproceedings{bib_Tran_1997_Treatment,
+author={Damery, E and Hiron, X and Tran, Quoc Khoi},
+pages={567--580},
+title={Treatment of Neolithic dugout canoe from Paris-Bercy: controlled drying after PEG impregnation and attempt at modelling of the drying process}
+}
+@inproceedings{bib_Foxon_1997_Hasholme,
+author={Foxon, Andrew D},
+pages={547--553},
+title={The Hasholme Iron Age logboat: 17 metres of trouble!}
+}
+</pre></details><div style="overflow-x:auto;"><table border=1 width=100% class=description><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">type <span style="color: #666;">(rdf:type)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" property="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" resource="http://purl.org/ontology/bibo/Collection" target="_blank" href="http://purl.org/ontology/bibo/Collection">Collection <span style="color: #666;">(bibo:Collection)</span></a> <a href="../nonns_Collection.html">[x]</a></span></td></tr><tr class="even"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/2000/01/rdf-schema#label">label <span style="color: #666;">(rdfs:label)</span></a> </span></td><td class="wrapword"><span itemprop="http://www.w3.org/2000/01/rdf-schema#label" property="http://www.w3.org/2000/01/rdf-schema#label" content="Proceedings Instances Collection datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString" xml:lang="en">"Proceedings Instances Collection <small>(<a style="color: #666;" target="_blank" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">rdf:langString</a>) (<a href="http://www.lexvo.org/page/iso639-1/"en" target="_blank">iso6391:en</a>)</small></span></td></tr><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://www.w3.org/2000/01/rdf-schema#member">member <span style="color: #666;">(rdfs:member)</span></a> </span></td><td class="wrapword"><details><summary>19 values</summary><ul><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Rieth_2017_22" href="../bib_Rieth_2017_22/index.html">22. The shipwreck (EP1-Canche) of a fluvial-maritime coaster of the first half of the 15th century from Beutin (Pas-de-Calais, France). Its nautical environment and functional context <span style="color: #666;">(spp:bib_Rieth_2017_22)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Gaspari_2016_46" href="../bib_Gaspari_2016_46/index.html">46 Roman river barge from Sisak (Siscia), Croatia <span style="color: #666;">(spp:bib_Gaspari_2016_46)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_vanHolk_2016_48" href="../bib_vanHolk_2016_48/index.html">48 A Roman barge with an artefactual inventory from De Meern (the Netherlands) <span style="color: #666;">(spp:bib_vanHolk_2016_48)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Zwick_2017_48" href="../bib_Zwick_2017_48/index.html">48. A 15th-century shipwreck with Scandinavian features from Bremen (Germany) <span style="color: #666;">(spp:bib_Zwick_2017_48)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Manders_2017_76" href="../bib_Manders_2017_76/index.html">76. A coincidence? Two medieval boats (Vleuten 1 and 2) found during the construction of a housing development at Leidsche Rijn (the Netherlands) <span style="color: #666;">(spp:bib_Manders_2017_76)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Weerd_1985_Landlubber" href="../bib_Weerd_1985_Landlubber/index.html">A landlubber's view of shipbuilding procedure in the Celtic barges of Zwammerdam, the Netherlands <span style="color: #666;">(spp:bib_Weerd_1985_Landlubber)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Filmer_1988_New" href="../bib_Filmer_1988_New/index.html">A new boat burial from the Snape Anglo-Saxon cemetery, Suffolk <span style="color: #666;">(spp:bib_Filmer_1988_New)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Moortel_2003_Van" href="../bib_Moortel_2003_Van/index.html">A new look at the Utrecht ship’ <span style="color: #666;">(spp:bib_Moortel_2003_Van)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Bartoli_2012_Creating" href="../bib_Bartoli_2012_Creating/index.html">Creating a GIS for the Underwater Research Project ANAXUM: the Stella 1 Shipwreck <span style="color: #666;">(spp:bib_Bartoli_2012_Creating)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Bonnin_1998_Decouverte" href="../bib_Bonnin_1998_Decouverte/index.html">Découverte de deux pirogues monoxyles mésolithiques entre Corbeil-Essonnes (Essonne) et Melun (Seine-et-Marne) <span style="color: #666;">(spp:bib_Bonnin_1998_Decouverte)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Petrovic_1991_Donauhafen" href="../bib_Petrovic_1991_Donauhafen/index.html">Ein Donauhafen von Trajan bei dem Kastell Aquae (Moesia Superior) <span style="color: #666;">(spp:bib_Petrovic_1991_Donauhafen)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Delpino_2009_Ricerca" href="../bib_Delpino_2009_Ricerca/index.html">La Ricerca archeologica in acque interne: il villaggio neolitico de 'la marmotta' sulle antiche sponde del lago di bracciano (Anguillara Sabazia, Roma) <span style="color: #666;">(spp:bib_Delpino_2009_Ricerca)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Devals_2005_Brivet" href="../bib_Devals_2005_Brivet/index.html">Le Brivet, archéologie d'une rivière en Haute-Bretagne (France). Vers la reconnaissance d'un grand site du Moyen Age? <span style="color: #666;">(spp:bib_Devals_2005_Brivet)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Andersen_1994_New" href="../bib_Andersen_1994_New/index.html">New finds of Mesolithic logboats in Denmark <span style="color: #666;">(spp:bib_Andersen_1994_New)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Bonino_1985_Sewn" href="../bib_Bonino_1985_Sewn/index.html">Sewn boats in Italy: sutiles naves and barche cucite <span style="color: #666;">(spp:bib_Bonino_1985_Sewn)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Mcgrail_1985_Brigg" href="../bib_Mcgrail_1985_Brigg/index.html">The Brigg' Raft': problems in reconstruction and in the assessment of performance <span style="color: #666;">(spp:bib_Mcgrail_1985_Brigg)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Foxon_1997_Hasholme" href="../bib_Foxon_1997_Hasholme/index.html">The Hasholme Iron Age logboat: 17 metres of trouble! <span style="color: #666;">(spp:bib_Foxon_1997_Hasholme)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Hutchings_1997_Conservation" href="../bib_Hutchings_1997_Conservation/index.html">The conservation of the Poole log-boat: sucrose treatment on a large scale <span style="color: #666;">(spp:bib_Hutchings_1997_Conservation)</span></a></span></li><li><span><a itemprop="http://www.w3.org/2000/01/rdf-schema#member" property="http://www.w3.org/2000/01/rdf-schema#member" resource="http://data.archaeology.link/data/spphaefen/bib_Tran_1997_Treatment" href="../bib_Tran_1997_Treatment/index.html">Treatment of Neolithic dugout canoe from Paris-Bercy: controlled drying after PEG impregnation and attempt at modelling of the drying process <span style="color: #666;">(spp:bib_Tran_1997_Treatment)</span></a></span></li></ul></details></td></tr></tbody></table></div><h5>Metadata</h5><div style="overflow-x:auto;"><table border=1 width=100% class=description><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr class="odd"><td class="property"><span class="property-name"><a class="uri" target="_blank" href="http://rdfs.org/ns/void#inDataset">inDataset <span style="color: #666;">(void:inDataset)</span></a> </span></td><td class="wrapword"><span><a itemprop="http://rdfs.org/ns/void#inDataset" property="http://rdfs.org/ns/void#inDataset" resource="http://data.archaeology.link/data/spphaefen/spp_dataset" href="../spp_dataset/index.html">spp_dataset <span style="color: #666;">(spp:spp_dataset)</span></a> <span style="font-weight:bold">[11836 <a href="http://www.w3.org/2006/time#hasTime" target="_blank">time:hasTime</a>]</span></span></td></tr></tbody></table></div><div id="footer"><div class="container-fluid"><span id="citationlink"><details><summary>[CITE]</summary><pre>@misc{Proceedings_collection
 author=spp_dataset Contributors",
 title="Proceedings Instances Collection",
 "url="http://data.archaeology.link/data/spphaefen/Proceedings_collection",
