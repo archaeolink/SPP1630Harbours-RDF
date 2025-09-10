@@ -1,13 +1,13 @@
 Selected Execution Statistics in order of execution:
-Create Collections: 0.3624274730682373 seconds
-Graph Analysis: 1.713275671005249 seconds
-Class Tree Generation: 4.63741135597229 seconds for 25 items, about 0.1854964542388916 seconds per item
-Void stats generation: 0.06159377098083496 seconds for 25 items, about 0.0024637508392333983 seconds per item
-HTML Generation: 91.68299579620361 seconds for 11883 items, about 0.007715475536161206 seconds per item
-Finalize Classtree: 0.0040967464447021484 seconds
-NonNS Pages: 1.3603041172027588 seconds for 591 items, about 0.0023016990138794565 seconds per item
-Index Page Creation: 3.7121057510375977 seconds
-CKAN API Generation: 0.1937401294708252 seconds
-Solid API Generation: 2.2113077640533447 seconds
-OGC API Features Generation: 4.419246196746826 seconds
-Total measured execution time: 110.35850477218628 seconds
+Create Collections: 0.3594632148742676 seconds
+Graph Analysis: 1.6710164546966553 seconds
+Class Tree Generation: 4.698361396789551 seconds for 25 items, about 0.18793445587158203 seconds per item
+Void stats generation: 0.045883893966674805 seconds for 25 items, about 0.0018353557586669922 seconds per item
+HTML Generation: 91.51033115386963 seconds for 11883 items, about 0.0077009451446494685 seconds per item
+Finalize Classtree: 0.004426240921020508 seconds
+NonNS Pages: 1.349799633026123 seconds for 591 items, about 0.0022839249289782117 seconds per item
+Index Page Creation: 3.694164276123047 seconds
+CKAN API Generation: 0.19348597526550293 seconds
+Solid API Generation: 2.198601245880127 seconds
+OGC API Features Generation: 4.4856555461883545 seconds
+Total measured execution time: 110.21118903160095 seconds
