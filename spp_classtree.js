@@ -34547,78 +34547,77 @@ var tree={
         "parent": "http://www.opengis.net/ont/geosparql#Feature",
         "instancecount": 3450,
         "type": "geoclass",
-        "text": "Harbour (ns1:Harbour) [3450]",
+        "text": " (ns1:Harbour) [3450]",
         "data": {
           "from": {
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
               "http://www.opengis.net/ont/geosparql#FeatureCollection": 3450
             }
           },
           "to": {
             "http://purl.org/cerif/frapo/isOutputOf": {
-              "instancecount": 3449,
+              "instancecount": 3450,
               "http://purl.org/cerif/frapo/Project": 3450
             },
             "http://purl.org/dc/elements/1.1/created": {
-              "instancecount": 3449
+              "instancecount": 3450
             },
             "http://purl.org/dc/elements/1.1/creator": {
-              "instancecount": 3449
-            },
-            "http://purl.org/dc/terms/partOf": {
-              "instancecount": 3449,
-              "http://purl.org/ontology/bibo/BookSection": 3450,
-              "http://www.w3.org/ns/dcat#Dataset": 3450
-            },
-            "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 3449,
-              "http://www.w3.org/ns/adms#Asset": 3450,
-              "http://rdfs.org/ns/void#Dataset": 3450
-            },
-            "http://www.opengis.net/ont/geosparql#hasGeometry": {
-              "instancecount": 3449,
-              "http://www.opengis.net/ont/sf#Point": 3450
-            },
-            "http://www.spp-haefen.de/ont#locationSecure": {
-              "instancecount": 3449
-            },
-            "http://www.spp-haefen.de/ont#place_technique": {
-              "instancecount": 3449
-            },
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 3449
-            },
-            "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 3449
-            },
-            "http://www.w3.org/2004/02/skos/core#note": {
-              "instancecount": 6316
-            },
-            "http://www.w3.org/2006/time#hasTime": {
-              "instancecount": 1525,
-              "http://www.w3.org/2006/time#TemporalEntity": 1526
-            },
-            "http://www.wikidata.org/prop/direct/P17": {
-              "instancecount": 3449
-            },
-            "http://www.wikidata.org/prop/direct/P206": {
-              "instancecount": 3449
+              "instancecount": 3450
             },
             "http://purl.org/dc/terms/isReferencedBy": {
-              "instancecount": 1727,
-              "http://purl.org/ontology/bibo/Book": 280,
-              "http://purl.org/ontology/bibo/Article": 1197,
+              "instancecount": 1728,
               "http://purl.org/ontology/bibo/Thesis": 229,
+              "http://purl.org/ontology/bibo/Article": 1197,
+              "http://purl.org/ontology/bibo/Book": 280,
               "http://purl.org/ontology/bibo/Proceedings": 15,
               "http://purl.org/ontology/bibo/Document": 4,
               "http://purl.org/ontology/bibo/Collection": 1
             },
+            "http://purl.org/dc/terms/partOf": {
+              "instancecount": 3450,
+              "http://purl.org/ontology/bibo/BookSection": 3450,
+              "http://www.w3.org/ns/dcat#Dataset": 3450
+            },
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 3450,
+              "http://rdfs.org/ns/void#Dataset": 3450,
+              "http://www.w3.org/ns/adms#Asset": 3450
+            },
+            "http://www.opengis.net/ont/geosparql#hasGeometry": {
+              "instancecount": 3450,
+              "http://www.opengis.net/ont/sf#Point": 3450
+            },
+            "http://www.spp-haefen.de/ont#locationSecure": {
+              "instancecount": 3450
+            },
+            "http://www.spp-haefen.de/ont#place_technique": {
+              "instancecount": 3450
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 3450
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 3450
+            },
+            "http://www.w3.org/2004/02/skos/core#note": {
+              "instancecount": 6317
+            },
+            "http://www.w3.org/2006/time#hasTime": {
+              "instancecount": 1526,
+              "http://www.w3.org/2006/time#TemporalEntity": 1526
+            },
+            "http://www.wikidata.org/prop/direct/P17": {
+              "instancecount": 3450
+            },
+            "http://www.wikidata.org/prop/direct/P206": {
+              "instancecount": 3450
+            },
             "http://www.w3.org/2000/01/rdf-schema#comment": {
-              "instancecount": 67
+              "instancecount": 68
             },
             "http://www.spp-haefen.de/ont#precision": {
-              "instancecount": 76
+              "instancecount": 77
             }
           }
         }
@@ -34942,45 +34941,43 @@ var tree={
         "data": {
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
-              "instancecount": 0,
               "http://www.spp-haefen.de/ont#Harbour": 280
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
               "http://purl.org/ontology/bibo/Collection": 30
             }
           },
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
-              "instancecount": 29
+              "instancecount": 30
             },
             "http://purl.org/dc/elements/1.1/creator": {
-              "instancecount": 36,
+              "instancecount": 37,
               "http://xmlns.com/foaf/0.1/Person": 37
             },
             "http://purl.org/dc/elements/1.1/title": {
-              "instancecount": 29
+              "instancecount": 30
             },
             "http://purl.org/dc/terms/publisher": {
-              "instancecount": 25,
+              "instancecount": 26,
               "http://xmlns.com/foaf/0.1/Organization": 4
             },
             "http://purl.org/ontology/bibo/volume": {
-              "instancecount": 5
+              "instancecount": 6
             },
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 29,
-              "http://www.w3.org/ns/adms#Asset": 30,
-              "http://rdfs.org/ns/void#Dataset": 30
+              "instancecount": 30,
+              "http://rdfs.org/ns/void#Dataset": 30,
+              "http://www.w3.org/ns/adms#Asset": 30
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 29
+              "instancecount": 30
             },
             "http://purl.org/ontology/bibo/isbn": {
-              "instancecount": 1
+              "instancecount": 2
             },
             "http://purl.org/ontology/bibo/doi": {
-              "instancecount": 0
+              "instancecount": 1
             }
           }
         }
@@ -36254,61 +36251,59 @@ var tree={
         "data": {
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
-              "instancecount": 0,
               "http://www.spp-haefen.de/ont#Harbour": 1197
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
               "http://purl.org/ontology/bibo/Collection": 126
             }
           },
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
-              "instancecount": 125
+              "instancecount": 126
             },
             "http://purl.org/dc/elements/1.1/creator": {
-              "instancecount": 152,
+              "instancecount": 153,
               "http://xmlns.com/foaf/0.1/Person": 153
             },
             "http://purl.org/dc/elements/1.1/title": {
-              "instancecount": 125
-            },
-            "http://purl.org/dc/terms/publisher": {
-              "instancecount": 42,
-              "http://xmlns.com/foaf/0.1/Organization": 27
+              "instancecount": 126
             },
             "http://purl.org/ontology/bibo/issuer": {
-              "instancecount": 107,
+              "instancecount": 108,
               "http://purl.org/ontology/bibo/Journal": 53
             },
-            "http://purl.org/ontology/bibo/number": {
-              "instancecount": 48
-            },
-            "http://purl.org/ontology/bibo/pageEnd": {
-              "instancecount": 96
-            },
-            "http://purl.org/ontology/bibo/pageStart": {
-              "instancecount": 96
-            },
             "http://purl.org/ontology/bibo/volume": {
-              "instancecount": 77
+              "instancecount": 78
             },
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 125,
-              "http://www.w3.org/ns/adms#Asset": 126,
-              "http://rdfs.org/ns/void#Dataset": 126
+              "instancecount": 126,
+              "http://rdfs.org/ns/void#Dataset": 126,
+              "http://www.w3.org/ns/adms#Asset": 126
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 125
+              "instancecount": 126
+            },
+            "http://purl.org/ontology/bibo/pageEnd": {
+              "instancecount": 97
+            },
+            "http://purl.org/ontology/bibo/pageStart": {
+              "instancecount": 97
+            },
+            "http://purl.org/ontology/bibo/number": {
+              "instancecount": 49
+            },
+            "http://purl.org/dc/terms/publisher": {
+              "instancecount": 43,
+              "http://xmlns.com/foaf/0.1/Organization": 27
             },
             "http://purl.org/ontology/bibo/issn": {
-              "instancecount": 1
+              "instancecount": 2
             },
             "http://purl.org/ontology/bibo/doi": {
-              "instancecount": 3
+              "instancecount": 4
             },
             "http://purl.org/ontology/bibo/isbn": {
-              "instancecount": 0
+              "instancecount": 1
             }
           }
         }
@@ -36512,44 +36507,42 @@ var tree={
         "data": {
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
-              "instancecount": 0,
               "http://www.spp-haefen.de/ont#Harbour": 15
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
               "http://purl.org/ontology/bibo/Collection": 19
             }
           },
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
-              "instancecount": 18
+              "instancecount": 19
             },
             "http://purl.org/dc/elements/1.1/creator": {
-              "instancecount": 26,
+              "instancecount": 27,
               "http://xmlns.com/foaf/0.1/Person": 27
             },
             "http://purl.org/dc/elements/1.1/title": {
-              "instancecount": 18
+              "instancecount": 19
             },
             "http://purl.org/ontology/bibo/pageEnd": {
-              "instancecount": 11
+              "instancecount": 12
             },
             "http://purl.org/ontology/bibo/pageStart": {
-              "instancecount": 11
+              "instancecount": 12
             },
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 18,
-              "http://www.w3.org/ns/adms#Asset": 19,
-              "http://rdfs.org/ns/void#Dataset": 19
+              "instancecount": 19,
+              "http://rdfs.org/ns/void#Dataset": 19,
+              "http://www.w3.org/ns/adms#Asset": 19
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 18
+              "instancecount": 19
             },
             "http://purl.org/ontology/bibo/number": {
-              "instancecount": 1
+              "instancecount": 2
             },
             "http://purl.org/ontology/bibo/volume": {
-              "instancecount": 0
+              "instancecount": 1
             }
           }
         }
@@ -36593,35 +36586,33 @@ var tree={
         "data": {
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
-              "instancecount": 0,
               "http://www.spp-haefen.de/ont#Harbour": 4
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
               "http://purl.org/ontology/bibo/Collection": 3
             }
           },
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
-              "instancecount": 2
+              "instancecount": 3
             },
             "http://purl.org/dc/elements/1.1/creator": {
-              "instancecount": 2,
+              "instancecount": 3,
               "http://xmlns.com/foaf/0.1/Person": 3
             },
             "http://purl.org/dc/elements/1.1/title": {
-              "instancecount": 2
+              "instancecount": 3
             },
             "http://purl.org/dc/terms/publisher": {
-              "instancecount": 2
+              "instancecount": 3
             },
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 2,
-              "http://www.w3.org/ns/adms#Asset": 3,
-              "http://rdfs.org/ns/void#Dataset": 3
+              "instancecount": 3,
+              "http://rdfs.org/ns/void#Dataset": 3,
+              "http://www.w3.org/ns/adms#Asset": 3
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 2
+              "instancecount": 3
             }
           }
         }
@@ -51895,32 +51886,30 @@ var tree={
         "data": {
           "from": {
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 1526
             },
             "http://www.w3.org/2006/time#hasTime": {
-              "instancecount": 0,
               "http://www.spp-haefen.de/ont#Harbour": 1526
             }
           },
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1525,
-              "http://www.w3.org/ns/adms#Asset": 1526,
-              "http://rdfs.org/ns/void#Dataset": 1526
+              "instancecount": 1526,
+              "http://rdfs.org/ns/void#Dataset": 1526,
+              "http://www.w3.org/ns/adms#Asset": 1526
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1525
+              "instancecount": 1526
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1525
+              "instancecount": 1526
             },
             "http://www.w3.org/2006/time#hasBeginning": {
-              "instancecount": 1525,
+              "instancecount": 1526,
               "http://www.w3.org/2006/time#Instant": 1526
             },
             "http://www.w3.org/2006/time#hasEnd": {
-              "instancecount": 1520,
+              "instancecount": 1521,
               "http://www.w3.org/2006/time#Instant": 1521
             }
           }
@@ -82405,32 +82394,29 @@ var tree={
         "data": {
           "from": {
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 3047
             },
             "http://www.w3.org/2006/time#hasBeginning": {
-              "instancecount": 0,
               "http://www.w3.org/2006/time#TemporalEntity": 1526
             },
             "http://www.w3.org/2006/time#hasEnd": {
-              "instancecount": 0,
               "http://www.w3.org/2006/time#TemporalEntity": 1521
             }
           },
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 3046,
-              "http://www.w3.org/ns/adms#Asset": 3047,
-              "http://rdfs.org/ns/void#Dataset": 3047
+              "instancecount": 3047,
+              "http://rdfs.org/ns/void#Dataset": 3047,
+              "http://www.w3.org/ns/adms#Asset": 3047
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 3046
+              "instancecount": 3047
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 3046
+              "instancecount": 3047
             },
             "http://www.w3.org/2006/time#inXSDgYear": {
-              "instancecount": 3046
+              "instancecount": 3047
             }
           }
         }
@@ -116940,32 +116926,30 @@ var tree={
         "parent": "http://www.opengis.net/ont/geosparql#Geometry",
         "instancecount": 3450,
         "type": "geoclass",
-        "text": "Point (sf:Point) [3450]",
+        "text": " (sf:Point) [3450]",
         "data": {
           "from": {
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
-              "instancecount": 0,
               "http://www.spp-haefen.de/ont#Harbour": 3450
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
               "http://www.opengis.net/ont/geosparql#GeometryCollection": 3450
             }
           },
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 3449,
-              "http://www.w3.org/ns/adms#Asset": 3450,
-              "http://rdfs.org/ns/void#Dataset": 3450
+              "instancecount": 3450,
+              "http://rdfs.org/ns/void#Dataset": 3450,
+              "http://www.w3.org/ns/adms#Asset": 3450
             },
             "http://www.opengis.net/ont/geosparql#asWKT": {
-              "instancecount": 3449
+              "instancecount": 3450
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 3449
+              "instancecount": 3450
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 3449
+              "instancecount": 3450
             }
           }
         }
@@ -118619,38 +118603,36 @@ var tree={
         "data": {
           "from": {
             "http://purl.org/dc/elements/1.1/creator": {
-              "instancecount": 0,
               "http://purl.org/ontology/bibo/Article": 153,
-              "http://purl.org/ontology/bibo/Proceedings": 27,
               "http://purl.org/ontology/bibo/Book": 37,
+              "http://purl.org/ontology/bibo/Proceedings": 27,
               "http://purl.org/ontology/bibo/Thesis": 4,
+              "http://purl.org/ontology/bibo/Collection": 1,
               "http://purl.org/ontology/bibo/Document": 3,
               "http://purl.org/ontology/bibo/BookSection": 1,
-              "http://www.w3.org/ns/dcat#Dataset": 1,
-              "http://purl.org/ontology/bibo/Collection": 1
+              "http://www.w3.org/ns/dcat#Dataset": 1
             },
             "http://www.w3.org/2006/vcard/ns#hasMember": {
-              "instancecount": 0,
               "http://www.w3.org/2006/vcard/ns#Group": 163
             }
           },
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 162,
-              "http://www.w3.org/ns/adms#Asset": 163,
-              "http://rdfs.org/ns/void#Dataset": 163
+              "instancecount": 163,
+              "http://rdfs.org/ns/void#Dataset": 163,
+              "http://www.w3.org/ns/adms#Asset": 163
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 162
+              "instancecount": 163
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 162
+              "instancecount": 163
             },
             "http://xmlns.com/foaf/0.1/family_Name": {
-              "instancecount": 162
+              "instancecount": 163
             },
             "http://xmlns.com/foaf/0.1/firstName": {
-              "instancecount": 162
+              "instancecount": 163
             }
           }
         }
@@ -118704,35 +118686,33 @@ var tree={
         "data": {
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
-              "instancecount": 0,
               "http://www.spp-haefen.de/ont#Harbour": 229
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
               "http://purl.org/ontology/bibo/Collection": 4
             }
           },
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
-              "instancecount": 3
+              "instancecount": 4
             },
             "http://purl.org/dc/elements/1.1/creator": {
-              "instancecount": 3,
+              "instancecount": 4,
               "http://xmlns.com/foaf/0.1/Person": 4
             },
             "http://purl.org/dc/elements/1.1/title": {
-              "instancecount": 3
+              "instancecount": 4
             },
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 3,
-              "http://www.w3.org/ns/adms#Asset": 4,
-              "http://rdfs.org/ns/void#Dataset": 4
+              "instancecount": 4,
+              "http://rdfs.org/ns/void#Dataset": 4,
+              "http://www.w3.org/ns/adms#Asset": 4
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 3
+              "instancecount": 4
             },
             "http://purl.org/dc/terms/publisher": {
-              "instancecount": 0,
+              "instancecount": 1,
               "http://xmlns.com/foaf/0.1/Organization": 1
             }
           }
@@ -118813,58 +118793,56 @@ var tree={
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "instancecount": 7,
         "type": "collectionclass",
-        "text": "Collection (bibo:Collection) [7]",
+        "text": " (bibo:Collection) [7]",
         "data": {
           "from": {
             "http://purl.org/dc/terms/isReferencedBy": {
-              "instancecount": 0,
               "http://www.spp-haefen.de/ont#Harbour": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 1
             }
           },
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 6,
-              "http://www.w3.org/ns/adms#Asset": 7,
-              "http://rdfs.org/ns/void#Dataset": 7
+              "instancecount": 7,
+              "http://rdfs.org/ns/void#Dataset": 7,
+              "http://www.w3.org/ns/adms#Asset": 7
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 6
+              "instancecount": 7
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 5
+              "instancecount": 6
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 182,
+              "instancecount": 183,
               "http://purl.org/ontology/bibo/BookSection": 1,
               "http://www.w3.org/ns/dcat#Dataset": 1,
-              "http://purl.org/ontology/bibo/Document": 3,
               "http://purl.org/ontology/bibo/Proceedings": 19,
-              "http://purl.org/ontology/bibo/Book": 30,
               "http://purl.org/ontology/bibo/Article": 126,
-              "http://purl.org/ontology/bibo/Thesis": 4
+              "http://purl.org/ontology/bibo/Thesis": 4,
+              "http://purl.org/ontology/bibo/Document": 3,
+              "http://purl.org/ontology/bibo/Book": 30
             },
             "http://purl.org/dc/elements/1.1/created": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://purl.org/dc/elements/1.1/creator": {
-              "instancecount": 0,
+              "instancecount": 1,
               "http://xmlns.com/foaf/0.1/Person": 1
             },
             "http://purl.org/dc/elements/1.1/title": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://purl.org/dc/terms/publisher": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://purl.org/ontology/bibo/pageEnd": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://purl.org/ontology/bibo/pageStart": {
-              "instancecount": 0
+              "instancecount": 1
             }
           }
         }
@@ -118878,21 +118856,21 @@ var tree={
           "from": {},
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 2,
-              "http://www.w3.org/ns/adms#Asset": 3,
-              "http://rdfs.org/ns/void#Dataset": 3
+              "instancecount": 3,
+              "http://rdfs.org/ns/void#Dataset": 3,
+              "http://www.w3.org/ns/adms#Asset": 3
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 2
+              "instancecount": 3
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 2
+              "instancecount": 3
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 4573,
+              "instancecount": 4574,
               "http://purl.org/ontology/bibo/Collection": 1,
-              "http://www.w3.org/2006/time#Instant": 3047,
-              "http://www.w3.org/2006/time#TemporalEntity": 1526
+              "http://www.w3.org/2006/time#TemporalEntity": 1526,
+              "http://www.w3.org/2006/time#Instant": 3047
             }
           }
         }
@@ -119317,42 +119295,39 @@ var tree={
         "data": {
           "from": {
             "http://purl.org/dc/terms/partOf": {
-              "instancecount": 0,
               "http://www.spp-haefen.de/ont#Harbour": 3450
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
               "http://purl.org/ontology/bibo/Collection": 1
             },
             "http://www.w3.org/ns/dcat#dataset": {
-              "instancecount": 0,
               "http://www.w3.org/ns/dcat#Catalog": 1
             }
           },
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://purl.org/dc/elements/1.1/creator": {
-              "instancecount": 0,
+              "instancecount": 1,
               "http://xmlns.com/foaf/0.1/Person": 1
             },
             "http://purl.org/dc/elements/1.1/title": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://purl.org/ontology/bibo/doi": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://purl.org/ontology/bibo/volume": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
+              "instancecount": 2
             }
           }
         }
@@ -119372,34 +119347,32 @@ var tree={
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "instancecount": 1,
         "type": "collectionclass",
-        "text": "FeatureCollection (gsp:FeatureCollection) [1]",
+        "text": " (gsp:FeatureCollection) [1]",
         "data": {
           "from": {
             "http://rdfs.org/ns/void#exampleResource": {
-              "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://rdfs.org/ns/void#rootResource": {
-              "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             }
           },
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 3449,
+              "instancecount": 3450,
               "http://www.spp-haefen.de/ont#Harbour": 3450
             }
           }
@@ -119460,23 +119433,23 @@ var tree={
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "instancecount": 1,
         "type": "collectionclass",
-        "text": "GeometryCollection (gsp:GeometryCollection) [1]",
+        "text": " (gsp:GeometryCollection) [1]",
         "data": {
           "from": {},
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 3449,
+              "instancecount": 3450,
               "http://www.opengis.net/ont/sf#Point": 3450
             }
           }
@@ -119497,23 +119470,23 @@ var tree={
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "instancecount": 1,
         "type": "collectionclass",
-        "text": "Group (vcard2006:Group) [1]",
+        "text": " (vcard2006:Group) [1]",
         "data": {
           "from": {},
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://www.w3.org/2006/vcard/ns#hasMember": {
-              "instancecount": 162,
+              "instancecount": 163,
               "http://xmlns.com/foaf/0.1/Person": 163
             }
           }
@@ -119534,23 +119507,23 @@ var tree={
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "instancecount": 1,
         "type": "collectionclass",
-        "text": "Catalog (dcat:Catalog) [1]",
+        "text": " (dcat:Catalog) [1]",
         "data": {
           "from": {},
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 0
+              "instancecount": 1
             },
             "http://www.w3.org/ns/dcat#dataset": {
-              "instancecount": 0,
+              "instancecount": 1,
               "http://purl.org/ontology/bibo/BookSection": 1,
               "http://www.w3.org/ns/dcat#Dataset": 1
             }
